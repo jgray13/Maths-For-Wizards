@@ -163,7 +163,7 @@ ul {
 	z-index: 10;
 	width: 100%;
     min-height: 100%;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	padding: 0;
 /*background: repeating-linear-gradient(
   45deg,
@@ -647,7 +647,7 @@ overflow: auto;
 form {
 	width: 80%;
 	margin: 0 auto;
-	padding: 0 0 100px;
+	padding: 0;
 	background-color: #fff;
 	overflow: auto;
 }
