@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>number-lines</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby.css" rel="stylesheet" type="text/css">
+<link href="maths-for-toby-mbl.css"  media="screen and (max-device-width: 550px)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
+<link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
+<script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="header-placeholder"></div>
+<div id="nav"></div>
+<div id="nav-placeholder"></div>
+<main>
+<div id="centerDoc">
+
+<form name="number-line-form" id="number-line-form">
+<h1>Number Lines</h1>
+<h4>Fill in the blank numbers to complete the number lines</h4>
+
+<div class="number-line-container">
+<div class="nl-inner-container">
+<div class="number-line">
+
+<div class="number">
+<p>0</p>
+</div>
+<div class="number">
+<p>1</p>
+</div>
+<div class="number">
+<p>2</p>
+</div>
+<div class="number">
+<p>3</p>
+</div>
+
+<div class="ansboxes-number-line">
+<label for="num-line-1"></label>
+<input type="number" id="num-line-1" min="0" max="99" onkeyup="numLineOne()">
+<p></p>
+</div>
+
+<div class="number">
+<p>5</p>
+</div>
+<div class="number">
+<p>6</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-1-2"></label>
+<input type="number" id="num-line-1-2" min="0" max="99" onkeyup="numLineOne()">
+</div>
+<div class="number">
+<p>8</p>
+</div>
+<div class="number">
+<p>9</p>
+</div>
+<div class="number">
+<p>10</P>
+</div>
+<div class="number">
+<p>11</P>
+</div>
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines1">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+<!--
+<div class="line">
+</div>-->
+</div><!-- end number line-->
+
+<!--
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines1-2">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div> _-->
+</div> <!-- end nl inner container -->
+</div> <!-- end number line container -->
+
+<div class="number-line-container">
+<div class="nl-inner-container">
+<div class="number-line-two">
+
+<div class="number">
+<p>12</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-2"></label>
+<input type="number" id="num-line-2" min="0" max="99" onkeyup="numLineTwo()">
+</div>
+<div class="number">
+<p>14</p>
+</div>
+<div class="number">
+<p>15</p>
+</div>
+<div class="number">
+<p>16</p>
+</div>
+<div class="number">
+<p>17</p>
+</div>
+<div class="number">
+<p>18</p>
+</div>
+<div class="number">
+<p>19</p>
+</div>
+<div class="number">
+<p>20</p>
+</div>
+<div class="number">
+<p>21</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-2-2"></label>
+<input type="number" id="num-line-2-2" min="0" max="99" onkeyup="numLineTwo()">
+</div>
+<div class="number">
+<p>23</P>
+</div>
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines2">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div><!-- end number line-->
+<!--
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines2-2">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>-->
+</div> <!-- end nl inner container 2 -->
+</div> <!-- end number line container -->
+
+<div class="number-line-container">
+<div class="nl-inner-container">
+<div class="number-line">
+
+<div class="number">
+<p>24</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-3"></label>
+<input type="number" id="num-line-3" min="0" max="99" onkeyup="numLineThree()">
+</div>
+<div class="number">
+<p>26</p>
+</div>
+<div class="number">
+<p>27</p>
+</div>
+<div class="number">
+<p>28</p>
+</div>
+<div class="number">
+<p>29</p>
+</div>
+<div class="number">
+<p>30</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-3-2"></label>
+<input type="number" id="num-line-3-2" min="0" max="99" onkeyup="numLineThree()">
+</div>
+<div class="number">
+<p>32</p>
+</div>
+<div class="number">
+<p>33</p>
+</div>
+<div class="number">
+<p>34</P>
+</div>
+<div class="number">
+<p>35</P>
+</div>
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines3">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div><!-- end number line-->
+<!--
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines3-2">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>-->
+</div> <!-- end nl inner container -->
+</div> <!-- end number line container -->
+
+<div class="number-line-container">
+<div class="nl-inner-container">
+<div class="number-line-two">
+
+<div class="number">
+<p>36</p>
+</div>
+<div class="number">
+<p>37</p>
+</div>
+<div class="number">
+<p>38</p>
+</div>
+<div class="number">
+<p>39</p>
+</div>
+<div class="number">
+<p>40</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-4"></label>
+<input type="number" id="num-line-4" min="0" max="99" onkeyup="numLineFour()">
+</div>
+<div class="number">
+<p>42</p>
+</div>
+<div class="number">
+<p>43</p>
+</div>
+<div class="number">
+<p>44</p>
+</div>
+<div class="number">
+<p>45</p>
+</div>
+<div class="number">
+<p>46</P>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-4-2"></label>
+<input type="number" id="num-line-4-2" min="0" max="99" onkeyup="numLineFour()">
+</div>
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines4">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div><!-- end number line-->
+<!--
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines4-2">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>-->
+</div> <!-- end nl inner container -->
+</div> <!-- end number line container -->
+
+<div class="number-line-container">
+<div class="nl-inner-container">
+<div class="number-line">
+
+<div class="number">
+<p>48</p>
+</div>
+<div class="number">
+<p>49</p>
+</div>
+<div class="number">
+<p>50</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-5"></label>
+<input type="number" id="num-line-5" min="0" max="999" onkeyup="numLineFive()">
+</div>
+<div class="number">
+<p>52</p>
+</div>
+<div class="number">
+<p>53</p>
+</div>
+<div class="number">
+<p>54</p>
+</div>
+<div class="number">
+<p>55</p>
+</div>
+<div class="number">
+<p>56</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-5-2"></label>
+<input type="number" id="num-line-5-2" min="0" max="999" onkeyup="numLineFive()">
+</div>
+<div class="number">
+<p>58</P>
+</div>
+<div class="number">
+<p>59</p>
+</div>
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines5">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div><!-- end number line-->
+<!--
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines5-2">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>-->
+</div> <!-- end nl inner container -->
+</div> <!-- end number line container -->
+
+<div class="number-line-container">
+<div class="nl-inner-container">
+<div class="number-line-two">
+
+<div class="number">
+<p>60</p>
+</div>
+<div class="number">
+<p>61</p>
+</div>
+<div class="number">
+<p>62</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-6"></label>
+<input type="number" id="num-line-6" min="0" max="999" onkeyup="numLineSix()">
+</div>
+<div class="number">
+<p>64</p>
+</div>
+<div class="number">
+<p>65</p>
+</div>
+<div class="number">
+<p>66</p>
+</div>
+<div class="number">
+<p>67</p>
+</div>
+<div class="number">
+<p>68</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-6-2"></label>
+<input type="number" id="num-line-6-2" min="0" max="999" onkeyup="numLineSix()">
+</div>
+<div class="number">
+<p>70</P>
+</div>
+<div class="number">
+<p>71</p>
+</div>
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines6">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div><!-- end number line-->
+<!--
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines6-2">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>-->
+</div> <!-- end nl inner container -->
+</div> <!-- end number line container -->
+
+<div class="number-line-container">
+<div class="nl-inner-container">
+<div class="number-line">
+
+<div class="number">
+<p>72</p>
+</div>
+<div class="number">
+<p>73</p>
+</div>
+<div class="number">
+<p>74</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-7"></label>
+<input type="number" id="num-line-7" min="0" max="999" onkeyup="numLineSeven()">
+</div>
+<div class="number">
+<p>76</p>
+</div>
+<div class="number">
+<p>77</p>
+</div>
+<div class="number">
+<p>78</p>
+</div>
+<div class="number">
+<p>79</p>
+</div>
+<div class="number">
+<p>80</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-7-2"></label>
+<input type="number" id="num-line-7-2" min="0" max="999" onkeyup="numLineSeven()">
+</div>
+<div class="number">
+<p>82</P>
+</div>
+<div class="number">
+<p>83</p>
+</div>
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines7">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div><!-- end number line-->
+<!--
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines7-2">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>-->
+</div> <!-- end nl inner container -->
+</div> <!-- end number line container -->
+
+<div class="number-line-container">
+<div class="nl-inner-container">
+<div class="number-line-two">
+
+<div class="number">
+<p>84</p>
+</div>
+<div class="number">
+<p>85</p>
+</div>
+<div class="number">
+<p>86</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-8"></label>
+<input type="number" id="num-line-8" min="0" max="999" onkeyup="numLineEight()">
+</div>
+<div class="number">
+<p>88</p>
+</div>
+<div class="number">
+<p>89</p>
+</div>
+<div class="number">
+<p>90</p>
+</div>
+<div class="number">
+<p>91</p>
+</div>
+<div class="number">
+<p>92</p>
+</div>
+<div class="ansboxes-number-line">
+<label for="num-line-8-2"></label>
+<input type="number" id="num-line-8-2" min="0" max="999" onkeyup="numLineEight()">
+</div>
+<div class="number">
+<p>94</P>
+</div>
+<div class="number">
+<p>95</P>
+</div>
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines8">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div><!-- end number line-->
+<!--
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines8-2">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>-->
+</div> <!-- end nl inner container2 -->
+</div> <!-- end number line container -->
+
+<div class="number-line-container">
+<div class="nl-inner-container">
+<div class="number-line">
+
+<div class="number">
+<p>96</p>
+</div>
+<div class="number">
+<p>97</p>
+</div>
+<div class="number">
+<p>98</p>
+</div>
+<div class="ansboxes-number-line-two">
+<label for="num-line-9"></label>
+<input type="number" id="num-line-9" min="0" max="999" onkeyup="numLineNine()">
+</div>
+<div class="number-hundred">
+<p>100</p>
+</div>
+<div class="number-hundred">
+<p>101</p>
+</div>
+<div class="number-hundred">
+<p>102</p>
+</div>
+<div class="number-hundred">
+<p>103</p>
+</div>
+<div class="number-hundred">
+<p>104</p>
+</div>
+<div class="ansboxes-number-line-hundred">
+<label for="num-line-9-2"></label>
+<input type="number" id="num-line-9-2" min="0" max="999" onkeyup="numLineNine()">
+</div>
+<div class="number-hundred">
+<p>106</P>
+</div>
+<div class="number-hundred">
+<p>107</P>
+</div>
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines9">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div><!-- end number line-->
+<!--
+<div class="tickboxes-numberlines">
+<div id="tickcontainerNumberLines9-2">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>-->
+</div> <!-- end nl inner container -->
+</div> <!-- end number line container -->
+
+</form>
+
+</div> <!-- End of centerDoc -->
+</main>
+<div id="footer"></div>
+<div id="footer-placeholder"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+$(function(){
+  $("#header-placeholder").load("header.html");
+});
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<script src="number-line.js"></script>
+</body>
+</html>

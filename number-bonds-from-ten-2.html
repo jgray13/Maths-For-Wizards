@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>number-bonds-from-ten</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby.css" rel="stylesheet" type="text/css">
+<link href="maths-for-toby-mbl.css"  media="screen and (max-device-width: 550px)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
+<link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
+<script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="header-placeholder"></div>
+<div id="nav"></div>
+<div id="nav-placeholder"></div>
+<main>
+<div id="centerDoc">
+
+<form name="myFormMinus" class="myFormMinus">
+<h1>Number bonds from ten</h1>
+<div class="number-line-10">
+<p>
+1 2 3 4 5 6 7 8 9 10
+</p>
+</div>
+<div class="sums-main">
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten1"></label>
+<input type="number" id="minus-ten1" min="0" max="9" onkeyup="minusOne()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerOneMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten2"></label>
+<input type="number" id="minus-ten2" min="0" max="9" onkeyup="minusTwo()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>9</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerTwoMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten3"></label>
+<input type="number" id="minus-ten3" min="0" max="9" onkeyup="minusThree()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>8</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerThreeMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten4"></label>
+<input type="number" id="minus-ten4" min="0" max="9" onkeyup="minusFour()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>7</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerFourMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten5"></label>
+<input type="number" id="minus-ten5" min="0" max="9" onkeyup="minusFive()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>6</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerFiveMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten6"></label>
+<input type="number" id="minus-ten6" min="0" max="9" onkeyup="minusSix()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>5</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerSixMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten7"></label>
+<input type="number" id="minus-ten7" min="0" max="9"  onkeyup="minusSeven()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>4</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerSevMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten8"></label>
+<input type="number" id="minus-ten8" min="0" max="9" onkeyup="minusEight()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>3</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerEightMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten9"></label>
+<input type="number" id="minus-ten9" min="0" max="9" onkeyup="minusNine()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>2</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerNineMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten10"></label>
+<input type="number" id="minus-ten10" min="0" max="9" onkeyup="minusTen()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>1</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerTenMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="minus-operator">
+<p> _ </p>
+</div>
+
+<div class="ansboxes">
+<label for="minus-ten11"></label>
+<input type="number" id="minus-ten11" min="0" max="10" onkeyup="minusEleven()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>0</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerElevenMinus">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>   <!-- end addition sum -->
+
+
+</div> <!-- end sums main -->
+
+</form>
+
+</div> <!-- End of centerDoc -->
+</main>
+<div id="footer"></div>
+<div id="footer-placeholder"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+$(function(){
+  $("#header-placeholder").load("header.html");
+});
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<script src="sum-from-ten-2.js"></script>
+</body>
+</html>

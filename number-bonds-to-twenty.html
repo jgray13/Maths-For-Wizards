@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>number-bonds-To-Twenty</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby.css" rel="stylesheet" type="text/css">
+<link href="maths-for-toby-mbl.css"  media="screen and (max-device-width: 550px)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
+<link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
+<script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="header-placeholder"></div>
+<div id="nav"></div>
+<div id="nav-placeholder"></div>
+<main>
+<div id="centerDoc">
+
+<p>
+</p>
+<form name="myForm20" class="myForm20">
+<h1>Number bonds to twenty</h1>
+<div id="number-line-20">
+<p>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+</p>
+</div>
+<div class="sums-main">
+<div class="addition-sum">
+<div class="numboxes">
+<p>1</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num1"></label>
+<input type="number" id="num1" min="0" max="9" onkeyup="sumNine()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerOne20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>2</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num2"></label>
+<input type ="number" id="num2" min="0" max="9" onkeyup="sumEight()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerTwo20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>3</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num3"></label>
+<input type ="number" id="num3" min="0" max="9" onkeyup="sumSeven()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerThree20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>4</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num4"></label>
+<input type ="number" id="num4" min="0" max="9" onkeyup="sumSix()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerFour20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>5</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num5"></label>
+<input type ="number" id="num5" min="0" max="9" onkeyup="sumFive()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerFive20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>6</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num6"></label>
+<input type ="number" id="num6" min="0" max="9" onkeyup="sumFour()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerSix20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>7</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num7"></label>
+<input type ="number" id="num7" min="0" max="9"  onkeyup="sumThree()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerSev20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>8</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num8"></label>
+<input type ="number" id="num8" min="0" max="9" onkeyup="sumTwo()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerEight20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>9</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num9"></label>
+<input type ="number" id="num9" min="0" max="9" onkeyup="sumOne()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerNine20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>10</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num10"></label>
+<input type ="number" id="num10" min="0" max="99" onkeyup="sumZero()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerTen20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<!-- up to ten -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>11</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num11"></label>
+<input type="number" id="num11" min="0" max="99" onkeyup="sumEleven()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerEleven20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>12</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num12"></label>
+<input type ="number" id="num12" min="0" max="99" onkeyup="sumTwelve()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerTwelve20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>13</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num13"></label>
+<input type ="number" id="num13" min="0" max="99" onkeyup="sumThirteen()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerThirteen20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>14</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num14"></label>
+<input type ="number" id="num14" min="0" max="99" onkeyup="sumFourteen()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerFourteen20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>15</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num15"></label>
+<input type ="number" id="num15" min="0" max="99" onkeyup="sumFifteen()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerFifteen20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>16</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num16"></label>
+<input type ="number" id="num16" min="0" max="99" onkeyup="sumSixteen()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerSixteen20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>17</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num17"></label>
+<input type ="number" id="num17" min="0" max="99"  onkeyup="sumSeventeen()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerSeventeen20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>18</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num18"></label>
+<input type ="number" id="num18" min="0" max="99" onkeyup="sumEighteen()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerEighteen20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>19</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num19"></label>
+<input type ="number" id="num19" min="0" max="99" onkeyup="sumNineteen()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerNineteen20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+<div class="addition-sum">
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="operator">
+<p> + </p>
+</div>
+
+<div class="ansboxes">
+<label for="num20"></label>
+<input type ="number" id="num20" min="0" max="99" onkeyup="sumTwenty()">
+</div>
+
+<div class="operator">
+<p> = </p>
+</div>
+
+<div class="numboxes">
+<p>20</p>
+</div>
+
+<div class="tickboxes">
+<div id="tickcontainerTwenty20">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+</div>   <!-- end addition sum -->
+
+</div> <!-- end sums main -->
+
+</form>
+
+</div> <!-- End of centerDoc -->
+</main>
+<div id="footer"></div>
+<div id="footer-placeholder"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+$(function(){
+  $("#header-placeholder").load("header.html");
+});
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<script src="sum-to-twenty.js"></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2D Shapes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby.css" rel="stylesheet" type="text/css">
+<link href="maths-for-toby-mbl.css"  media="screen and (max-device-width: 550px)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
+<link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
+<script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="header-placeholder"></div>
+<div id="nav"></div>
+<div id="nav-placeholder"></div>
+<main>
+<div id="centerDoc">
+
+<form name="shapes2d" id="shapes2d">
+<h1>2D Shapes</h1>
+<h3>Select the correct name for each shape</h3>
+<div class="shapes-container">
+<div class="shape-border">
+</div>
+<div class="shape-section">
+<div class="image-container">
+<div id="square">
+</div>
+</div>
+<div class="shape-answers">
+<div class="shape-radio-section">
+<input type="radio" name="sq" id="sq1" value="triangle" onclick="notSquareFunc()"> Triangle<!--<br>-->
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="sq" id="sq2" value="square" onclick="squareFunc()"> Square<!--<br>-->
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="sq" id="sq3" value="circle" onclick="notSquareFunc()"> Circle
+</div>
+</div>
+<div class="shape-message">
+<div class="tickboxes">
+<div id="tickcontainerOne">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+
+<div class="shape-border">
+</div>
+
+<div class="shape-section">
+<div class="image-container">
+<div id="rectangle">
+</div>
+</div>
+<div class="shape-answers">
+<div class="shape-radio-section">
+<input type="radio" name="rec" id="rec1" value="square" onclick="notRecFunc()"> Square
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="rec" id="rec2" value="oval" onclick="notRecFunc()"> Oval
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="rec" id="rec3" value="rectangle" onclick="recFunc(this.value)"> Rectangle
+</div>
+</div>
+<div class="shape-message">
+<div class="tickboxes">
+<div id="tickcontainerTwo">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+
+<div class="shape-border">
+</div>
+
+<div class="shape-section">
+<div class="image-container">
+<div id="circle">
+</div>
+</div>
+<div class="shape-answers">
+<div class="shape-radio-section">
+<input type="radio" name="circ" id="circ1" value="triangle" onclick="notCircleFunc()"> Triangle
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="circ" id="circ2" value="square" onclick="notCircleFunc()"> Square
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="circ" id="circ3" value="circle" onclick="circleFunc(this.value)"> Circle
+</div>
+</div>
+<div class="shape-message">
+<div class="tickboxes">
+<div id="tickcontainerThree">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+
+<div class="shape-border">
+</div>
+
+<div class="shape-section">
+<div class="image-container">
+<div id="trianlge">
+</div>
+</div>
+<div class="shape-answers">
+<div class="shape-radio-section">
+<input type="radio" name="tri" id="tri1" value="rectangle" onclick="notTriFunc()"> Rectangle
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="tri" id="tri2" value="triangle" onclick="triFunc(this.value)"> Triangle
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="tri" id="tri3" value="square" onclick="notTriFunc()"> Square
+</div>
+</div>
+<div class="shape-message">
+<div class="tickboxes">
+<div id="tickcontainerFour">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+
+<div class="shape-border">
+</div>
+
+<div class="shape-section">
+<div class="image-container">
+<div id="heart">
+</div>
+</div>
+<div class="shape-answers">
+<div class="shape-radio-section">
+<input type="radio" name="heart" id="heart1" value="triangle" onclick="notHeartFunc()"> Triangle
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="heart" id="heart2" value="heart" onclick="heartFunc(this.value)"> Heart
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="heart" id="heart3" value="circle" onclick="notHeartFunc()"> Circle
+</div>
+</div>
+<div class="shape-message">
+<div class="tickboxes">
+<div id="tickcontainerFive">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+
+<div class="shape-border">
+</div>
+
+<div class="shape-section">
+<div class="image-container">
+<div id="oval">
+</div>
+</div>
+<div class="shape-answers">
+<div class="shape-radio-section">
+<input type="radio" name="oval" id="oval1" value="square" onclick="notOvalFunc()"> Square
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="oval" id="oval2" value="oval" onclick="ovalFunc(this.value)"> Oval
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="oval" id="oval3" value="rectangle" onclick="notOvalFunc()"> Rectangle
+</div>
+</div>
+<div class="shape-message">
+<div class="tickboxes">
+<div id="tickcontainerSix">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+
+<div class="shape-border">
+</div>
+
+<div class="shape-section">
+<div class="image-container">
+<div id="diamond">
+</div>
+</div>
+<div class="shape-answers">
+<div class="shape-radio-section">
+<input type="radio" name="kite" id="kite1" value="diamond" onclick="kiteFunc(this.value)"> Kite
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="kite" id="kite2" value="triangle" onclick="notKiteFunc()"> Triangle
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="kite" id="kite3" value="oval" onclick="notKiteFunc()"> Oval
+</div>
+</div>
+<div class="shape-message">
+<div class="tickboxes">
+<div id="tickcontainerSev">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+
+<div class="shape-border">
+</div>
+
+<div class="shape-section-star">
+<div class="image-container">
+<div id="star-five">
+</div>
+</div>
+<div class="shape-answers">
+<div class="shape-radio-section">
+<input type="radio" name="star" id="star1" value="circle" onclick="notStarFunc()"> Circle
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="star" id="star2" value="star" onclick="starFunc(this.value)"> Star
+</div>
+<div class="shape-radio-section">
+<input type="radio" name="star" id="star3" value="triangle" onclick="notStarFunc()"> Triangle
+</div>
+</div>
+<div class="shape-message">
+<div class="tickboxes">
+<div id="tickcontainerEight">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+</div>
+</div>
+
+
+</div> <!-- end shape container  -->
+
+</form>
+</div> <!-- End of centerDoc -->
+</main>
+<div id="footer"></div>
+<div id="footer-placeholder"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+$(function(){
+  $("#header-placeholder").load("header.html");
+});
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<script src="shapes.js"></script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>random number lines</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby.css" rel="stylesheet" type="text/css">
+<link href="maths-for-toby-mbl.css"  media="screen and (max-device-width: 550px)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
+<link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
+<script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="header-placeholder"></div>
+<div id="nav"></div>
+<div id="nav-placeholder"></div>
+<main>
+<div id="centerDoc">
+
+<form name="more-number-line-form" id="more-number-line-form">
+<h1>Random number lines</h1>
+<h4>Fill in the blank numbers to complete the number lines</h4>
+
+<div class="number-line-container">
+<div class="number-line-more">
+<h4>Add and minus 1</h4>
+
+<div class="rnl-inner-container">
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-1"></label>
+<input type="number" id="more-num-line-1" min="0" max="99" onkeyup="getInput()">
+</div>
+
+<div class="number-more">
+<p>- 1</p>
+</div>
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-2"></label>
+<input type="number" id="more-num-line-2" min="0" max="99" onkeyup="getInput()">
+</div>
+
+<div class="number-more">
+<p>- 1</p>
+</div>
+
+<div class="random-more-container">
+<div id="random-more-number-line">
+</div>
+<div class="more-lines-button">
+<button id="random-more1" onclick="randomMoreOne(10,100); clearInput();  return false;">Click here</button>
+</div>
+</div>
+
+<div class="number-more">
+<p>+ 1</p>
+</div>
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-4"></label>
+<input type="number" id="more-num-line-4" min="0" max="99" onkeyup="getInput()">
+</div>
+
+<div class="number-more">
+<p>+ 1</p>
+</div>
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-5"></label>
+<input type="number" id="more-num-line-5" min="0" max="99" onkeyup="getInput()">
+</div>
+
+<div class="tickboxes-random-numberlines">
+<div id="tickcontainerRNumberLines1">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+
+</div> <!-- end rnl inner container -->
+<!--
+<div class="line-more">
+</div>
+-->
+</div><!-- end number line-->
+
+
+
+</div> <!-- end number line container -->
+
+
+
+
+
+<div class="number-line-container">
+<div class="number-line-two-more">
+<h4>Add and minus 2</h4>
+
+<div class="rnl-inner-container">
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-10"></label>
+<input type="number" id="more-num-line-10" min="0" max="99" onkeyup="getInputThree()">
+</div>
+
+<div class="number-more">
+<p>- 2</p>
+</div>
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-11"></label>
+<input type="number" id="more-num-line-11" min="0" max="99" onkeyup="getInputThree()">
+</div>
+
+<div class="number-more">
+<p>- 2</p>
+</div>
+
+<div class="random-more-container">
+<div id="random-more-number-lineThree">
+</div>
+<div class="more-lines-button">
+<button id="random-more3" onclick="randomMoreThree(4,16); clearInputTwo();  return false;">Click here</button>
+</div>
+</div>
+
+<div class="number-more">
+<p>+ 2</p>
+</div>
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-12"></label>
+<input type="number" id="more-num-line-12" min="0" max="99" onkeyup="getInputThree()">
+</div>
+
+<div class="number-more">
+<p>+ 2</p>
+</div>
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-13"></label>
+<input type="number" id="more-num-line-13" min="0" max="99" onkeyup="getInputThree()">
+</div>
+
+<div class="tickboxes-random-numberlines">
+<div id="tickcontainerRNumberLines3">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+
+</div> <!-- end rnl inner container -->
+<!--
+<div class="line-more">
+</div>
+-->
+</div><!-- end number line-->
+
+</div> <!-- end number line container -->
+
+
+
+
+
+<div class="number-line-container">
+<div class="number-line-more">
+<h4>Add and minus 10</h4>
+
+<div class="rnl-inner-container">
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-6"></label>
+<input type="number" id="more-num-line-6" min="0" max="99" onkeyup="getInputTwo()">
+</div>
+
+<div class="number-more">
+<p>- 10</p>
+</div>
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-7"></label>
+<input type="number" id="more-num-line-7" min="0" max="99" onkeyup="getInputTwo()">
+</div>
+
+<div class="number-more">
+<p>- 10</p>
+</div>
+
+<div class="random-more-container">
+<div id="random-more-number-lineTwo">
+</div>
+<div class="more-lines-button">
+<button id="random-more2" onclick="randomMoreTwo(30,80); clearInputTen();  return false;">Click here</button>
+</div>
+</div>
+
+<div class="number-more">
+<p>+ 10</p>
+</div>
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-8"></label>
+<input type="number" id="more-num-line-8" min="0" max="99" onkeyup="getInputTwo()">
+</div>
+
+<div class="number-more">
+<p>+ 10</p>
+</div>
+
+<div class="ansboxes-more-number-line">
+<label for="more-num-line-9"></label>
+<input type="number" id="more-num-line-9" min="0" max="99" onkeyup="getInputTwo()">
+</div>
+
+<div class="tickboxes-random-numberlines">
+<div id="tickcontainerRNumberLines2">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+
+</div> <!-- end rnl inner container -->
+<!--
+<div class="line-more">
+</div>
+-->
+</div><!-- end number line-->
+
+</div> <!-- end number line container -->
+
+</form>
+
+</div> <!-- End of centerDoc -->
+</main>
+<div id="footer"></div>
+<div id="footer-placeholder"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+$(function(){
+  $("#header-placeholder").load("header.html");
+});
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<script src="random-number-lines.js"></script>
+</body>
+</html>

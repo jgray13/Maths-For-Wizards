@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Counting in 2's</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby.css" rel="stylesheet" type="text/css">
+<link href="maths-for-toby-mbl.css"  media="screen and (max-device-width: 550px)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
+<link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
+<script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="header-placeholder"></div>
+<div id="nav"></div>
+<div id="nav-placeholder"></div>
+<main>
+<div id="centerDoc">
+<form name="counting-in-2s" id="counting-in-2s">
+<h1>Counting in 2's</h1>
+
+<div class="footprints-and-in-2s">
+<h4>How many frogs are there altogether?</h4>
+<h5>&#40; try counting in 2&apos;s! &#41;</h5>
+<div class="counting-container">
+
+<div class="counting-image-and-input">
+<div class="counting-image-container">
+<img class="f-pair" src="frog-pair.jpg">
+<img class="f-pair" src="frog-pair.jpg">
+<img class="f-pair" src="frog-pair.jpg">
+<img class="f-pair" src="frog-pair.jpg">
+</div> <!-- end counting image container -->
+<div class="counting-input">
+<div class="ansboxes-in2s">
+<input id="frog-number-input" type="number" min="0" max="99" onkeyup="getInputFrogs()">
+</div>
+<h5>enter your answer</h5>
+</div>
+<div class="counting-message">
+<div class="tickboxes">
+<div id="tickcontainerTwo-in2s">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div> <!-- end counting message -->
+</div> <!-- end counting image and input -->
+
+</div> <!-- end counting container -->
+</div> <!-- end frogs in 2s -->
+
+
+
+
+<div class="shape-border2">
+</div>
+<div class="footprints-and-in-2s">
+<h4>How many spiders are there altogether?</h4>
+<div class="counting-container">
+
+<div class="counting-image-and-input">
+<div class="counting-image-container">
+<img class="s-pair" src="spider-pair.jpg">
+<img class="s-pair" src="spider-pair.jpg">
+<img class="s-pair" src="spider-pair.jpg">
+<img class="s-pair" src="spider-pair.jpg">
+<img class="s-pair" src="spider-pair.jpg">
+<img class="s-pair" src="spider-pair.jpg">
+</div> <!-- end counting image container -->
+<div class="counting-input">
+<div class="ansboxes-in2s">
+<input id="spider-number-input" type="number" min="0" max="99" onkeyup="getInputSpiders()">
+</div>
+<h5>enter your answer</h5>
+</div>
+<div class="counting-message">
+<div class="tickboxes">
+<div id="tickcontainerFour-in2s">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div> <!-- end counting message -->
+</div> <!-- end counting image and input -->
+
+
+</div> <!-- end counting container -->
+</div> <!-- end spiders in 2s -->
+
+
+
+<div class="shape-border2">
+</div>
+<div class="footprints-and-in-2s">
+<h4>How many broomsticks are there altogether?</h4>
+<div class="counting-container">
+
+<div class="counting-image-and-input">
+<div class="counting-image-container">
+<img class="b-pair" src="broomstick-pair.jpg">
+<img class="b-pair" src="broomstick-pair.jpg">
+<img class="b-pair" src="broomstick-pair.jpg">
+<img class="b-pair" src="broomstick-pair.jpg">
+<img class="b-pair" src="broomstick-pair.jpg">
+<img class="b-pair" src="broomstick-pair.jpg">
+<img class="b-pair" src="broomstick-pair.jpg">
+<img class="b-pair" src="broomstick-pair.jpg">
+</div> <!-- end counting image container -->
+<div class="counting-input">
+<div class="ansboxes-in2s">
+<input id="broomstick-number-input" type="number" min="0" max="99" onkeyup="getInputBroomsticks()">
+</div>
+<h5>enter your answer</h5>
+</div>
+<div class="counting-message">
+<div class="tickboxes">
+<div id="tickcontainerThree-in2s">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div> <!-- end counting message -->
+</div> <!-- end counting image and input -->
+
+</div> <!-- end counting container -->
+</div> <!-- end broomsticks in 2s -->
+
+
+<div class="shape-border2">
+</div>
+<div class="footprints-and-in-2s">
+<h4>How many footprints are there altogether?</h4>
+<div class="counting-container">
+
+<div class="counting-image-and-input">
+<div class="counting-image-container">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+<img class="s-prints" src="single-footprints.jpg">
+</div> <!-- end counting image container -->
+<div class="counting-input">
+<div class="ansboxes-in2s">
+<input id="counting-2s-number-input" type="number" min="0" max="99" onkeyup="getInputFootprints()">
+</div>
+<h5>enter your answer</h5>
+</div>
+<div class="counting-message">
+<div class="tickboxes">
+<div id="tickcontainerOne-in2s">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div> <!-- end counting message -->
+</div> <!-- end counting image and input -->
+
+</div> <!-- end counting container -->
+</div> <!-- end footprints in 2s -->
+
+
+
+
+
+<div class="shape-border2">
+</div>
+<div class="footprints-and-in-2s">
+<h4>How many wands are there altogether?</h4>
+<div class="counting-container">
+
+<div class="counting-image-and-input">
+<div class="counting-image-container">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+<img class="w-pair" src="wand-pair.jpg">
+</div> <!-- end counting image container -->
+<div class="counting-input">
+<div class="ansboxes-in2s">
+<input id="wands-number-input" type="number" min="0" max="99" onkeyup="getInputWands()">
+</div>
+<h5>enter your answer</h5>
+</div>
+<div class="counting-message">
+<div class="tickboxes">
+<div id="tickcontainerFive-in2s">
+<div class="tickbg-small">
+    <div class="tick-small">
+    </div>
+</div>    
+</div>
+</div>
+</div> <!-- end counting message -->
+</div> <!-- end counting image and input -->
+
+</div> <!-- end counting container -->
+</div> <!-- end footprints in 2s -->
+
+<div class="shape-border2">
+</div>
+
+<!--
+<div id="sorting-hat-container">
+<img id="sorting-hat" src="sorting-hat.jpg">
+</div>-->
+</form>
+
+</div> <!-- End of centerDoc -->
+</main>
+<div id="footer"></div>
+<div id="footer-placeholder"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+$(function(){
+  $("#header-placeholder").load("header.html");
+});
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<script src="counting-in-2s.js"></script>
+</body>
+</html>
