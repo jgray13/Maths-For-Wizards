@@ -1,0 +1,1456 @@
+body {
+    font-size: 10px;
+}
+h1 {
+	font-size: 34px;
+	margin: 20px auto;
+}
+h2 {
+	font-size: 20px;
+	margin: 15px auto;
+}
+nav h2 {	
+	display: inline-block;
+	width: 100%;
+	font-size: 32px;
+	margin: 20px 0 0 5%;
+	text-align: left;
+}
+#shapes-nav {
+	display: none;
+}
+h3 {
+	font-size: 16px;
+}
+#number-line-form h3 {
+	width: 80%;
+}
+h4 {
+	font-size: 12px;
+	margin: 8px auto;
+}
+#footer-links h4 {
+font-size: 16px;
+text-align: center;
+}
+#footer-nav-list h4 {
+font-size: 13px;
+text-align: left;
+width: 90%;
+margin: 10px 0 5px 10px;
+}
+footer h4 {
+	margin-bottom: 5px;
+}
+#random-headings {
+	width: 97%;
+	margin: 10px auto 0;
+}
+#random-headings h4 {
+	margin: 0 auto;
+	font-size: 12px;
+}
+#random-head-one {
+   text-align: left;
+}
+#random-head-two {
+   text-align: right;
+}
+h5 {
+	font-size: 11px;
+}
+p {
+	width: 80%;
+ }
+main {
+    margin: 75px auto 720px;
+    background-image: url(flash-24.jpg);
+}
+  #centerDoc {
+}
+#nav-list h4 {
+font-size: 11px;
+    width: 100%;
+    margin: 8px auto 5px;
+}
+#nav-list-outer h3 {
+    font-size: 16px;
+	margin: 10px auto 0;
+	width: 100%;
+}
+nav {
+	height: 75px;
+	font-size: 10px;
+}
+nav a.icon {
+    margin: 22px 0 0;
+}
+#hamburger-container2 {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 40px;
+	font-size: 20px;
+}
+#hamburger-container {
+	height: 35px;
+	font-size: 16px;
+}
+#nav-list {
+    overflow: scroll;
+	height: 100%;
+	padding: 0 0 20px;
+}
+#nav-list-outer {
+    width: 70%;
+    margin: 40px auto 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#nav-list-inner {
+	width: 90%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.nav-section ul{
+	text-align: center;
+}
+#nav-section-mult {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	order: 5;
+	margin: 0 50% 0 5%;
+}
+#nav-section-add {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	order: 1;
+	margin: 0 0 0 5%;
+}
+#nav-section-sub {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	order: 2;
+	margin: 0 0 0 5%;
+}
+#nav-section-counting {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	order: 3;
+	margin: 0 0 0 5%;
+}
+#nav-section-more {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	order: 4;
+	margin: 0 0 0 5%;
+}
+/*
+#nav-list {
+	display: block;
+	width: 100%;
+	margin: 0;
+	position: relative;
+	bottom: 0;
+}
+*/
+nav ul {
+	padding: 0;
+	text-align: right;
+}
+/*
+.nav-section {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin: 0 1% 20px;
+}
+*/
+nav li {
+	padding: 0 3px;
+}
+#shapes-nav {
+	display: none;
+}
+#navigation li {
+    padding: 2px 0;
+}
+#nav-accordion {
+	flex-basis: 98%;
+	padding: 0 0 10px;
+	margin: 15px auto 0;
+}
+.nav-accordion-section {
+	font-size: 8px;
+}
+.nav-accordion-section-more {
+	font-size: 8px;
+}
+.nav-accordion-section-more2 {
+	font-size: 8px;
+}
+#nav-accordion h3 {
+	font-size: 10px;
+}
+#nav-accordion ul {
+	margin: 0 0 0 3%;
+}
+#nav-accordion li {
+    padding: 2px 0;
+}
+.accordion {
+	margin: 4px auto 0;
+}
+.accordion:after {
+    font-size: 13px;
+}
+.panel {
+    padding: 5px 0;
+}
+footer {
+	height: 720px;
+	font-size: 13px;	
+}
+#footer-links {
+    width: 80%;
+}
+#footer-nav-list {
+	width: 90%;
+	height: auto;
+	padding: 0;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+#footer-nav-list-container {
+	width: 80%;
+	margin: 15px auto 0;
+	padding: 0 0 10px;
+}
+#footer-mult {
+	flex-basis: 50%;
+	order: 5;
+}
+#footer-add {
+	flex-basis: 50%;
+	margin: 5px 0 0 0;
+	order: 1;
+}
+#footer-counting {
+	flex-basis: 50%;
+	margin: 5px 0 0 0;
+	order: 3;
+}
+#footer-sub {
+	flex-basis: 50%;
+	margin: 5px 0 0 0;
+    order: 2;	
+}
+#footer-more-maths {
+	flex-basis: 50%;
+	margin: 5px 0 0 0;	
+	order: 4;
+}
+.border-right {
+	display: none;
+}
+footer li {
+	font-size: 11px;
+	padding: 2px 0;
+}
+
+#hpgif-container {
+	width: 35%;
+}
+form {
+	width: 80%;
+	padding: 0 0 50px;
+}
+/* sums to ten */
+input[type=number] {
+width: 36px;
+height: 39px;
+}
+.myForm input[type=number] {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+.myForm20 input[type=number] {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+.number-line-10 {
+	font-size: 15px;
+	word-spacing: 19px;
+	margin: 0 auto;
+	padding: 0;
+}
+#myForm20 {
+	width: 100%;
+}
+#number-line-20 {
+	font-size: 12px;
+	word-spacing: 7px;
+	margin: 0 auto;
+	padding: 0;
+}
+.number-line-100 {
+    font-size: 15px;
+    word-spacing: 19px;
+    margin: 0 auto;
+    padding: 0;
+}
+.sums-main {
+	width: 75%;
+	margin: 0 auto;
+}
+.addition-sum {
+	margin: 10px 3% 10px 12%;
+	font-size: 18px;
+	width: 85%;
+}
+.numboxes {
+	padding: 10px 0;
+	flex-basis: 15%;
+	height: 18px;
+}
+.operator {	
+	padding: 10px 0;
+	flex-basis: 14%;
+	font-size: 20px;
+		height: 18px;
+}
+.ansboxes {
+	height: 38px;	
+}
+.tick {height: 10px;
+       width: 5px;
+       border-width: 0 3px 3px 0;
+        margin-top: -8px;
+        margin-left: -4px;}
+		.tickbg {content:"\00a0";
+         border: solid 12px #00CD00;}
+.tick-small {height: 10px;
+       width: 5px;
+       border: solid #FFFFFF;
+       border-width: 0px 3px 3px 0px;
+       -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+       display: block;
+        margin-top: -8px;
+        margin-left: -4px;}
+		.tickbg-small {content:"\00a0";
+         border: solid 12px #00CD00;
+         border-radius: 50%;
+         -moz-border-radius: 30%;
+         -webkit-border-radius: 50%;
+         height: 0;
+         width: 0;
+         display: block;}
+#tickcontainerOne {
+	padding: 0;
+}
+#tickcontainerTwo {
+	padding: 0;
+}
+ #tickcontainerThree {
+	padding: 0;
+}
+#tickcontainerFour {
+	padding: 0;
+}
+#tickcontainerFive {
+	padding: 0;
+}
+#tickcontainerSix {
+	padding: 0;
+}
+#tickcontainerSev {
+	padding: 0;
+}
+#tickcontainerEight {
+	padding: 0;
+}
+#tickcontainerNine {
+	padding: 0;
+}
+#tickcontainerTen {
+	padding: 0;
+}
+/* ticks number bonds to 20 */
+#tickcontainerOne20 {
+	padding: 0;
+}
+#tickcontainerTwo20 {
+	padding: 0;
+}
+ #tickcontainerThree20 {
+	padding: 0;
+}
+#tickcontainerFour20 {
+	padding: 0;
+}
+#tickcontainerFive20 {
+	padding: 0;
+}
+#tickcontainerSix20 {
+	padding: 0;
+}
+#tickcontainerSev20 {
+	padding: 0;
+}
+#tickcontainerEight20 {
+	padding: 0;
+}
+#tickcontainerNine20 {
+	padding: 0;
+}
+#tickcontainerTen20 {
+	padding: 0;
+}
+#tickcontainerEleven20 {
+	padding: 0;
+}
+#tickcontainerTwelve20 {
+	padding: 0;
+}
+ #tickcontainerThirteen20 {
+	padding: 0;
+}
+#tickcontainerFourteen20 {
+	padding: 0;
+}
+#tickcontainerFifteen20 {
+	padding: 0;
+}
+#tickcontainerSixteen20 {
+	padding: 0;
+}
+#tickcontainerSeventeen20 {
+	padding: 0;
+}
+#tickcontainerEighteen20 {
+	padding: 0;
+}
+#tickcontainerNineteen20 {
+	padding: 0;
+}
+#tickcontainerTwenty20 {
+	padding: 0;
+}
+input[type=number] {
+width: 27px;
+height: 28px;
+}
+/*  number lines  */
+#number-line-form {
+	width: 80%;
+	margin: 0 10%;
+}
+#number-line-form input[type=number] {
+font-size: 13px;
+	padding: 0;
+	width: 22px;
+    height: 21px;
+}		 
+.nl-inner-container {
+	flex-basis: 100%;
+	padding: 0;
+	margin: 0;
+}
+ .number-line {
+    flex-basis: 81%;
+	height: 40px;
+    margin: 7px 0;
+	padding: 10px 4% 10px 15%;
+	justify-content: flex-start;
+}
+.number-line-two {
+    flex-basis: 81%;
+	height: 40px;
+    margin: 7px 0;
+	padding: 10px 4% 10px 15%;
+	justify-content: flex-start;
+}
+.number {
+	font-size: 13px;
+	margin: 0;
+    width: 7%;
+}
+.number-hundred {
+	margin: 0;
+	width: 7%;
+	padding: 0 2px 0;
+	font-size: 13px;
+}
+.ansboxes-number-line-hundred {
+    width: 7%;
+    padding: 0 0 0 3px;
+}
+.ansboxes-number-line {
+	top: 0;
+    margin: 0 0 0 1%;
+    width: 7%;
+}
+.ansboxes-number-line-two {
+	top: 0;
+    margin: 0;
+    width: 7%;
+}
+.tickboxes-numberlines {
+    top: 0;
+    left: 0;
+	margin: 0 0 0 1%;
+	flex-basis: 6%;
+}
+#number-line-form-2 input[type=number] {
+font-size: 16px;
+padding: 0;
+}
+#message2-1 {
+	font-size: 16px;
+}
+#message2-1-2 {
+	font-size: 16px;
+}
+#message2-2 {
+	font-size: 16px;
+}
+#message2-2-2 {
+	font-size: 16px;
+}
+#message2-3 {
+	font-size: 16px;
+}
+#message2-3-2 {
+	font-size: 16px;
+}
+#message2-4 {
+	font-size: 16px;
+}
+#message2-4-2 {
+	font-size: 16px;
+}
+#message2-5 {
+	font-size: 16px;
+}
+#message2-5-2 {
+	font-size: 16px;
+}
+/* number lines 2   */
+#number-line-form-2 input[type=number] {
+    font-size: 13px;
+    width: 22px;
+	height: 21px;
+}
+.more-number-line {
+	flex-basis: 86%;
+	height: 50px;
+	margin: 7px 0;
+	padding: 0 0 0 14%;
+	justify-content: flex-start;
+}
+.more-number-line-two {
+	flex-basis: 86%;
+	height: 50px;
+	margin: 7px 0;
+	padding: 0 0 0 14%;
+	justify-content: flex-start;
+}
+/*
+hundred board */
+#hundred-board-form input[type=number] {
+font-size: 14px;
+padding: 0;
+}
+#hundred-board {
+	width: 77%;
+	margin: 10px auto 0;
+}
+.hundred-number {
+	font-size: 14px;
+	padding: 7px 0 6px;
+}
+#hundred-board-form input[type=button] {
+    font-size: 12px;
+}
+.rnl-button {
+    padding: 5px 15px;
+    margin: 20px 0;
+}
+#hundred-board-form h1 {
+    margin-bottom: 15px;
+}
+#message-hundred h4 {
+    font-size: 12px;
+}
+#message-hundred {
+    width: 32%;
+}
+#message-hundred-container {
+    height: 55px;
+}
+#sub-hundred-container {
+    margin: 0 auto;
+}
+ /* random sums */
+  #randomsums input[type=number] {
+	font-size: 17px;
+	margin: 0;
+	padding: 0;
+}
+  #randomsums button {
+	font-size: 9px;
+	padding: 3px 2px;
+}
+#randomsums input[type=submit] {
+	font-size: 14px;
+}
+ #number-line-20-random {
+	font-size: 12px;
+	word-spacing: 5px;
+	margin: 0 auto;
+	padding: 0;
+}
+.random-sums-main {
+    width: 100%;
+    margin: 0 auto;
+}
+.addition-sum-random-container {
+    margin: 10px auto 0;
+}
+.addition-sum-random {
+    font-size: 17px;
+    margin: 0 auto;
+    flex-basis: 72%;
+    padding: 0 10% 20px 18%;
+}
+.random-boxes {
+	flex-basis: 19%;
+	height: 95px;
+}
+.random-inner {	
+	width: 70%;
+	height: 45px;
+}
+.random-inner-minus {	
+	width: 70%;
+	height: 32px;
+    padding: 0 0 13px;
+}
+.random-inner-bottom {
+	height: 50px;
+	margin: 0;
+	width: 100%;
+}
+.tickboxes-random {
+    height: auto;
+}
+#tickcontainerRandomOne {
+    height: auto;
+}
+#tickcontainerRandomTwo {
+	height: auto;
+}
+#random-inner-one {
+	width: 70%;
+	height: 45px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 2;	
+}
+#random-inner-two {
+	width: 70%;
+	height: 45px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.random-boxes-num {
+		border: 2px solid #bbbbbb;
+		font-size: 22px;
+}
+#random-num1 {
+	display: block;
+	position: relative;
+	bottom: 0;
+}
+#message-1-random {
+	width: 40%;
+	margin: 10px auto;
+	padding: 10px 0;
+	font-size: 16px;
+}
+/* random sums minus   */
+#random-inner-three {
+	width: 70%;
+	height: 45px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#random-inner-four {	
+	width: 70%;
+	height: 45px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#message-2-random {
+	width: 40%;
+	margin: 10px auto;
+	padding: 10px 0;
+	font-size: 16px;
+}
+/*
+number bonds from ten*/
+.myFormMinus input[type=number] {
+	font-size: 18px;
+	padding: 0;
+}
+.minus-operator {
+	padding: 0 0 19px;
+	font-size: 19px;
+}
+#myFormMinus20 input[type=number] {
+	font-size: 18px;
+	padding: 0;
+}
+#tickcontainerOneMinus {
+	padding: 0;
+}
+#tickcontainerTwoMinus {
+	padding: 0;
+}
+#tickcontainerThreeMinus {
+	padding: 0;
+}
+#tickcontainerFourMinus {
+	padding: 0;
+}
+#tickcontainerFiveMinus {
+	padding: 0;
+}
+#tickcontainerSixMinus {
+	padding: 0;
+}
+#tickcontainerSevMinus {
+	padding: 0;
+}
+#tickcontainerEightMinus {
+	padding: 0;
+}
+#tickcontainerNineMinus {
+	padding: 0;
+}
+#tickcontainerTenMinus {
+	padding: 0;
+}
+#tickcontainerElevenMinus {
+	padding: 0;
+}
+/* number bonds from 20 */
+#tickcontainerOneMinus20 {
+	padding: 0;
+}
+#tickcontainerTwoMinus20 {
+	padding: 0;
+}
+#tickcontainerThreeMinus20 {
+	padding: 0;
+}
+#tickcontainerFourMinus20 {
+	padding: 0;
+}
+#tickcontainerFiveMinus20 {
+	padding: 0;
+}
+#tickcontainerSixMinus20 {
+	padding: 0;
+}
+#tickcontainerSevMinus20 {
+	padding: 0;
+}
+#tickcontainerEightMinus20 {
+	padding: 0;
+}
+#tickcontainerNineMinus20 {
+	padding: 0;
+}
+#tickcontainerTenMinus20 {
+	padding: 0;
+}
+#tickcontainerElevenMinus20 {
+	padding: 0;
+}
+#tickcontainerTwelveMinus20 {
+	padding: 0;
+}
+#tickcontainerThirteenMinus20 {
+	padding: 0;
+}
+#tickcontainerFourteenMinus20 {
+	padding: 0;
+}
+#tickcontainerFifteenMinus20 {
+	padding: 0;
+}
+#tickcontainerSixteenMinus20 {
+	padding: 0;
+}
+#tickcontainerSeventeenMinus20 {
+	padding: 0;
+}
+#tickcontainerEighteenMinus20 {
+	padding: 0;
+}
+#tickcontainerTwentyMinus19 {
+	padding: 0;
+}
+#tickcontainerTwentyMinus20 {
+	padding: 0;
+}
+#tickcontainerTwentyoneMinus20 {
+	padding: 0;
+}
+/* random number lines */
+.number-line-container {
+    font-size: 10px;
+}
+.number-line-more {
+    flex-basis: 100%;
+    margin: 15px 0 15px;
+    padding: 10px 0 15px;
+}
+.number-line-two-more {
+    flex-basis: 100%;
+    margin: 15px 0 15px;
+    padding: 10px 0 15px;
+}
+.rnl-inner-container {
+    flex-basis: 87%;
+    margin: 10px 0;
+    padding: 0 5% 0 8%;
+    justify-content: flex-start;
+}
+#more-number-line-form h4 {
+    margin: 8px auto;
+    font-size: 12px;
+}
+.more-lines-button {
+    position: relative;
+    top: 10px;
+    right: 17px;
+    width: 100%;
+}
+.more-lines-button button {
+    font-size: 10px;
+    top: 15px;
+    width: 200%;
+}
+.line-more {
+    border-bottom: 1px solid #000;
+    margin: 14px 14% 0 9%;
+    flex-basis: 77%;
+}
+.number-more {
+    margin: 0 0 12px 0;
+    width: 10%;
+    font-size: 9px;
+}
+#more-number-line-form input[type=number] {
+    font-size: 15px;
+}
+#random-more-number-line {
+    font-size: 15px;
+	height: 36px;
+	margin: 0 5%;
+}
+#random-more-number-lineThree {
+    font-size: 15px;
+	height: 36px;
+	margin: 0 5%;
+}
+#random-more-number-lineTwo {
+    font-size: 15px;
+	height: 36px;
+	margin: 0 5%;
+}
+.ansboxes-more-number-line {
+    height: 28px;
+    margin: 0 0 29px;
+	width: 10%;
+}
+.random-more-container {
+    width: 10%;
+}
+.tickboxes-random-numberlines {
+    margin: 0 0 0 3%;
+    flex-basis: 7%;
+    bottom: 5px;
+}
+#tickcontainerRNumberLines1 {
+margin: 0;
+padding: 0;
+    flex-basis: 2%;
+    position: relative;
+    bottom: 15px;
+}       /*    +1    */
+#tickcontainerRNumberLines2 {
+margin: 0;
+padding: 0;
+    flex-basis: 2%;
+    position: relative;
+    bottom: 15px;
+}     /*   +10    */
+#tickcontainerRNumberLines3 {
+margin: 0;
+padding: 0;
+    flex-basis: 2%;
+    position: relative;
+    bottom: 15px;
+}     /* +2 */
+/*  counting in twos */
+.footprints-and-in-2s {
+    margin: 10px auto 20px;
+    padding: 20px 0;
+}
+.counting-image-container {
+    display: flex;
+    flex-basis: 75%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 3%;
+}
+.shape-border2 {
+	width: 80%;
+}
+.counting-input {
+    flex-basis: 10%;
+	    align-items: flex-start;
+    padding: 0;
+}
+.f-pair {
+    margin: 0 8px;
+	width: 35px;
+	height: auto;
+}
+.s-pair {
+    margin: 0 7px;
+	width: 28px;
+	height: auto;
+}
+.b-pair {
+    margin: 0 5px;
+	width: 25px;
+	height: auto;
+}
+.s-prints {
+    margin: 0 3px;
+	width: 18px;
+	height: auto;
+}
+.w-pair {
+    margin: 0 3px;
+	width: 14px;
+	height: auto;
+}
+#counting-in-2s input[type=number] {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 4px;
+	width: 18px;
+    height: 30px;
+}
+.ansboxes-in2s {
+	flex-basis: 10%;
+	height: auto;
+}
+.counting-input h5 {
+	display: none;
+}
+.footprints-and-in-2s h4 {
+	margin: 0;
+}
+#counting-in-2s h1 {
+	margin-bottom: 0;
+}
+.counting-message {
+    justify-content: center;
+    margin: 0 0 0 1%;
+	flex-basis: 8%;
+}
+#tickcontainerOne-in2s {
+    padding: 0;
+}
+#tickcontainerTwo-in2s {
+    padding: 0;
+}
+#tickcontainerThree-in2s {
+    padding: 0;
+}
+#tickcontainerFour-in2s {
+    padding: 0;
+}
+#tickcontainerFive-in2s {
+    padding: 0;
+}
+/* 2d shapes */
+#shapes2d input[type=radio] {
+	top: 1px;
+	margin: 5px auto;
+    width: 10px;
+    height: 10px;
+}
+.shapes-container {
+	width: 100%;
+}
+#shapes-container-two {
+	width: 100%;
+}
+.shape-section {
+	width: 75%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.shape-section-border {
+	margin: 0 auto;
+	padding: 0;
+}
+.shape-border {
+	width: 50%;
+    border-bottom: 1px solid #bbbbbb;
+}
+.image-container {
+	height: auto;
+}
+.shape-answers {
+	font-size: 10px;
+}
+#shapes2d h3 {
+	font-size: 12px;
+}
+#square {
+width: 55px;
+height: 55px;
+margin: 0 5% 0 0;
+}
+#rectangle {
+width: 80px;
+height: 40px;
+margin: 0 5% 0 0;
+}
+#circle {
+width: 65px;
+height: 65px;
+margin: 0 5% 0 0;
+}
+#trianlge {
+      width: 0;
+      height: 0;
+	  margin: 0 5% 0 0;
+      border-left: 35px solid transparent;
+      border-right: 35px solid transparent;
+      border-bottom: 70px solid red;	
+}
+    #heart {
+      position: relative;
+      width: 55px;
+      height: 60px;
+	  right: 28px;
+	  bottom: 15px;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 40px;
+      top: 15px;
+      width: 40px;
+      height: 62px;
+      background: deeppink;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+   #oval {
+      width: 93px;
+      height: 37px;
+	  margin: 0 5% 0 0;
+      background: orangered;
+      border-radius: 75px / 30px; 
+    }
+
+ 
+    #diamond {
+      width: 0;
+      height: 0;
+	  margin: 0 5% 0 0;
+      border: 25px solid transparent;
+      border-bottom: 35px solid cyan;
+      position: relative;
+      top: -30px;
+    }
+    #diamond:after {
+      content: '';
+      position: absolute;
+      left: -25px;
+      top: 34px;
+      width: 0;
+      height: 0;
+      border: 25px solid transparent;
+      border-top: 35px solid cyan;
+    }
+.shape-section-star {
+	display: none;
+
+}
+
+
+
+/*
+media queries
+*/
+
+@media only screen and (max-width: 500px) {	
+  #randomsums button {
+	font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 550px) {	
+.addition-sum {
+	margin: 10px 8%;
+	font-size: 22px;
+}
+}
+
+@media only screen and (min-width: 600px) {		 
+#random-headings {
+    width: 82%;
+}
+.addition-sum {
+	margin: 10px 10%;
+}
+.sums-main {
+    width: 66%;
+}
+.rnl-inner-container {
+    flex-basis: 77%;
+    padding: 0 8% 0 15%;
+}
+.line-more {
+    margin: 14px 16% 0;
+    flex-basis: 68%;
+}
+#hundred-board {
+	width: 71%;
+}
+#message-hundred {
+    width: 28%;
+}
+.f-pair {
+    margin: 0 8px;
+	width: 38px;
+}
+.s-pair {
+    margin: 0 7px;
+	width: 30px;
+}
+.b-pair {
+    margin: 0 5px;
+	width: 27px;
+}
+.s-prints {
+    margin: 0 3px;
+	width: 20px;
+}
+.w-pair {
+    margin: 0 3px;
+	width: 16px;
+}
+.more-number-line {
+	flex-basis: 80%;
+	padding: 0 4% 0 16%;		
+}
+.more-number-line-two {
+	flex-basis: 80%;
+	padding: 0 4% 0 16%;
+}
+#footer-nav-list {
+    width: 85%;
+}
+#nav-list-outer {
+    width: 60%;
+}
+}
+
+@media only screen and (min-width: 620px) {	
+ .number-line {
+    flex-basis: 75%;
+	padding: 10px 7% 10px 18%;
+}
+.number-line-two {
+    flex-basis: 75%;
+	padding: 10px 7% 10px 18%;
+}
+#number-line-form input[type=number] {
+	width: 23px;
+    height: 21px;
+}
+}
+
+@media only screen and (min-width: 650px) {		 
+#random-headings {
+    width: 78%;
+}
+.sums-main {
+    width: 60%;
+}
+.rnl-inner-container {
+    flex-basis: 70%;
+    padding: 0 10% 0 20%;
+}
+.line-more {
+    margin: 14px 18% 0 21%;
+    flex-basis: 61%;
+}
+#hundred-board {
+	width: 67%;
+}
+.addition-sum-random {
+    flex-basis: 68%;
+    padding: 0 12% 0 20%;
+}
+.counting-container {
+    width: 90%;
+}
+.more-number-line {
+	flex-basis: 74%;
+	padding: 0 7% 0 19%;		
+}
+.more-number-line-two {
+	flex-basis: 74%;
+	padding: 0 7% 0 19%;
+}
+#footer-nav-list {
+    width: 80%;
+}
+#nav-list-inner {
+    width: 85%;
+}
+.shape-section {
+	width: 70%;
+}
+}
+
+@media only screen and (min-width: 690px) {		 
+.sums-main {
+    width: 56%;
+}
+.rnl-inner-container {
+    flex-basis: 74%;
+    padding: 0 14% 0 20%;
+}
+}
+
+@media only screen and (min-width: 700px) {	
+
+#hundred-board {
+	width: 62%;
+	margin: 20px auto 10px;
+}
+.addition-sum-random {
+    flex-basis: 59%;
+    padding: 0 17% 0 24%;
+}
+ .number-line {
+    flex-basis: 70%;
+	padding: 10px 10% 10px 20%;
+}
+.number-line-two {
+    flex-basis: 70%;
+	padding: 10px 9% 10px 21%;
+}
+.more-number-line {
+	flex-basis: 70%;
+	padding: 0 10% 0 20%;		
+}
+.more-number-line-two {
+	flex-basis: 70%;
+	padding: 0 10% 0 20%;
+}
+#nav-accordion {
+	flex-basis: 97%;
+}
+#nav-accordion h3 {
+    font-size: 12px;
+}
+.nav-accordion-section {
+    font-size: 9px;
+}
+.nav-accordion-section-more {
+    font-size: 9px;
+}
+.nav-accordion-section-more2 {
+    font-size: 9px;
+}
+h1 {
+	margin: 25px auto;
+	font-size: 39px;
+}
+#footer-nav-list {
+    width: 75%;
+}
+#nav-list-inner {
+    width: 80%;
+}
+}
+
+@media only screen and (min-width: 730px) {		 
+.sums-main {
+    width: 52%;
+}
+}
+
+@media only screen and (min-width: 740px) {
+	#nav-list-outer {
+    width: 97%;
+	margin: 80px auto 20px;
+	display: block;
+}
+#nav-list-inner {
+    width: 98%;
+	margin: 20px auto 0;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+#nav-section-mult {
+	display: block;
+/*	flex-direction: column;
+	flex-basis: 50%;*/
+	order: 0;
+	margin: 0 0 0 15px;
+	width: 17%;
+}
+#nav-section-add {
+	display: block;
+/*	flex-direction: column;
+	flex-basis: 50%;*/
+	order: 0;
+	margin: 0 0 0 15px;
+	width: 20%;
+}
+#nav-section-sub {
+	display: block;
+/*	flex-direction: column;
+	flex-basis: 50%;*/
+	order: 0;
+	margin: 0 0 0 15px;
+	width: 21%;
+}
+#nav-section-counting {
+	display: block;
+/*	flex-direction: column;
+	flex-basis: 50%;*/
+	order: 0;
+	margin: 0 0 0 15px;
+	width: 20%;
+}
+#nav-section-more {
+	display: block;
+/*	flex-direction: column;
+	flex-basis: 50%;*/
+	order: 0;
+	margin: 0 0 0 15px;
+	width: 17%;
+}
+.nav-section {
+	text-align: center;
+}
+#nav-list-inner li {
+	padding: 4px 0;
+}
+#nav-list h4 {
+    margin: 8px auto 15px;
+}
+	main {
+    margin: 75px auto 500px;
+}
+	footer {
+    height: 500px;
+}
+#footer-nav-list-container {
+    width: 99%;
+    border: 2px solid #292929;
+	margin: 30px auto 0;
+	padding: 0 0 10px;
+}
+#footer-nav-list {
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+#footer-links h4 {
+    text-align: center;
+}
+#footer-nav-list h4 {
+    font-size: 12px;
+	margin: 10px 0 5px 10%;
+}
+footer li {
+    font-size: 10px;
+}
+#footer-mult {
+    flex-basis: 14%;
+	order: 0;
+}
+#footer-add {
+    flex-basis: 20%;
+	order: 0;
+}
+#footer-sub {
+    flex-basis: 23%;
+	order: 0;
+}
+#footer-counting {
+    flex-basis: 21%;
+	order: 0;
+}
+#footer-more-maths {
+    flex-basis: 22%;
+	order: 0;
+}
+.border-right {
+	display: block;
+	height: 320px;
+	border-right: 1px solid #292929;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+}
