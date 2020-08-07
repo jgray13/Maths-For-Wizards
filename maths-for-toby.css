@@ -15,7 +15,7 @@ body {
 
 @font-face {
     font-family: Harry-P;
-    src: url(./Harry-P.ttf);
+    src: url(./Harry-P.TTF);
 }
 h1 {
 	font-family: "Harry-P", Helvetica, "sans-serif";
