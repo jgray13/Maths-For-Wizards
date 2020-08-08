@@ -105,8 +105,13 @@ if (inputOne === resultOne) {
 	}
 }
 count = correctAnswers.length;
-document.getElementById("message-hundred").style.display = "flex";
-document.getElementById("message-hundred").innerHTML = "<h4>Well done!<br>You scored " + count + " out of 20!</h4>";
+if (count === 0) {
+  document.getElementById("message-hundred").style.display = "flex";
+  document.getElementById("message-hundred").innerHTML = "<h4>You scored " + count + " out of 20<br>Try again!</h4>";
+} else if (count !== 0) {
+  document.getElementById("message-hundred").style.display = "flex";
+  document.getElementById("message-hundred").innerHTML = "<h4>Well done!<br>You scored " + count + " out of 20!</h4>";
+}
 console.log(count);
 console.log(correctAnswers);
 };
