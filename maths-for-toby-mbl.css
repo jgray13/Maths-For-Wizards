@@ -535,11 +535,6 @@ padding: 0;
     font-size: 10px;
 }
 .rnl-button {
-    border: 2px solid #a6a6a6;
-    padding: 4px 10px;
-    margin: 20px 0 0;
-}
-.rnl-button:hover {
     padding: 4px 10px;
 }
 #hundred-board-form h1 {
@@ -993,12 +988,78 @@ number bonds from ten*/
 #tickcontainerFive-in2s {
     padding: 0;
 }
+/* dice */
+#container-dice {
+    width: 100%;
+    padding: 20px 0 40px;
+}
+.rnl-button {
+	font-size: 10px;
+}
+#headings {
+	flex-direction: column;
+}
+#headings h4 {
+	width: 100%;
+	margin: 0 auto 8px;
+}
+#flx1 {
+	flex-basis: 100%;
+}
+#flx2 {
+	flex-basis: 100%;
+}
+.dice {
+	width: 65px;
+	height: 65px;
+}
+.circle {
+	width: 10px;
+	height: 10px;
+}
+#output-container {
+    width: 95%;
+	font-size: 16px;
+	flex-wrap: wrap;
+}
+#diceAnswer {
+	font-size: 16px;
+	padding: 8px 0;
+}
+#output1 {
+	flex-basis: 15%;
+	padding: 8px 0;
+}
+#output2 {
+	flex-basis: 15%;
+}
+.operatorD {
+	flex-basis: 15%;
+}
+#answer {
+	flex-basis: 15%;
+}
+#submit-container {
+    margin: 10px 0 0;
+}
+#outer {
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#dice-container1 {
+    order: 1;
+}
+#button-container {
+    order: 3;
+}
+#dice-container2 {
+    order: 2;
+}
+
 
 
 /* media queries
 */
-
-
 @media only screen and (max-width: 370px) {
 	#index-main h1 {
 	font-size: 27px;
@@ -1071,15 +1132,13 @@ input[type=number] {
 }
 }
 
-@media only screen and (max-width: 320px) {
-}
-
-
-
 @media only screen and (max-width: 360px) {
 .more-lines-button button {
     font-size: 9px;
     width: 250%;
+}
+#output1 {
+    padding: 5px 0;
 }
 }
 
@@ -1190,6 +1249,9 @@ main {
 #nav-list-outer {
     width: 80%;
 }
+#output-container {
+    width: 90%;
+}
 }
 
 @media only screen and (min-width: 392px) {
@@ -1249,6 +1311,9 @@ main {
 }
 .shape-border {
     width: 60%;
+}
+#container-dice {
+    width: 90%;
 }
 }
 
@@ -1337,6 +1402,9 @@ main {
 #footer-nav-list {
     width: 85%;
 }
+#output-container {
+    width: 85%;
+}
 }
 
 @media only screen and (min-width: 460px) {
@@ -1368,6 +1436,9 @@ main {
 }
 #nav-list-outer {
     width: 65%;
+}
+#output-container {
+	width: 80%;
 }
 }
 
@@ -1433,6 +1504,9 @@ main {
 .more-lines-button {
     right: 13px;
 }
+#output-container {
+	width: 75%;
+}
 }
 
 @media only screen and (min-width: 530px) {
@@ -1441,5 +1515,8 @@ main {
 }
 #nav-list-outer {
     width: 58%;
+}
+#output-container {
+	width: 95%;
 }
 }
