@@ -1049,6 +1049,10 @@ margin: 0 3% 0 0;
 
 }
 /* dice */
+#container-dice {
+	height: 352px;
+	padding: 20px 0;
+}
 #flx1 {
 	flex-basis: 55%;
 }

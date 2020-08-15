@@ -994,7 +994,8 @@ number bonds from ten*/
 }
 #container-dice {
     width: 100%;
-    padding: 20px 0 40px;
+    padding: 20px 0;
+	height: 256px;
 }
 .rnl-button {
 	font-size: 10px;
@@ -1022,6 +1023,7 @@ number bonds from ten*/
 }
 #output-container {
     width: 95%;
+	margin: 10px auto;
 	font-size: 16px;
 	flex-wrap: wrap;
 }
@@ -1057,6 +1059,9 @@ number bonds from ten*/
 }
 #dice-container2 {
     order: 2;
+}
+#refresh-container {
+    margin: 10px 0 0;
 }
 
 

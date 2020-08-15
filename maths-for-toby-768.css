@@ -1129,7 +1129,8 @@ margin: 0 5% 0 0;
 /* dice */
 #container-dice {
     width: 90%;
-    padding: 20px 0 40px;
+    padding: 20px 0;
+	height: 285px;
 }
 .rnl-button {
 	font-size: 12px;
