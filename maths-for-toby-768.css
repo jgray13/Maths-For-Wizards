@@ -1169,6 +1169,7 @@ margin: 0 5% 0 0;
 #answer {
 	flex-basis: 13%;
 }
+/*
 #outer {
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -1182,6 +1183,7 @@ margin: 0 5% 0 0;
 #dice-container2 {
     order: 2;
 }
+*/
 
 
 /*

@@ -989,6 +989,9 @@ number bonds from ten*/
     padding: 0;
 }
 /* dice */
+#dice-main {
+	width: 100%;
+}
 #container-dice {
     width: 100%;
     padding: 20px 0 40px;
