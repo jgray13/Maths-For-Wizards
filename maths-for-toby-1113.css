@@ -517,7 +517,7 @@ padding: 2px 0 1px;
 }
 .rnl-button {
     padding: 5px 15px;
-    margin: 10px 0 0;
+	font-size: 14px;
 }
 #hundred-board-form h1 {
     margin-bottom: 25px;
@@ -1048,7 +1048,41 @@ margin: 0 3% 0 0;
 	display: none;
 
 }
-
+/* dice */
+#flx1 {
+	flex-basis: 55%;
+}
+#flx2 {
+	flex-basis: 45%;
+}
+.dice {
+	width: 130px;
+	height: 130px;
+}
+.circle {
+	width: 25px;
+	height: 25px;
+}
+#output-container {
+    width: 90%;
+	font-size: 21px;
+}
+#diceAnswer {
+    font-size: 21px;
+}
+#output1 {
+	flex-basis: 14%;
+	padding: 13px 0;
+}
+#output2 {
+	flex-basis: 14%;
+}
+.operatorD {
+	flex-basis: 14%;
+}
+#answer {
+	flex-basis: 14%;
+}
 
 
 /*
@@ -1174,6 +1208,9 @@ footer li {
 }
 #footer-nav-list-container {
     width: 95%;
+}
+#output-container {
+    width: 80%;
 }
 }
 

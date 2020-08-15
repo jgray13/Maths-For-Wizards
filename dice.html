@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dice</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby.css" rel="stylesheet" type="text/css">
+<link href="maths-for-toby-mbl.css"  media="screen and (max-device-width: 550px)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
+<link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
+<script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="header-placeholder"></div>
+<div id="nav"></div>
+<div id="nav-placeholder"></div>
+<main>
+<div id="centerDoc">
+<div id="dice-main">
+<h1>Roll The Dice!</h1>
+<div id="headings">
+<h4 id="flx1">Roll the dice to generate 2 random dice faces</h4>
+<h4 id="flx2">Enter the answer and click submit</h4>
+</div>
+<div id="container-dice">
+<div id="outer">
+<div id="dice-container1">
+<div class="dice" id="dice1">
+<div class="circle"></div>
+</div>
+<div class="dice" id="dice2">
+<div class="circle circle2"></div><div class="circle circle3"></div>
+</div>
+<div class="dice" id="dice3">
+<div class="circle circle2"></div><div class="circle"></div><div class="circle circle3"></div>
+</div>
+<div class="dice" id="dice4">
+<div class="circle-container1"><div class="circle"></div>
+</div>
+<div class="circle-container2"><div class="circle"></div>
+</div>
+<div class="circle-container3"><div class="circle"></div>
+</div>
+<div class="circle-container4"><div class="circle"></div>
+</div>
+</div>
+<div class="dice" id="dice5">
+<div class="circle-container5"><div class="circle circle3"></div><div class="circle circle3"></div>
+</div>
+<div class="circle-container6"><div class="circle"></div>
+</div>
+<div class="circle-container5"><div class="circle circle2"></div><div class="circle circle2"></div>
+</div>
+</div>
+<div class="dice" id="dice6">
+<div class="circle-container7"><div class="circle"></div><div class="circle"></div>
+</div>
+<div class="circle-container8"><div class="circle"></div><div class="circle"></div>
+</div>
+<div class="circle-container7"><div class="circle"></div><div class="circle"></div>
+</div>
+</div>
+</div> <!-- end dice container -->
+<div id="button-container">
+<input type="button" value="Roll the Dice" id="roll-button" class="rnl-button">
+</div>
+<div id="dice-container2">
+<div class="dice" id="dice7">
+<div class="circle"></div>
+</div>
+<div class="dice" id="dice8">
+<div class="circle circle2"></div><div class="circle circle3"></div>
+</div>
+<div class="dice" id="dice9">
+<div class="circle circle2"></div><div class="circle"></div><div class="circle circle3"></div>
+</div>
+<div class="dice" id="dice10">
+<div class="circle-container1"><div class="circle"></div>
+</div>
+<div class="circle-container2"><div class="circle"></div>
+</div>
+<div class="circle-container3"><div class="circle"></div>
+</div>
+<div class="circle-container4"><div class="circle"></div>
+</div>
+</div>
+<div class="dice" id="dice11">
+<div class="circle-container5"><div class="circle circle3"></div><div class="circle circle3"></div>
+</div>
+<div class="circle-container6"><div class="circle"></div>
+</div>
+<div class="circle-container5"><div class="circle circle2"></div><div class="circle circle2"></div>
+</div>
+</div>
+<div class="dice" id="dice12">
+<div class="circle-container7"><div class="circle"></div><div class="circle"></div>
+</div>
+<div class="circle-container8"><div class="circle"></div><div class="circle"></div>
+</div>
+<div class="circle-container7"><div class="circle"></div><div class="circle"></div>
+</div>
+</div>
+</div> <!-- end dice container -->
+</div <!-- end outer -->
+
+<div id="output-container">
+<div id="output1"></div>
+<div class="operatorD"><p>+</p></div>
+<div id="output2"></div>
+<div class="operatorD"><p>=</p></div>
+<div id="answer">
+<input type="number" min="2" max="12" id="diceAnswer">
+</div>
+<div id="submit-container">
+<input type="submit" id="sub" class="rnl-button">
+</div>
+</div><!-- end output container -->
+<div id="message-container">
+<div id="message-hundred">
+</div>
+</div>
+<div id="refresh-container">
+<button id="refresh-button" class="rnl-button">Play again</button>
+</div>
+</div> <!-- end container -->
+</div> <!-- end dice main -->
+</div> <!-- end centerDoc -->
+</main>
+<script src="dice.js"></script>
+<div id="footer"></div>
+<div id="footer-placeholder"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+$(function(){
+  $("#header-placeholder").load("header.html");
+});
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+</body>
+</html>
