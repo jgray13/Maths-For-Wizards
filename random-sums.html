@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random sums</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby.css" rel="stylesheet" type="text/css">
+<link href="maths-for-toby-mbl.css" media="screen and (max-device-width: 550px)"  rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
+<link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
+<script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="header-placeholder"></div>
+<div id="nav"></div>
+<div id="nav-placeholder"></div>
+<main>
+<div id="centerDoc">
+
+<form name="randomsums" id="randomsums">
+<h1>Random Sums</h1>
+<div id="number-line-20-random">
+<p>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+</p>
+</div><div id="random-headings">
+<h4 id="random-head-one">Click the buttons to  display a random number</h4>
+<h4 id="random-head-two">Enter the answer in the box!</h4>
+</div>
+<div class="random-sums-main">
+
+
+<div class="addition-sum-random-container">
+<h3>Addition</h3>
+<div class="addition-sum-random">
+<div class="random-boxes">
+<div id="random-inner-one">
+</div>
+<div class="random-inner-bottom">
+<input type="button" value="Click here" id="random-num1" min="0" max="9" onclick="randomNumOne(0,10);  clearInput();">
+</div>
+</div>
+
+<div class="random-boxes">
+<div class="random-inner">
+<p> + </p>
+</div>
+<div class="random-inner-bottom">
+</div>
+</div>
+
+<div class="random-boxes">
+<div id="random-inner-two">
+</div>
+<div class="random-inner-bottom">
+<input type="button" value="Click here" id="random-num2" min="0" max="9" onclick="randomNumTwo(0,10);  clearInputTwo();">
+</div>
+</div>
+
+<div class="random-boxes">
+<div class="random-inner">
+<p> = </p>
+</div>
+<div class="random-inner-bottom">
+</div>
+</div>
+
+<div class="random-boxes">
+<div class="random-inner">
+<label for="randomNumAnsOne"></label>
+<input type ="number" id="randomNumAnsOne" min="0" max="99" onkeyup="getInput()">
+</div>
+<div class="random-inner-bottom">
+<!--<p class="smallFont">
+Enter the answer here
+</p>-->
+</div>
+</div>
+
+
+<div class="tickboxes-random">
+<div id="tickcontainerRandomOne">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+
+</div>   <!-- end addition sum -->
+<!--<div id="message-1-random">
+<p>
+Well done!
+</p>
+</div>-->
+</div> <!-- end addition sum container -->
+
+
+
+<!--
+minus sum-->
+
+<div class="subtraction-sum-random-container">
+<h3>Subtraction</h3>
+<div class="addition-sum-random">
+
+<div class="random-boxes">
+<div id="random-inner-three">
+</div>
+<div class="random-inner-bottom">
+<button id="random-num3" min="0" max="9" onclick="randomNumThree(10,20);  return false;">Click here</button>
+</div>
+</div>
+
+<div class="random-boxes">
+<div class="random-inner-minus">
+<p> _ </p>
+</div>
+<div class="random-inner-bottom">
+</div>
+</div>
+
+<div class="random-boxes">
+<div id="random-inner-four">
+</div>
+<div class="random-inner-bottom">
+<button id="random-num4" min="0" max="9" onclick="randomNumFour(0,10);  return false;">Click here</button>
+</div>
+</div>
+
+<div class="random-boxes">
+<div class="random-inner">
+<p> = </p>
+</div>
+<div class="random-inner-bottom">
+</div>
+</div>
+
+<div class="random-boxes">
+<div class="random-inner">
+<label for="randomNumAnsTwo"></label>
+<input type ="number" id="randomNumAnsTwo" min="0" max="99" onkeyup="getInputTwo()">
+</div>
+<div class="random-inner-bottom">
+<!--<p class="smallFont">
+Enter the answer here
+</p>-->
+</div>
+</div>
+
+<div class="tickboxes-random">
+<div id="tickcontainerRandomTwo">
+<div class="tickbg">
+    <div class="tick">
+    </div>
+</div>    
+</div>
+</div>
+
+
+</div>   <!-- end addition sum -->
+</div> <!-- end addition sum container -->
+<!--<div id="message-2-random">
+</div>-->
+
+</div> <!-- end sums main -->
+
+</form>
+</div> <!-- End of centerDoc -->
+</main>
+<div id="footer"></div>
+<div id="footer-placeholder"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+$(function(){
+  $("#header-placeholder").load("header.html");
+});
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<script src="randomSumsNew.js"></script>
+</body>
+</html>
