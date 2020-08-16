@@ -563,6 +563,9 @@ padding: 0;
     height: 50px;
 }
 /*   2d shapes  */
+#shapes2d {
+	padding-bottom: 30px;
+}
 #shapes2d input[type=radio] {
 	top: 2px;
 	margin: 5px auto;
@@ -620,64 +623,64 @@ margin: 0 5% 0 0;
       border-right: 35px solid transparent;
       border-bottom: 70px solid cyan;	
 }
-    #heart {
-      position: relative;
-      width: 55px;
-      height: 60px;
-	  right: 28px;
-	  bottom: 15px;
-    }
-    #heart:before,
-    #heart:after {
-      position: absolute;
-      content: "";
-      left: 40px;
-      top: 15px;
-      width: 40px;
-      height: 62px;
-      border-radius: 50px 50px 0 0;
-      transform: rotate(-45deg);
-      transform-origin: 0 100%;
-    }
-    #heart:after {
-      left: 0;
-      transform: rotate(45deg);
-      transform-origin: 100% 100%;
-    }
-   #oval {
-      width: 93px;
-      height: 37px;
-	  margin: 0 5% 0 0;
-      border-radius: 75px / 30px; 
-    }
-
- 
-    #diamond {
-      width: 0;
-      height: 0;
-	  margin: 0 5% 0 0;
-      border: 25px solid transparent;
-      border-bottom: 35px solid greenyellow;
-      position: relative;
-      top: -30px;
-    }
-    #diamond:after {
-      content: '';
-      position: absolute;
-      left: -25px;
-      top: 34px;
-      width: 0;
-      height: 0;
-      border: 25px solid transparent;
-      border-top: 35px solid greenyellow;
-    }
+#heart {
+    position: relative;
+    width: 55px;
+    height: 60px;
+	right: 28px;
+	bottom: 15px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 40px;
+    top: 15px;
+    width: 40px;
+    height: 62px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+#oval {
+    width: 93px;
+    height: 37px;
+	margin: 0 5% 0 0;
+    border-radius: 75px / 30px; 
+}
+#diamond {
+    width: 0;
+    height: 0;
+	margin: 0 5% 0 0;
+    border: 25px solid transparent;
+    border-bottom: 35px solid greenyellow;
+    position: relative;
+    top: -30px;
+}
+#diamond:after {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 34px;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-top: 35px solid greenyellow;
+}
 .shape-section-star {
 	display: none;
 
 }
-
   /* random sums */
-  #randomsums input[type=number] {
+#randomsums {
+	padding-bottom: 30px;
+}
+#randomsums input[type=number] {
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
@@ -800,6 +803,9 @@ number bonds from ten*/
 	padding: 0;
 }
 /*   random number lines */
+#more-number-line-form {
+	padding-bottom: 30px;
+}
 #more-number-line-form input[type=number] {
     font-size: 13px;
 	height: 28px;
