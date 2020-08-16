@@ -2,7 +2,7 @@ body {
     font-size: 9px;
 }
 h1 {
-	font-size: 30px;
+	font-size: 34px;
 	margin: 20px auto;
 }
 h2 {
@@ -12,7 +12,7 @@ h2 {
 nav h2 {	
 	display: inline-block;
 	width: 100%;
-	font-size: 25px;
+	font-size: 28px;
 	margin: 16px 0 0 5%;
 	text-align: left;
 }
@@ -44,7 +44,7 @@ font-size: 15px;
 text-align: center;
 }
 #footer-nav-list h4 {
-font-size: 11px;
+font-size: 13px;
 width: 90%;
 margin: 10px 0 5px 10px;
 }
@@ -70,7 +70,7 @@ footer h4 {
    text-align: right;
 }
 h5 {
-	font-size: 9px;
+	font-size: 10px;
 	margin: 5px auto;
 }
 p {
@@ -82,13 +82,15 @@ main {
 /*	background-origin: content-box;
 	padding: 0 4px 0 0; */
 }
+/*
  #centerDoc {
 	margin: 0 10%;
 	width: 80%;
 }
+*/
 nav {
 	height: 75px;
-	font-size: 9px;
+	font-size: 10px;
 }
 nav a.icon {
     margin: 15px 0 0;
@@ -105,7 +107,7 @@ nav a.icon {
 }
 #hamburger-container {
 	height: 30px;
-	font-size: 14px;
+	font-size: 17px;
 }
 #nav-list {
     overflow: scroll;
@@ -115,7 +117,7 @@ nav a.icon {
 #nav-list-inner {
     flex-direction: row;
 	flex-wrap: wrap;
-	width: 80%;
+	width: 90%;
 	justify-content: center;
 }
 #nav-list-outer {
@@ -164,12 +166,12 @@ nav a.icon {
 }
 */
 #nav-list h4 {
-    font-size: 11px;
+    font-size: 13px;
 	width: 100%;
 	margin: 8px auto 5px;
 }
 #nav-list-outer h3 {
-    font-size: 14px;
+    font-size: 15px;
 	margin: 10px auto 5px;
 }
 nav ul {
@@ -197,7 +199,7 @@ nav li {
 	margin: 10px auto 0;
 }
 .nav-accordion-section {
-	font-size: 7px;
+	font-size: 8px;
 }
 .nav-accordion-section-more {
 	font-size: 7px;
@@ -212,7 +214,7 @@ nav li {
 	padding-right: 3px;
 }
 #nav-accordion h3 {
-	font-size: 8px;
+	font-size: 9px;
 	font-weight: normal;
 	width: auto;
 }
@@ -280,7 +282,7 @@ footer {
 	display: none;
 }
 footer li {
-	font-size: 9px;
+	font-size: 10px;
 	padding: 0;
 }
 #index-main {
@@ -294,10 +296,12 @@ footer li {
 #hpgif-container {
 	width: 50%;
 }
+/*
 form {
 	width: 100%;
-	padding: 0 0 50px;
+	padding: 0;
 }
+*/
 /* sums to ten */
 /*
 input[type=number] {
@@ -306,7 +310,7 @@ height: 39px;
 }
 */
 .myForm input[type=number] {
-	font-size: 16px;
+	font-size: 15px;
 	margin: 0;
 	padding-top: 0;
 }
@@ -348,7 +352,7 @@ height: 39px;
 .addition-sum {
 	margin: 10px 3% 10px 12%;
 	flex-basis: 85%;
-	font-size: 16px;
+	font-size: 15px;
 }
 .numboxes {
 	padding: 10px 0;
@@ -405,6 +409,12 @@ font-size: 9px;
     height: 16px;
 }
 /*  number lines */
+#number-line-form {
+	padding-bottom: 30px;
+}
+#number-line-form-2 {
+	padding-bottom: 30px;
+}
 .nl-inner-container {
 	flex-basis: 100%;
 	padding: 0;
@@ -520,7 +530,7 @@ font-size: 11px;
 padding: 0;
 }
 #hundred-board-form h4 {
-	font-size: 9px;
+	font-size: 10px;
 	width: 100%;
 }
 #hundred-board {
@@ -582,10 +592,10 @@ padding: 0;
 	height: auto;
 }
 .shape-answers {
-	font-size: 9px;
+	font-size: 10px;
 }
 #shapes2d h3 {
-	font-size: 9px;
+	font-size: 10px;
 }
 #square {
 width: 55px;
@@ -608,7 +618,7 @@ margin: 0 5% 0 0;
 	  margin: 0 5% 0 0;
       border-left: 35px solid transparent;
       border-right: 35px solid transparent;
-      border-bottom: 70px solid red;	
+      border-bottom: 70px solid cyan;	
 }
     #heart {
       position: relative;
@@ -625,7 +635,6 @@ margin: 0 5% 0 0;
       top: 15px;
       width: 40px;
       height: 62px;
-      background: deeppink;
       border-radius: 50px 50px 0 0;
       transform: rotate(-45deg);
       transform-origin: 0 100%;
@@ -639,7 +648,6 @@ margin: 0 5% 0 0;
       width: 93px;
       height: 37px;
 	  margin: 0 5% 0 0;
-      background: orangered;
       border-radius: 75px / 30px; 
     }
 
@@ -649,7 +657,7 @@ margin: 0 5% 0 0;
       height: 0;
 	  margin: 0 5% 0 0;
       border: 25px solid transparent;
-      border-bottom: 35px solid cyan;
+      border-bottom: 35px solid greenyellow;
       position: relative;
       top: -30px;
     }
@@ -661,7 +669,7 @@ margin: 0 5% 0 0;
       width: 0;
       height: 0;
       border: 25px solid transparent;
-      border-top: 35px solid cyan;
+      border-top: 35px solid greenyellow;
     }
 .shape-section-star {
 	display: none;
@@ -924,17 +932,17 @@ number bonds from ten*/
 }
 .f-pair {
     margin: 0 7px;
-	width: 28px;
+	width: 29px;
 	height: auto;
 }
 .s-pair {
     margin: 0 5px;
-	width: 23px;
+	width: 25px;
 	height: auto;
 }
 .b-pair {
     margin: 0 3px;
-	width: 20px;
+	width: 21px;
 	height: auto;
 }
 .s-prints {
@@ -944,7 +952,7 @@ number bonds from ten*/
 }
 .w-pair {
     margin: 0 1px;
-	width: 11px;
+	width: 12px;
 	height: auto;
 }
 #counting-in-2s input[type=number] {
@@ -963,7 +971,7 @@ number bonds from ten*/
 }
 .footprints-and-in-2s h4 {
 	margin: 0;
-	font-size: 9px;
+	font-size: 10px;
 }
 #counting-in-2s h1 {
 	margin-bottom: 0;
@@ -1138,6 +1146,9 @@ input[type=number] {
 #nav-list-outer {
     width: 95%;
 }
+.nav-accordion-section {
+    font-size: 7px;
+}
 }
 
 @media only screen and (max-width: 360px) {
@@ -1190,6 +1201,7 @@ main {
 main {
     background-image: url(flash-54.jpg);
 }
+/*
  .number-line {
     flex-basis: 87%;
 	padding: 0 1% 0 12%;
@@ -1198,6 +1210,7 @@ main {
     flex-basis: 87%;
 	padding: 0 1% 0 12%;
 }
+*/
 #nav-list-outer {
     width: 85%;
 }
@@ -1232,6 +1245,7 @@ font-size: 10px;
     width: 18px;
     height: 18px;
 }
+/*
  .more-number-line {
     flex-basis: 87%;
 	padding: 0 1% 0 12%;
@@ -1240,6 +1254,7 @@ font-size: 10px;
     flex-basis: 87%;
 	padding: 0 1% 0 12%;
 }
+*/
 #footer-nav-list {
     width: 90%;
 }

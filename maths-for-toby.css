@@ -1756,7 +1756,7 @@ background-color: lime;
 width: 250px;
 height: 90px;
 margin: 10px 0;
-background-color: yellow;
+background-color: blue;
 }
 #circle {
 width: 160px;
@@ -1798,7 +1798,7 @@ border-radius: 50%;
    #oval {
       width: 250px;
       height: 100px;
-      background: orangered;
+      background: orange;
       border-radius: 200px / 80px; 
     }
     #diamond {
