@@ -1864,10 +1864,7 @@ border-radius: 50%;
 	padding: 14px 0;
 }
   #randomsums button {
-	font-size: 14px;
-	background-color: #f4f4f4;
-	border: 2px solid #bbbbbb;
-	padding: 3px 4px;
+	margin: 20px 0 0;
 }
     #randomsums input[type=submit] {
 	font-size: 17px;
