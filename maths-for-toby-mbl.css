@@ -79,15 +79,7 @@ p {
 main {
     background-image: url(flash-54.jpg);
 	margin: 75px auto 650px;   /* check this */
-/*	background-origin: content-box;
-	padding: 0 4px 0 0; */
 }
-/*
- #centerDoc {
-	margin: 0 10%;
-	width: 80%;
-}
-*/
 nav {
 	height: 75px;
 	font-size: 10px;
@@ -156,15 +148,6 @@ nav a.icon {
 	flex-basis: 50%;
 	order: 4;
 }
-/*
-#nav-list {
-	display: block;
-	width: 100%;
-	margin: 0;
-	position: relative;
-	bottom: 0;
-}
-*/
 #nav-list h4 {
     font-size: 13px;
 	width: 100%;
@@ -179,7 +162,6 @@ nav ul {
 	text-align: right;
 }
 .nav-mult-section {
-	
 }
 nav li {
 	padding: 0 2px;
@@ -296,19 +278,7 @@ footer li {
 #hpgif-container {
 	width: 50%;
 }
-/*
-form {
-	width: 100%;
-	padding: 0;
-}
-*/
 /* sums to ten */
-/*
-input[type=number] {
-width: 36px;
-height: 39px;
-}
-*/
 .myForm input[type=number] {
 	font-size: 15px;
 	margin: 0;
@@ -334,7 +304,6 @@ height: 39px;
 .myForm20 {
 	width: 100%;
 }
-
 #number-line-20 {
 	font-size: 9px;
 	word-spacing: 4px;
@@ -401,7 +370,6 @@ input[type=number] {
 width: 23px;
 height: 24px;
 }
-
 #number-line-form input[type=number] {
 font-size: 9px;
 	padding: 0;
@@ -522,9 +490,7 @@ padding: 0;
 	padding: 0 1% 0 9%;
 	justify-content: flex-start;
 }
-
-/*
-hundred board */
+/*hundred board */
 #hundred-board-form {
 	padding-bottom: 30px;
 }
@@ -618,16 +584,13 @@ width: 65px;
 height: 65px;
 margin: 0 5% 0 0;
 }
-#trianlge {
-      width: 0;
-      height: 0;
+#triangle {
 	  margin: 0 5% 0 0;
       border-left: 35px solid transparent;
       border-right: 35px solid transparent;
-      border-bottom: 70px solid cyan;	
+      border-bottom: 70px solid yellow;	
 }
 #heart {
-    position: relative;
     width: 55px;
     height: 60px;
 	right: 28px;
@@ -635,20 +598,13 @@ margin: 0 5% 0 0;
 }
 #heart:before,
 #heart:after {
-    position: absolute;
-    content: "";
     left: 40px;
     top: 15px;
     width: 40px;
     height: 62px;
-    border-radius: 50px 50px 0 0;
-    transform: rotate(-45deg);
-    transform-origin: 0 100%;
 }
 #heart:after {
     left: 0;
-    transform: rotate(45deg);
-    transform-origin: 100% 100%;
 }
 #oval {
     width: 93px;
@@ -657,29 +613,22 @@ margin: 0 5% 0 0;
     border-radius: 75px / 30px; 
 }
 #diamond {
-    width: 0;
-    height: 0;
 	margin: 0 5% 0 0;
     border: 25px solid transparent;
-    border-bottom: 35px solid greenyellow;
-    position: relative;
+    border-bottom: 35px solid cyan;
     top: -30px;
 }
 #diamond:after {
-    content: '';
-    position: absolute;
     left: -25px;
     top: 34px;
-    width: 0;
-    height: 0;
     border: 25px solid transparent;
-    border-top: 35px solid greenyellow;
+    border-top: 35px solid cyan;
 }
 .shape-section-star {
 	display: none;
 
 }
-  /* random sums */
+/* random sums */
 #randomsums {
 	padding-bottom: 30px;
 }
@@ -768,7 +717,6 @@ margin: 0 auto;
 	font-size: 16px;
 }
 /* random sums minus   */
-
 #random-inner-three {
 	width: 70%;
 	height: 35px;
@@ -791,8 +739,7 @@ margin: 0 auto;
 	padding: 10px 0;
 	font-size: 16px;
 }
-/*
-number bonds from ten*/
+/*number bonds from ten*/
 .myFormMinus input[type=number] {
 	font-size: 16px;
 	padding-top: 0;
@@ -855,8 +802,6 @@ number bonds from ten*/
     top: 17px;
     right: 18px;
     width: 100%;
-}
-#random-more-number-line {
 }
 .ansboxes-more-number-line {
     width: 10%;
@@ -1081,10 +1026,7 @@ number bonds from ten*/
     margin: 10px 0 0;
 }
 
-
-
-/* media queries
-*/
+/* media queries */
 @media only screen and (max-width: 370px) {
 input[type=number] {
     width: 23px;
@@ -1123,9 +1065,7 @@ input[type=number] {
     padding: 7px 0 5px;
 }
 }
-
 @media only screen and (max-width: 360px) {
-
 .number-line-10 {
 	font-size: 11px;
 	word-spacing: 11px;
@@ -1153,7 +1093,6 @@ input[type=number] {
     font-size: 7px;
 }
 }
-
 @media only screen and (max-width: 360px) {
 .more-lines-button button {
     font-size: 9px;
@@ -1163,7 +1102,6 @@ input[type=number] {
     padding: 5px 0;
 }
 }
-
 @media only screen and (min-width: 330px) {
 main {
     background-image: url(flash-50.jpg);
@@ -1187,7 +1125,6 @@ main {
 	padding: 0 0 0 10%;
 }
 }
-
 @media only screen and (min-width: 350px) {
 .more-lines-button {
     right: 20px;
@@ -1199,27 +1136,15 @@ main {
     width: 95%;
 }
 }
-
 @media only screen and (min-width: 360px) {
 main {
     background-image: url(flash-54.jpg);
 }
-/*
- .number-line {
-    flex-basis: 87%;
-	padding: 0 1% 0 12%;
-}
-.number-line-two {
-    flex-basis: 87%;
-	padding: 0 1% 0 12%;
-}
-*/
 #nav-list-outer {
     width: 85%;
 }
 }
 @media only screen and (min-width: 370px) {
-
 #myForm input[type=number] {
 	padding-left: 8px;
 }
@@ -1248,23 +1173,11 @@ font-size: 10px;
     width: 18px;
     height: 18px;
 }
-/*
- .more-number-line {
-    flex-basis: 87%;
-	padding: 0 1% 0 12%;
-}
-.more-number-line-two {
-    flex-basis: 87%;
-	padding: 0 1% 0 12%;
-}
-*/
 #footer-nav-list {
     width: 90%;
 }
 }
-
 @media only screen and (min-width: 380px) {
-
 .addition-sum-random {
     flex-basis: 90%;
     padding: 0 2% 0 8%;
@@ -1279,7 +1192,6 @@ main {
     width: 90%;
 }
 }
-
 @media only screen and (min-width: 392px) {
 nav {
     height: 72px;
@@ -1291,7 +1203,6 @@ main {
 	margin: 0 0 8px 0;
 }
 }
-
 @media only screen and (min-width: 400px) {
 .sums-main {
     width: 90%;
@@ -1342,10 +1253,7 @@ main {
     width: 90%;
 }
 }
-
-
 @media only screen and (min-width: 420px) {
-
 .addition-sum-random {
     flex-basis: 86%;
     padding: 0 4% 0 10%;
@@ -1365,7 +1273,6 @@ main {
     background-image: url(flash-54.jpg);
 }
 }
-
 @media only screen and (min-width: 430px) {
 	#number-line-form h3 {
     width: 100%;
@@ -1377,9 +1284,7 @@ main {
     width: 71%;
 }
 }
-
 @media only screen and (min-width: 440px) {
-
 #myForm input[type=number] {
 	padding-left: 13px;
 }
@@ -1432,7 +1337,6 @@ main {
     width: 85%;
 }
 }
-
 @media only screen and (min-width: 460px) {
 	main {
     background-image: url(flash-51.jpg);
@@ -1444,9 +1348,7 @@ main {
     width: 80%;
 }
 }
-
 @media only screen and (min-width: 470px) {
-
 .addition-sum-random {
     flex-basis: 72%;
     padding: 0 10% 0 18%;
@@ -1467,9 +1369,7 @@ main {
 	width: 80%;
 }
 }
-
 @media only screen and (min-width: 480px) {
-
 #random-head-one {
    width: auto;
 }
@@ -1491,7 +1391,6 @@ main {
     right: 12px;
 }
 }
-
 @media only screen and (min-width: 500px) {
 .sums-main {
     width: 68%;
@@ -1534,7 +1433,6 @@ main {
 	width: 75%;
 }
 }
-
 @media only screen and (min-width: 530px) {
 main {
     background-image: url(flash-54.jpg);

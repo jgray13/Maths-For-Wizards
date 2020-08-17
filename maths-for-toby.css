@@ -1135,6 +1135,9 @@ input[type=number]::-webkit-outer-spin-button {
 	align-items: center;
 }
 /* number lines  */
+#number-line-form {
+	padding: 0 0 50px;
+}
 #number-line-form input[type=number] {
 font-size: 27px;
 width: 50px;
@@ -1323,6 +1326,9 @@ color: #000;
 /*
 number lines 2 
 */
+#number-line-form-2 {
+	padding: 0 0 50px;
+}
 #number-line-form-2 input[type=number] {
 font-size: 27px;
 margin: 0;
@@ -1409,6 +1415,9 @@ color: #000;
 /*
 more number lines
 */
+#more-number-line-form {
+	padding: 0 0 50px;
+}
 #more-number-line-form input[type=number] {
 font-size: 30px;
 margin: 0 5%;
@@ -1418,21 +1427,21 @@ flex-direction: row;
 width: 90%;
 }
 .more-lines-button button {
-		font-size: 16px;
+	font-size: 16px;
+	font-weight: bold;
 	background-color: #f4f4f4;
 	border: 2px solid #a6a6a6;
+    border-radius: 5px;
+    outline: none;
     width: 100%;
+	padding: 6px 5px 4px;
 }
 .more-lines-button {
 	position: relative;
 	top: 5px;
 	right: 4px;
 	width: 110%;
-}
-/*
-#more-lines-button {
-margin-left: 11px;
-}*/
+}   
 .rnl-button {
 		font-size: 16px;
 	background-color: #f4f4f4;
@@ -1644,6 +1653,7 @@ color: #000;
 }
 #message-hundred-container {
 	height: 90px;
+	padding: 0 0 50px;
 }
 #message-hundred {
 	width: 22%;
@@ -1683,6 +1693,7 @@ height: 22px;
 	align-items: flex-start;
 	width: 95%;
 	margin: 0 auto;
+	padding: 0 0 50px;
 }
 .shape-section {
 	display: flex;
@@ -1762,12 +1773,12 @@ height: 160px;
 background-color: red;
 border-radius: 50%;
 }
-#trianlge {
+#triangle {
       width: 0;
       height: 0;
       border-left: 80px solid transparent;
       border-right: 80px solid transparent;
-      border-bottom: 160px solid cyan;	
+      border-bottom: 160px solid yellow;	
 }
     #heart {
       position: relative;
@@ -1783,7 +1794,7 @@ border-radius: 50%;
       top: 0;
       width: 80px;
       height: 140px;
-      background: deeppink;
+      background: hotpink;
       border-radius: 50px 50px 0 0;
       transform: rotate(-45deg);
       transform-origin: 0 100%;
@@ -1803,7 +1814,7 @@ border-radius: 50%;
       width: 0;
       height: 0;
       border: 75px solid transparent;
-      border-bottom:90px solid greenyellow;
+      border-bottom:90px solid cyan;
       position: relative;
       top: -75px;
 	  right: 10px;
@@ -1816,22 +1827,22 @@ border-radius: 50%;
       width: 0;
       height: 0;
       border: 75px solid transparent;
-      border-top: 90px solid greenyellow;
+      border-top: 90px solid cyan;
     }
     #star-five {
       margin: 50px 0;
       position: relative;
       display: block;
-      color: purple;
+      color: darkorchid;
       width: 0px;
       height: 0px;
       border-right: 100px solid transparent;
-      border-bottom: 70px solid purple;
+      border-bottom: 70px solid darkorchid;
       border-left: 100px solid transparent;
       transform: rotate(35deg);
     }
     #star-five:before {
-      border-bottom: 80px solid purple;
+      border-bottom: 80px solid darkorchid;
       border-left: 30px solid transparent;
       border-right: 30px solid transparent;
       position: absolute;
@@ -1846,18 +1857,21 @@ border-radius: 50%;
     #star-five:after {
       position: absolute;
       display: block;
-      color: purple;
+      color: darkorchid;
       top: 3px;
       left: -105px;
       width: 0px;
       height: 0px;
       border-right: 100px solid transparent;
-      border-bottom: 70px solid purple;
+      border-bottom: 70px solid darkorchid;
       border-left: 100px solid transparent;
       transform: rotate(-70deg);
       content: '';
     }
   /* random sums */
+  #randomsums {
+	  padding: 0 0 50px;
+  }
   #randomsums input[type=number] {
 	font-size: 30px;
 	margin: 0;
@@ -2915,6 +2929,7 @@ margin: 0 6px;
 #dice-main {
 	width: 80%;
     margin: 0 auto;
+	padding: 0 0 50px;
 	overflow: auto;
     background-color: #fff;
 }

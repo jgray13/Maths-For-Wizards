@@ -66,8 +66,6 @@ main {
     margin: 90px auto 530px;
     background-image: url(flash-25.jpg);
 }
-   #centerDoc {
-}
 nav {
 	height: 90px;
 	font-size: 12px;
@@ -94,15 +92,6 @@ nav a.icon {
 	height: 40px;
 	font-size: 18px;
 }
-/*
-#nav-list {
-	display: block;
-	width: 100%;
-	margin: 0;
-	position: relative;
-	bottom: 0;
-}
-*/
 #nav-list {
     overflow: scroll;
     height: 100%;
@@ -129,7 +118,6 @@ nav li {
 #shapes-nav {
 	display: none;
 }
-
 #nav-accordion {
 	flex-basis: 97%;
 	padding: 0 0 15px;
@@ -203,7 +191,6 @@ footer li {
 	height: 340px;
 	border-right: 1px solid #292929;
 }
-
 #hpgif-container {
 	width: 30%;
 }
@@ -225,7 +212,6 @@ height: 39px;
 	margin: 0;
 	padding: 0;
 }
-
 .number-line-10 {
 	font-size: 15px;
 	word-spacing: 20px;
@@ -983,16 +969,13 @@ width: 65px;
 height: 65px;
 margin: 0 3% 0 0;
 }
-#trianlge {
-      width: 0;
-      height: 0;
+#triangle {
 	  margin: 0 3% 0 0;
       border-left: 35px solid transparent;
       border-right: 35px solid transparent;
-      border-bottom: 70px solid red;	
+      border-bottom: 70px solid yellow;	
 }
     #heart {
-      position: relative;
       width: 55px;
       height: 60px;
 	  right: 28px;
@@ -1000,47 +983,29 @@ margin: 0 3% 0 0;
     }
     #heart:before,
     #heart:after {
-      position: absolute;
-      content: "";
       left: 40px;
       top: 15px;
       width: 40px;
       height: 62px;
-      background: deeppink;
-      border-radius: 50px 50px 0 0;
-      transform: rotate(-45deg);
-      transform-origin: 0 100%;
     }
     #heart:after {
       left: 0;
-      transform: rotate(45deg);
-      transform-origin: 100% 100%;
     }
    #oval {
       width: 93px;
       height: 37px;
 	  margin: 0 3% 0 0;
-      background: orangered;
       border-radius: 75px / 30px; 
-    }
-
- 
+   }
     #diamond {
-      width: 0;
-      height: 0;
-	  margin: 0 0 0 0;
+	  margin: 0;
       border: 25px solid transparent;
       border-bottom: 35px solid cyan;
-      position: relative;
       top: -30px;
     }
     #diamond:after {
-      content: '';
-      position: absolute;
       left: -25px;
       top: 34px;
-      width: 0;
-      height: 0;
       border: 25px solid transparent;
       border-top: 35px solid cyan;
     }
@@ -1088,12 +1053,8 @@ margin: 0 3% 0 0;
 	flex-basis: 14%;
 }
 
-
-/*
-media queries   */
-
+/* media queries  */
 @media only screen and (min-width: 800px) {	
-
 .sums-main {
     width: 60%;
 }
@@ -1112,9 +1073,7 @@ font-size: 14px;
     height: 22px;
 }
 }
-
 @media only screen and (min-width: 850px) {	
-
 .sums-main {
     width: 57%;
 }
@@ -1148,9 +1107,7 @@ footer li {
     flex-basis: 94%;
 }
 }
-
-@media only screen and (min-width: 900px) {	
-    background-image: url(flash-27.jpg);
+@media only screen and (min-width: 900px) {
 .sums-main {
     width: 54%;
 }
@@ -1181,9 +1138,7 @@ footer li {
     margin: 0 0 0 5%;
 }
 }
-
 @media only screen and (min-width: 950px) {	
-
 .sums-main {
     width: 50%;
 }
@@ -1217,7 +1172,6 @@ footer li {
     width: 80%;
 }
 }
-
 @media only screen and (min-width: 1000px) {
 .number-line-more {
     flex-basis: 65%;
@@ -1263,9 +1217,7 @@ footer li {
 	width: 55%;
 }
 }
-
 @media only screen and (min-width: 1050px) {	
-
 .sums-main {
     width: 45%;
 }

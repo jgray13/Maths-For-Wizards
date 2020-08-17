@@ -66,8 +66,6 @@ main {
     margin: 75px auto 750px;
     background-image: url(flash-24.jpg);
 }
-  #centerDoc {
-}
 #nav-list h4 {
 font-size: 11px;
     width: 100%;
@@ -152,27 +150,10 @@ nav a.icon {
 	order: 4;
 	margin: 0 0 0 5%;
 }
-/*
-#nav-list {
-	display: block;
-	width: 100%;
-	margin: 0;
-	position: relative;
-	bottom: 0;
-}
-*/
 nav ul {
 	padding: 0;
 	text-align: right;
 }
-/*
-.nav-section {
-	display: flex;
-	flex-direction: column;
-	width: 30%;
-	margin: 0 1% 20px;
-}
-*/
 nav li {
 	padding: 0 3px;
 }
@@ -568,8 +549,7 @@ padding: 0;
 	padding: 0 0 0 14%;
 	justify-content: flex-start;
 }
-/*
-hundred board */
+/*hundred board */
 #hundred-board-form input[type=number] {
 font-size: 14px;
 padding: 0;
@@ -601,20 +581,20 @@ padding: 0;
 #message-hundred-container {
     height: 55px;
 }
- /* random sums */
-  #randomsums input[type=number] {
+/* random sums */
+#randomsums input[type=number] {
 	font-size: 17px;
 	margin: 0;
 	padding: 0;
 }
-  #randomsums button {
+#randomsums button {
 	font-size: 9px;
 	padding: 3px 2px;
 }
 #randomsums input[type=submit] {
 	font-size: 14px;
 }
- #number-line-20-random {
+#number-line-20-random {
 	font-size: 12px;
 	word-spacing: 5px;
 	margin: 0 auto;
@@ -1058,16 +1038,13 @@ width: 65px;
 height: 65px;
 margin: 0 5% 0 0;
 }
-#trianlge {
-      width: 0;
-      height: 0;
+#triangle {
 	  margin: 0 5% 0 0;
       border-left: 35px solid transparent;
       border-right: 35px solid transparent;
-      border-bottom: 70px solid cyan;	
+      border-bottom: 70px solid yellow;	
 }
     #heart {
-      position: relative;
       width: 55px;
       height: 60px;
 	  right: 28px;
@@ -1075,53 +1052,34 @@ margin: 0 5% 0 0;
     }
     #heart:before,
     #heart:after {
-      position: absolute;
-      content: "";
       left: 40px;
       top: 15px;
       width: 40px;
       height: 62px;
-      background: deeppink;
-      border-radius: 50px 50px 0 0;
-      transform: rotate(-45deg);
-      transform-origin: 0 100%;
     }
     #heart:after {
       left: 0;
-      transform: rotate(45deg);
-      transform-origin: 100% 100%;
     }
    #oval {
       width: 93px;
       height: 37px;
 	  margin: 0 5% 0 0;
-      background: orange;
       border-radius: 75px / 30px; 
     }
-
- 
     #diamond {
-      width: 0;
-      height: 0;
 	  margin: 0 5% 0 0;
       border: 25px solid transparent;
-      border-bottom: 35px solid greenyellow;
-      position: relative;
+      border-bottom: 35px solid cyan;
       top: -30px;
     }
     #diamond:after {
-      content: '';
-      position: absolute;
       left: -25px;
       top: 34px;
-      width: 0;
-      height: 0;
       border: 25px solid transparent;
-      border-top: 35px solid greenyellow;
+      border-top: 35px solid cyan;
     }
 .shape-section-star {
 	display: none;
-
 }
 /* dice */
 #container-dice {
@@ -1167,40 +1125,19 @@ margin: 0 5% 0 0;
 #answer {
 	flex-basis: 13%;
 }
-/*
-#outer {
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-#dice-container1 {
-    order: 1;
-}
-#button-container {
-    order: 3;
-}
-#dice-container2 {
-    order: 2;
-}
-*/
 
-
-/*
-media queries
-*/
-
+/* media queries */
 @media only screen and (max-width: 500px) {	
   #randomsums button {
 	font-size: 10px;
 }
 }
-
 @media only screen and (max-width: 550px) {	
 .addition-sum {
 	margin: 10px 8%;
 	font-size: 22px;
 }
 }
-
 @media only screen and (min-width: 600px) {		 
 #random-headings {
     width: 82%;
@@ -1263,7 +1200,6 @@ media queries
     width: 85%;
 }
 }
-
 @media only screen and (min-width: 620px) {	
  .number-line {
     flex-basis: 75%;
@@ -1278,7 +1214,6 @@ media queries
     height: 21px;
 }
 }
-
 @media only screen and (min-width: 650px) {		 
 #random-headings {
     width: 78%;
@@ -1325,7 +1260,6 @@ media queries
     width: 80%;
 }
 }
-
 @media only screen and (min-width: 690px) {		 
 .sums-main {
     width: 56%;
@@ -1335,9 +1269,7 @@ media queries
     padding: 0 14% 0 20%;
 }
 }
-
 @media only screen and (min-width: 700px) {	
-
 #hundred-board {
 	width: 62%;
 	margin: 20px auto 10px;
@@ -1388,13 +1320,11 @@ h1 {
     width: 80%;
 }
 }
-
 @media only screen and (min-width: 730px) {		 
 .sums-main {
     width: 52%;
 }
 }
-
 @media only screen and (min-width: 740px) {
 	#nav-list-outer {
     width: 97%;
@@ -1411,40 +1341,30 @@ h1 {
 
 #nav-section-mult {
 	display: block;
-/*	flex-direction: column;
-	flex-basis: 50%;*/
 	order: 0;
 	margin: 0 0 0 15px;
 	width: 17%;
 }
 #nav-section-add {
 	display: block;
-/*	flex-direction: column;
-	flex-basis: 50%;*/
 	order: 0;
 	margin: 0 0 0 15px;
 	width: 20%;
 }
 #nav-section-sub {
 	display: block;
-/*	flex-direction: column;
-	flex-basis: 50%;*/
 	order: 0;
 	margin: 0 0 0 15px;
 	width: 21%;
 }
 #nav-section-counting {
 	display: block;
-/*	flex-direction: column;
-	flex-basis: 50%;*/
 	order: 0;
 	margin: 0 0 0 15px;
 	width: 20%;
 }
 #nav-section-more {
 	display: block;
-/*	flex-direction: column;
-	flex-basis: 50%;*/
 	order: 0;
 	margin: 0 0 0 15px;
 	width: 17%;
@@ -1458,11 +1378,11 @@ h1 {
 #nav-list h4 {
     margin: 8px auto 15px;
 }
-	main {
-    margin: 75px auto 500px;
+main {
+  margin: 75px auto 500px;
 }
-	footer {
-    height: 500px;
+footer {
+  height: 500px;
 }
 #footer-nav-list-container {
     width: 99%;
@@ -1510,8 +1430,4 @@ footer li {
 	height: 320px;
 	border-right: 1px solid #292929;
 }
-}
-
-@media only screen and (min-width: 768px) {
-
 }
