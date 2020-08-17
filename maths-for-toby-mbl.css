@@ -2,7 +2,7 @@ body {
     font-size: 9px;
 }
 h1 {
-	font-size: 34px;
+	font-size: 38px;
 	margin: 20px auto;
 }
 h2 {
@@ -78,7 +78,7 @@ p {
  }
 main {
     background-image: url(flash-54.jpg);
-	margin: 75px auto 620px;   /* check this */
+	margin: 75px auto 650px;   /* check this */
 /*	background-origin: content-box;
 	padding: 0 4px 0 0; */
 }
@@ -237,7 +237,7 @@ nav li {
     padding: 15px 0 20px;
 }
 footer {
-	height: 620px;
+	height: 650px;
 	font-size: 13px;	
 }
 #footer-nav-list {
@@ -525,6 +525,9 @@ padding: 0;
 
 /*
 hundred board */
+#hundred-board-form {
+	padding-bottom: 30px;
+}
 #hundred-board-form input[type=number] {
 font-size: 11px;
 padding: 0;
