@@ -202,13 +202,13 @@ nav li {
 	font-size: 8px;
 }
 .nav-accordion-section-more {
-	font-size: 7px;
+	font-size: 8px;
 	border-left: none;
 	border-right: 1px solid #292929;
 	padding-left: 3px;
 }
 .nav-accordion-section-more2 {
-	font-size: 7px;
+	font-size: 8px;
 	border-left: 1px solid #292929;
 	border-right: none;
 	padding-right: 3px;
@@ -1086,12 +1086,6 @@ number bonds from ten*/
 /* media queries
 */
 @media only screen and (max-width: 370px) {
-	#index-main h1 {
-	font-size: 27px;
-}
-h1 {
-	font-size: 27px;
-}
 input[type=number] {
     width: 23px;
     height: 25px;

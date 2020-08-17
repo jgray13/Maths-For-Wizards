@@ -2,7 +2,7 @@ body {
     font-size: 10px;
 }
 h1 {
-	font-size: 34px;
+	font-size: 38px;
 	margin: 20px auto;
 }
 h2 {
@@ -63,7 +63,7 @@ p {
 	width: 80%;
  }
 main {
-    margin: 75px auto 720px;
+    margin: 75px auto 750px;
     background-image: url(flash-24.jpg);
 }
   #centerDoc {
@@ -188,13 +188,13 @@ nav li {
 	margin: 15px auto 0;
 }
 .nav-accordion-section {
-	font-size: 8px;
+	font-size: 10px;
 }
 .nav-accordion-section-more {
-	font-size: 8px;
+	font-size: 10px;
 }
 .nav-accordion-section-more2 {
-	font-size: 8px;
+	font-size: 10px;
 }
 #nav-accordion h3 {
 	font-size: 10px;
@@ -215,7 +215,7 @@ nav li {
     padding: 5px 0;
 }
 footer {
-	height: 720px;
+	height: 750px;
 	font-size: 13px;	
 }
 #footer-links {
@@ -600,9 +600,6 @@ padding: 0;
 }
 #message-hundred-container {
     height: 55px;
-}
-#sub-hundred-container {
-    margin: 0 auto;
 }
  /* random sums */
   #randomsums input[type=number] {
@@ -1067,7 +1064,7 @@ margin: 0 5% 0 0;
 	  margin: 0 5% 0 0;
       border-left: 35px solid transparent;
       border-right: 35px solid transparent;
-      border-bottom: 70px solid red;	
+      border-bottom: 70px solid cyan;	
 }
     #heart {
       position: relative;
@@ -1098,7 +1095,7 @@ margin: 0 5% 0 0;
       width: 93px;
       height: 37px;
 	  margin: 0 5% 0 0;
-      background: orangered;
+      background: orange;
       border-radius: 75px / 30px; 
     }
 
@@ -1108,7 +1105,7 @@ margin: 0 5% 0 0;
       height: 0;
 	  margin: 0 5% 0 0;
       border: 25px solid transparent;
-      border-bottom: 35px solid cyan;
+      border-bottom: 35px solid greenyellow;
       position: relative;
       top: -30px;
     }
@@ -1120,7 +1117,7 @@ margin: 0 5% 0 0;
       width: 0;
       height: 0;
       border: 25px solid transparent;
-      border-top: 35px solid cyan;
+      border-top: 35px solid greenyellow;
     }
 .shape-section-star {
 	display: none;
@@ -1382,7 +1379,7 @@ media queries
 }
 h1 {
 	margin: 25px auto;
-	font-size: 39px;
+	font-size: 45px;
 }
 #footer-nav-list {
     width: 75%;
