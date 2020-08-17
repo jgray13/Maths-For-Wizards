@@ -749,12 +749,12 @@ number bonds from ten*/
 .number-line-more {
     flex-basis: 90%;
     margin: 15px 0 15px;
-    padding: 10px 0 15px;
+    padding: 10px 0 30px;
 }
 .number-line-two-more {
     flex-basis: 90%;
     margin: 15px 0 15px;
-    padding: 10px 0 15px;
+    padding: 10px 0 30px;
 }
 .rnl-inner-container {
     flex-basis: 75%;
@@ -768,7 +768,7 @@ number bonds from ten*/
 }
 .more-lines-button {
     position: relative;
-    top: 12px;
+    top: 20px;
     right: 13px;
     width: 100%;
 }
@@ -794,16 +794,22 @@ number bonds from ten*/
     font-size: 17px;
 	height: 36px;
 	margin: 0 5%;
+	position: relative;
+    top: 5px;
 }
 #random-more-number-lineThree {
     font-size: 17px;
 	height: 36px;
 	margin: 0 5%;
+	position: relative;
+    top: 5px;
 }
 #random-more-number-lineTwo {
     font-size: 17px;
 	height: 36px;
 	margin: 0 5%;
+	position: relative;
+    top: 5px;
 }
 .ansboxes-more-number-line {
     height: 28px;
