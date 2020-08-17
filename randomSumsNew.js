@@ -6,17 +6,14 @@ function randomNumOne(min, max) {
   globalRandomOne = parseInt(randomNumberOne);
   console.log(randomNumberOne);
     console.log(globalRandomOne);
-}
-function randomNumTwo(min, max) {
  var randomNumberTwo = Math.floor(Math.random() * (max - min)) + min;
  document.getElementById("random-inner-two").innerHTML = randomNumberTwo;
   globalRandomTwo = parseInt(randomNumberTwo);
  console.log(randomNumberTwo);
   console.log(globalRandomTwo);
 }
-    console.log(globalRandomOne);
-  console.log(globalRandomTwo);	
-
+console.log(globalRandomOne);
+console.log(globalRandomTwo);	
 function getInput() {
 	var answerStr = document.getElementById("randomNumAnsOne").value;
 	var answer = parseInt(answerStr);
@@ -33,10 +30,8 @@ function getInput() {
 				document.getElementById("tickcontainerRandomOne").style.display = "none";
 	}
 }
-
 var globalRandomThree;
 var globalRandomFour;
-
 function randomNumThree(min, max) {
  var randomNumberThree = Math.floor(Math.random() * (max - min)) + min;
  document.getElementById("random-inner-three").innerHTML = randomNumberThree;
@@ -68,7 +63,16 @@ function getInputTwo() {
 	} else {
 				document.getElementById("tickcontainerRandomTwo").style.display = "none";
 	}
-	
 }
-
-
+function clearInput() {
+	document.getElementById("random-inner-one").value = '';
+	document.getElementById("random-inner-two").value = '';
+	document.getElementById("randomNumAnsOne").value = '';
+	document.getElementById("tickcontainerRandomOne").style.display = "none"
+}
+function clearInputTwo() {
+	document.getElementById("random-inner-three").value = '';
+	document.getElementById("random-inner-four").value = '';
+	document.getElementById("randomNumAnsTwo"). value = '';
+	document.getElementById("tickcontainerRandomTwo").style.display = "none";
+}
