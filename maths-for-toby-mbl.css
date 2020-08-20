@@ -1017,6 +1017,7 @@ margin: 0 auto;
 }
 /* odd and even numbers */
 #odd-even-section {
+	width: 90%;
 	margin: 20px auto 200px;
 }
 .oddEvenButton {
