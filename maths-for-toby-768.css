@@ -193,7 +193,7 @@ nav li {
     font-size: 13px;
 }
 .panel {
-    padding: 5px 0;
+    padding: 10px 0;
 }
 footer {
 	height: 750px;
@@ -1130,6 +1130,24 @@ margin: 0 5% 0 0;
 }
 #answer {
 	flex-basis: 13%;
+}
+/* odd and even numbers */
+#odd-even-section {
+	margin: 20px auto 200px;
+}
+.oddEvenButton {
+	font-size: 13px;
+}
+#odd-even-num {
+	font-size: 18px;
+    padding: 12px 0;
+	width: 35%;
+}
+#odd-even-main input[type=radio] {
+    top: 1px;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
 }
 
 /* media queries */

@@ -1058,6 +1058,21 @@ margin: 0 3% 0 0;
 #answer {
 	flex-basis: 14%;
 }
+/* odd and even numbers */
+#odd-even-section {
+    width: 65%;
+	margin: 20px auto 200px;
+}
+#odd-even-num {
+	font-size: 20px;
+	padding: 15px 0;
+}
+#odd-even-main input[type=radio] {
+    top: 1px;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+}
 
 /* media queries  */
 @media only screen and (min-width: 800px) {	

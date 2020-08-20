@@ -216,7 +216,7 @@ nav li {
     font-size: 9px;
 }
 .panel {
-    padding: 15px 0 20px;
+    padding: 10px 0;
 }
 footer {
 	height: 650px;
@@ -1015,6 +1015,25 @@ margin: 0 auto;
 #refresh-container {
     margin: 10px 0 0;
 }
+/* odd and even numbers */
+#odd-even-section {
+    width: 80%;
+	margin: 20px auto 200px;
+}
+.oddEvenButton {
+	font-size: 11px;
+}
+#odd-even-num {
+	font-size: 15px;
+    padding: 12px 0;
+	width: 40%;
+}
+#odd-even-main input[type=radio] {
+    top: 2px;
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+}
 
 /* media queries */
 @media only screen and (max-width: 370px) {
@@ -1242,6 +1261,9 @@ main {
 #container-dice {
     width: 90%;
 }
+#odd-even-num {
+	width: 35%;
+}
 }
 @media only screen and (min-width: 420px) {
 .addition-sum-random {
@@ -1421,6 +1443,9 @@ main {
 }
 #output-container {
 	width: 75%;
+}
+#odd-even-num {
+	width: 32%;
 }
 }
 @media only screen and (min-width: 530px) {

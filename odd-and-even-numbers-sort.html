@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Odd and even numbers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby.css" rel="stylesheet" type="text/css">
+<link href="maths-for-toby-mbl.css"  media="screen and (max-device-width: 550px)" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
+<link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
+<script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+<div id="header-placeholder"></div>
+<div id="nav"></div>
+<div id="nav-placeholder"></div>
+<main>
+<div id="centerDoc">
+<div id="odd-even-main">
+<h1>Odd and even numbers</h1>
+<h3></h3>
+<div id="oddeven-container">
+
+<div id="odd-outer">
+<div id="odd-heading">
+<h3>Odd numbers</h3>
+</div>
+<div id="odd-container">
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="odd-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+</div> <!-- end odd container -->
+</div> <!-- end odd outer -->
+
+<div id="even-outer">
+<div id="even-heading">
+<h3>Even numbers</h3>
+</div>
+<div id="even-container">
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div class="even-tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+</div>
+</div>
+
+</div> <!-- end oddeven container -->
+<!--
+<div id="sorting-hat-container">
+<img id="sorting-hat" src="sorting-hat.jpg">
+</div>
+-->
+<div id="odd-even-submit">
+<input type="button" value="SUBMIT" id="odd-even-button" onClick="oddEvenFunc(); return false;">
+</div>
+<div id="number-tiles-outer">
+
+<div id="number-tiles-container1" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles1" draggable="true" ondragstart="drag(event)" >
+<h3>3</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles2" draggable="true" ondragstart="drag(event)" >
+<h3>8</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles3" draggable="true" ondragstart="drag(event)" >
+<h3>39</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles4" draggable="true" ondragstart="drag(event)" >
+<h3>21</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles5" draggable="true" ondragstart="drag(event)" >
+<h3>64</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles6" draggable="true" ondragstart="drag(event)" >
+<h3>12</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles7" draggable="true" ondragstart="drag(event)" >
+<h3>45</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles8" draggable="true" ondragstart="drag(event)" >
+<h3>36</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles9" draggable="true" ondragstart="drag(event)" >
+<h3>59</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles10" draggable="true" ondragstart="drag(event)" >
+<h3>83</h3>
+</div>
+</div>
+
+
+
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles11" draggable="true" ondragstart="drag(event)" >
+<h3>76</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles12" draggable="true" ondragstart="drag(event)" >
+<h3>90</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles13" draggable="true" ondragstart="drag(event)" >
+<h3>17</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles14" draggable="true" ondragstart="drag(event)" >
+<h3>42</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles15" draggable="true" ondragstart="drag(event)" >
+<h3>20</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles16" draggable="true" ondragstart="drag(event)" >
+<h3>41</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles17" draggable="true" ondragstart="drag(event)" >
+<h3>68</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles18" draggable="true" ondragstart="drag(event)" >
+<h3>85</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles19" draggable="true" ondragstart="drag(event)" >
+<h3>14</h3>
+</div>
+</div>
+
+<div class="tiles" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div id="number-tiles20" draggable="true" ondragstart="drag(event)" >
+<h3>29</h3>
+</div>
+</div>
+
+
+
+
+</div> <!-- end number tiles container -->
+
+</div> <!-- end number tiles outer -->
+
+
+
+</div> <!-- end odd even main -->
+</div> <!-- End of centerDoc -->
+</main>
+<div id="footer"></div>
+<div id="footer-placeholder"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+$(function(){
+  $("#header-placeholder").load("header.html");
+});
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<script src="odd-and-even-numbers-sort.js"></script>
+</body>
+</html>
