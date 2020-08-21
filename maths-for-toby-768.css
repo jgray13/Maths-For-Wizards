@@ -1133,7 +1133,8 @@ margin: 0 5% 0 0;
 }
 /* odd and even numbers */
 #odd-even-section {
-	margin: 20px auto 200px;
+	margin: 20px auto 100px;
+	padding: 30px 0 60px;
 }
 .oddEvenButton {
 	font-size: 13px;

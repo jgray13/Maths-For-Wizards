@@ -1018,7 +1018,8 @@ margin: 0 auto;
 /* odd and even numbers */
 #odd-even-section {
 	width: 90%;
-	margin: 20px auto 200px;
+	margin: 20px auto 100px;
+	padding: 30px 0 60px;
 }
 .oddEvenButton {
 	font-size: 11px;

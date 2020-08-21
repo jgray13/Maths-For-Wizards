@@ -1060,7 +1060,7 @@ margin: 0 3% 0 0;
 }
 /* odd and even numbers */
 #odd-even-section {
-	margin: 20px auto 200px;
+	padding: 30px 0 60px;
 }
 #odd-even-num {
 	font-size: 20px;
