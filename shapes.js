@@ -12,7 +12,6 @@ function notSquareFunc() {
 		document.getElementById("tickcontainerOne").style.display = 'none';
 	}
 }
-
 function recFunc() {
 	if ( document.getElementById("rec3").checked) {
 		document.getElementById("tickcontainerTwo").style.display = 'flex';
@@ -27,7 +26,6 @@ function notRecFunc() {
 		document.getElementById("tickcontainerTwo").style.display = 'none';
 	}
 }
-
 function circleFunc() {
 	if ( document.getElementById("circ3").checked) {
 		document.getElementById("tickcontainerThree").style.display = 'flex';
@@ -42,7 +40,6 @@ function notCircleFunc() {
 		document.getElementById("tickcontainerThree").style.display = 'none';
 	}
 }
-
 function triFunc() {
 	if ( document.getElementById("tri2").checked) {
 		document.getElementById("tickcontainerFour").style.display = 'flex';
@@ -57,7 +54,6 @@ function notTriFunc() {
 		document.getElementById("tickcontainerFour").style.display = 'none';
 	}
 }
-
 function heartFunc() {
 	if ( document.getElementById("heart2").checked) {
 		document.getElementById("tickcontainerFive").style.display = 'flex';
@@ -72,7 +68,6 @@ function notHeartFunc() {
 		document.getElementById("tickcontainerFive").style.display = 'none';
 	}
 }
-
 function ovalFunc() {
 	if ( document.getElementById("oval2").checked) {
 		document.getElementById("tickcontainerSix").style.display = 'flex';
@@ -87,7 +82,6 @@ function notOvalFunc() {
 		document.getElementById("tickcontainerSix").style.display = 'none';
 	}
 }
-
 function kiteFunc() {
 	if ( document.getElementById("kite1").checked) {
 		document.getElementById("tickcontainerSev").style.display = 'flex';
@@ -102,7 +96,6 @@ function notKiteFunc() {
 		document.getElementById("tickcontainerSev").style.display = 'none';
 	}
 }
-
 function starFunc() {
 	if ( document.getElementById("star2").checked) {
 		document.getElementById("tickcontainerEight").style.display = 'flex';
