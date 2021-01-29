@@ -9,19 +9,16 @@
 <link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
 <link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
 <script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 </head>
 <body>
-<div id="header"></div>
 <div id="header-placeholder"></div>
-<div id="nav"></div>
 <div id="nav-placeholder"></div>
 <main>
 <div id="centerDoc">
 <form name="hunred-board-form" id="hundred-board-form">
-
 <h1>The one hundred square</h1>
 <h4>Fill in the blank numbers to complete the one hundred square</h4>
-
 <div id="hundred-board">
 <div class="hundred-number">
 <p>1</p>
@@ -343,7 +340,6 @@
 <div class="hundred-number">
 <p>100</p>
 </div>
-
 </div> <!-- end hundred board -->
 
 <div id="sub-hundred-container">
@@ -354,16 +350,13 @@
 -->
 <div id="message-hundred-container">
 <div id="message-hundred">
-
 </div>
 </div>
 
 </form>
 </div> <!-- End of centerDoc -->
 </main>
-<div id="footer"></div>
 <div id="footer-placeholder"></div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script>
 $(function(){
   $("#nav-placeholder").load("nav.html");
