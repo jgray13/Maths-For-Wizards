@@ -137,23 +137,17 @@ var refresh = document.getElementById("refresh-button");
 refresh.onclick = function() {
 	window.location.reload();
 }
-
 // clear input
 /*
 rollButton.onclick = function() {
 	if (dice1 !== 
 }
-
-
-
 	document.getElementById("output1").value = '';
 	document.getElementById("output2").value = '';
 */
 /*
 Math.floor((Math.random()*highest_number)+lowest_number)
-
 above code processed in this order:
-
 1   Math.random() * highest_number
 2   Add lowest number
 3   Round down ( with Math.floor ) the result of steps 1 and 2
