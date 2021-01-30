@@ -9,7 +9,6 @@ document.getElementById("tickcontainerNumberLines1").style.display = "flex";
 document.getElementById("tickcontainerNumberLines1").style.display = "none";
 }
 };
-
 function numLineTwo() {
 var resultOne = '13';
 var userInputOne = document.getElementById("num-line-2").value;
@@ -21,7 +20,6 @@ document.getElementById("tickcontainerNumberLines2").style.display = "flex";
 document.getElementById("tickcontainerNumberLines2").style.display = "none";
 }
 };
-
 function numLineThree() {
 var resultOne = '25';
 var userInputOne = document.getElementById("num-line-3").value;
@@ -33,7 +31,6 @@ document.getElementById("tickcontainerNumberLines3").style.display = "flex";
 document.getElementById("tickcontainerNumberLines3").style.display = "none";
 }
 };
-
 function numLineFour() {
 var resultOne = '41';
 var userInputOne = document.getElementById("num-line-4").value;
@@ -45,7 +42,6 @@ document.getElementById("tickcontainerNumberLines4").style.display = "flex";
 document.getElementById("tickcontainerNumberLines4").style.display = "none";
 }
 };
-
 function numLineFive() {
 var resultOne = '51';
 var userInputOne = document.getElementById("num-line-5").value;
@@ -57,7 +53,6 @@ document.getElementById("tickcontainerNumberLines5").style.display = "flex";
 document.getElementById("tickcontainerNumberLines5").style.display = "none";
 }
 };
-
 function numLineSix() {
 var resultOne = '63';
 var userInputOne = document.getElementById("num-line-6").value;
@@ -69,7 +64,6 @@ document.getElementById("tickcontainerNumberLines6").style.display = "flex";
 document.getElementById("tickcontainerNumberLines6").style.display = "none";
 }
 };
-
 function numLineSeven() {
 var resultOne = '75';
 var userInputOne = document.getElementById("num-line-7").value;
@@ -81,7 +75,6 @@ document.getElementById("tickcontainerNumberLines7").style.display = "flex";
 document.getElementById("tickcontainerNumberLines7").style.display = "none";
 }
 };
-
 function numLineEight() {
 var resultOne = '87';
 var userInputOne = document.getElementById("num-line-8").value;
@@ -93,7 +86,6 @@ document.getElementById("tickcontainerNumberLines8").style.display = "flex";
 document.getElementById("tickcontainerNumberLines8").style.display = "none";
 }
 };
-
 function numLineNine() {
 var resultOne = '99';
 var userInputOne = document.getElementById("num-line-9").value;
