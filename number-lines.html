@@ -9,23 +9,19 @@
 <link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
 <link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
 <script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 </head>
 <body>
-<div id="header"></div>
 <div id="header-placeholder"></div>
-<div id="nav"></div>
 <div id="nav-placeholder"></div>
 <main>
 <div id="centerDoc">
-
 <form name="number-line-form" id="number-line-form">
 <h1>Number Lines</h1>
 <h4>Fill in the blank numbers to complete the number lines</h4>
-
 <div class="number-line-container">
 <div class="nl-inner-container">
 <div class="number-line">
-
 <div class="number">
 <p>0</p>
 </div>
@@ -38,13 +34,11 @@
 <div class="number">
 <p>3</p>
 </div>
-
 <div class="ansboxes-number-line">
 <label for="num-line-1"></label>
 <input type="number" id="num-line-1" min="0" max="99" onkeyup="numLineOne()">
 <p></p>
 </div>
-
 <div class="number">
 <p>5</p>
 </div>
@@ -95,7 +89,6 @@
 <div class="number-line-container">
 <div class="nl-inner-container">
 <div class="number-line-two">
-
 <div class="number">
 <p>12</p>
 </div>
@@ -158,7 +151,6 @@
 <div class="number-line-container">
 <div class="nl-inner-container">
 <div class="number-line">
-
 <div class="number">
 <p>24</p>
 </div>
@@ -221,7 +213,6 @@
 <div class="number-line-container">
 <div class="nl-inner-container">
 <div class="number-line-two">
-
 <div class="number">
 <p>36</p>
 </div>
@@ -284,7 +275,6 @@
 <div class="number-line-container">
 <div class="nl-inner-container">
 <div class="number-line">
-
 <div class="number">
 <p>48</p>
 </div>
@@ -347,7 +337,6 @@
 <div class="number-line-container">
 <div class="nl-inner-container">
 <div class="number-line-two">
-
 <div class="number">
 <p>60</p>
 </div>
@@ -410,7 +399,6 @@
 <div class="number-line-container">
 <div class="nl-inner-container">
 <div class="number-line">
-
 <div class="number">
 <p>72</p>
 </div>
@@ -473,7 +461,6 @@
 <div class="number-line-container">
 <div class="nl-inner-container">
 <div class="number-line-two">
-
 <div class="number">
 <p>84</p>
 </div>
@@ -536,7 +523,6 @@
 <div class="number-line-container">
 <div class="nl-inner-container">
 <div class="number-line">
-
 <div class="number">
 <p>96</p>
 </div>
@@ -597,12 +583,9 @@
 </div> <!-- end number line container -->
 
 </form>
-
 </div> <!-- End of centerDoc -->
 </main>
-<div id="footer"></div>
 <div id="footer-placeholder"></div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script>
 $(function(){
   $("#nav-placeholder").load("nav.html");
