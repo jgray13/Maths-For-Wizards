@@ -9,7 +9,6 @@ document.getElementById("tickcontainerNumberLines2-1").style.display = "flex";
 	document.getElementById("tickcontainerNumberLines2-1").style.display = "none";
 }
 };
-
 function numLineTwo() {
 var resultOne = '77';
 var userInputOne = document.getElementById("num-line2-2").value;
@@ -21,7 +20,6 @@ document.getElementById("tickcontainerNumberLines2-2").style.display = "flex";
 	document.getElementById("tickcontainerNumberLines2-2").style.display = "none";
 }
 };
-
 function numLineThree() {
 var resultOne = '50';
 var userInputOne = document.getElementById("num-line2-3").value;
@@ -33,7 +31,6 @@ document.getElementById("tickcontainerNumberLines2-3").style.display = "flex";
 	document.getElementById("tickcontainerNumberLines2-3").style.display = "none";
 }
 };
-
 function numLineFour() {
 var resultOne = '90';
 var userInputOne = document.getElementById("num-line2-4").value;
@@ -45,7 +42,6 @@ document.getElementById("tickcontainerNumberLines2-4").style.display = "flex";
 	document.getElementById("tickcontainerNumberLines2-4").style.display = "none";
 }
 };
-
 function numLineFive() {
 var resultOne = '95';
 var userInputOne = document.getElementById("num-line2-5").value;
