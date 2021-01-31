@@ -1,6 +1,5 @@
 //  +1
 var globalRandomOne;
-
 function randomMoreOne(min, max) {
  var randomNumberOne = Math.floor(Math.random() * (max - min)) + min;
  document.getElementById("random-more-number-line").innerHTML = randomNumberOne;
@@ -36,7 +35,6 @@ function clearInput() {
 	document.getElementById("more-num-line-5").value = '';
 	document.getElementById("tickcontainerRNumberLines1").style.display = "none";
 }
-
 //   +10
 var globalRandomTwo;
 function randomMoreTwo(min, max) {
@@ -72,11 +70,9 @@ function clearInputTen() {
 	document.getElementById("more-num-line-8").value = '';
 	document.getElementById("more-num-line-9").value = '';
 	document.getElementById("tickcontainerRNumberLines2").style.display = "none";
-}	
-	
+}
 //    +2
 var globalRandomThree;
-
 function randomMoreThree(min, max) {
  var randomNumberOne = Math.floor(Math.random() * (max - min)) + min;
  document.getElementById("random-more-number-lineThree").innerHTML = randomNumberOne;
