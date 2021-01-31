@@ -9,15 +9,13 @@
 <link rel="stylesheet" media="screen and (min-device-width: 551px) and (max-device-width: 768px)" href="maths-for-toby-768.css"> <!-- mobile landscape, small tablet portrait -->
 <link rel="stylesheet" media="screen and (min-device-width: 769px) and (max-device-width: 1113px)" href="maths-for-toby-1113.css"> <!-- tablet -->
 <script src="https://kit.fontawesome.com/3db8dae54f.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 </head>
 <body>
-<div id="header"></div>
 <div id="header-placeholder"></div>
-<div id="nav"></div>
 <div id="nav-placeholder"></div>
 <main>
 <div id="centerDoc">
-
 <form name="randomsums" id="randomsums">
 <h1>Random Sums</h1>
 <div id="number-line-20-random">
@@ -30,7 +28,6 @@
 </div>
 <div class="random-sums-main">
 
-
 <div class="addition-sum-random-container">
 <h3>Addition</h3>
 <div class="addition-sum-random">
@@ -40,7 +37,6 @@
 <div class="random-inner-bottom">
 </div>
 </div>
-
 <div class="random-boxes">
 <div class="random-inner">
 <p> + </p>
@@ -48,7 +44,6 @@
 <div class="random-inner-bottom">
 </div>
 </div>
-
 <div class="random-boxes">
 <div id="random-inner-two">
 </div>
@@ -59,7 +54,6 @@
 -->
 </div>
 </div>
-
 <div class="random-boxes">
 <div class="random-inner">
 <p> = </p>
@@ -67,7 +61,6 @@
 <div class="random-inner-bottom">
 </div>
 </div>
-
 <div class="random-boxes">
 <div class="random-inner">
 <label for="randomNumAnsOne"></label>
@@ -79,8 +72,6 @@ Enter the answer here
 </p>-->
 </div>
 </div>
-
-
 <div class="tickboxes-random">
 <div id="tickcontainerRandomOne">
 <div class="tickbg">
@@ -90,7 +81,6 @@ Enter the answer here
 </div>
 </div>
 
-
 </div>   <!-- end addition sum -->
 <!--<div id="message-1-random">
 <p>
@@ -99,22 +89,17 @@ Well done!
 </div>-->
 </div> <!-- end addition sum container -->
 
-
-
 <!--
 minus sum-->
-
 <div class="subtraction-sum-random-container">
 <h3>Subtraction</h3>
 <div class="addition-sum-random">
-
 <div class="random-boxes">
 <div id="random-inner-three">
 </div>
 <div class="random-inner-bottom">
 </div>
 </div>
-
 <div class="random-boxes">
 <div class="random-inner-minus">
 <p> _ </p>
@@ -122,7 +107,6 @@ minus sum-->
 <div class="random-inner-bottom">
 </div>
 </div>
-
 <div class="random-boxes">
 <div id="random-inner-four">
 </div>
@@ -133,7 +117,6 @@ minus sum-->
 -->
 </div>
 </div>
-
 <div class="random-boxes">
 <div class="random-inner">
 <p> = </p>
@@ -141,7 +124,6 @@ minus sum-->
 <div class="random-inner-bottom">
 </div>
 </div>
-
 <div class="random-boxes">
 <div class="random-inner">
 <label for="randomNumAnsTwo"></label>
@@ -153,7 +135,6 @@ Enter the answer here
 </p>-->
 </div>
 </div>
-
 <div class="tickboxes-random">
 <div id="tickcontainerRandomTwo">
 <div class="tickbg">
@@ -162,21 +143,15 @@ Enter the answer here
 </div>    
 </div>
 </div>
-
-
 </div>   <!-- end addition sum -->
 </div> <!-- end addition sum container -->
 <!--<div id="message-2-random">
 </div>-->
-
 </div> <!-- end sums main -->
-
 </form>
 </div> <!-- End of centerDoc -->
 </main>
-<div id="footer"></div>
 <div id="footer-placeholder"></div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script>
 $(function(){
   $("#nav-placeholder").load("nav.html");
