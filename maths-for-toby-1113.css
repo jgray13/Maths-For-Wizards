@@ -196,7 +196,7 @@ footer li {
 }
 form {
 	width: 80%;
-	padding: 0 0 50px;
+	padding: 0;
 }
 input[type=number] {
 width: 36px;

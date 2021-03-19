@@ -252,7 +252,7 @@ footer li {
 }
 form {
 	width: 80%;
-	padding: 0 0 50px;
+	padding: 0;
 }
 /* sums to ten */
 input[type=number] {
