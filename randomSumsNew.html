@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random sums</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="maths-for-toby-sums-to-ten.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<main>
+<div id="centerDoc">
+
+<form name="randomsums-new" id="randomsums-new" onsubmit="return false">
+<h2></h2>
+<div id="number-line-20-random-new">
+<p>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+</p>
+</div>
+
+<div class="sums-main">
+
+<div class="addition-sum-random">
+
+<div class="random-boxes">
+<div id="random-inner-one-new">
+</div>
+<div class="random-inner-bottom">
+<button id="random-num1-new" min="0" max="9" onclick="randomNumOneNew(0,10);  return false;">Click here</button>
+</div>
+</div>
+
+<div class="random-boxes">
+<div class="random-inner">
+<p> + </p>
+</div>
+<div class="random-inner-bottom">
+</div>
+</div>
+
+<div class="random-boxes">
+<div id="random-inner-two-new">
+</div>
+<div class="random-inner-bottom">
+<button id="random-num2-new" min="0" max="9" onclick="randomNumTwoNew(0,10);  return false;">Click here</button>
+</div>
+</div>
+
+<div class="random-boxes">
+<div class="random-inner">
+<p> = </p>
+</div>
+<div class="random-inner-bottom">
+</div>
+</div>
+
+<div class="random-boxes">
+<div class="random-inner">
+<label for="randomNumAnsOne"></label>
+<input type ="number" id="randomNumAnsOne-new" min="0" max="99">
+</div>
+<div class="random-inner-bottom">
+<!--<p class="smallFont">
+Enter the answer here
+</p>-->
+</div>
+</div>
+
+<div class="sub">
+<label for="sub-one"></label>
+<input type="submit" id="sub-one" onclick="randomSub()">
+</div>
+
+</div>   <!-- end addition sum -->
+<div id="message-1-random-new">
+</div>
+
+
+</div> <!-- end sums main -->
+
+
+</form>
+</div> <!-- End of centerDoc -->
+</main>
+<script language="javascript" type="text/javascript" src="nav.txt"></script>
+<script language="javascript" type="text/javascript" src="header.txt"></script>
+<script language="javascript" type="text/javascript" src="footer.txt"></script>
+<script src="randomSumsNew.js"></script>
+</body>
+</html>

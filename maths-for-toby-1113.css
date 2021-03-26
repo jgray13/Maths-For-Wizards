@@ -1,3 +1,6 @@
+html {
+	background-image: url(flash-25.jpg);
+}
 body {
     font-size: 13px;
 }
@@ -30,14 +33,14 @@ h4 {
 	margin: 8px auto;
 }
 #footer-links h4 {
-font-size: 18px;
-text-align: left;
+    font-size: 18px;
+    text-align: left;
 }
 #footer-nav-list h4 {
-font-size: 15px;
-text-align: left;
-width: 90%;
-margin: 10px 10% 5px 0;
+    font-size: 15px;
+    text-align: left;
+    width: 90%;
+    margin: 10px 10% 5px 0;
 }
 footer h4 {
 	margin-bottom: 5px;
@@ -62,9 +65,8 @@ h5 {
 p {
 	width: 80%;
  }
-main {
-    margin: 90px auto 530px;
-    background-image: url(flash-25.jpg);
+#centerDoc {
+    padding: 90px 0 530px;
 }
 nav {
 	height: 90px;
@@ -195,12 +197,11 @@ footer li {
 	width: 30%;
 }
 form {
-	width: 80%;
 	padding: 0;
 }
 input[type=number] {
-width: 36px;
-height: 39px;
+    width: 36px;
+    height: 39px;
 }
 .myForm input[type=number] {
 	font-size: 21px;
@@ -257,31 +258,39 @@ height: 39px;
 	height: 38px;
 	padding: 4px 0;
 }
-.tick {height: 10px;
-       width: 5px;
-       border-width: 0 3px 3px 0;
-        margin-top: -8px;
-        margin-left: -4px;}
-		.tickbg {content:"\00a0";
-         border: solid 12px #00CD00;}
-.tick-small {height: 10px;
-       width: 5px;
-       border: solid #FFFFFF;
-       border-width: 0px 3px 3px 0px;
-       -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-       -o-transform: rotate(45deg);
-       display: block;
-        margin-top: -8px;
-        margin-left: -4px;}
-		.tickbg-small {content:"\00a0";
-         border: solid 12px #00CD00;
-         border-radius: 50%;
-         -moz-border-radius: 30%;
-         -webkit-border-radius: 50%;
-         height: 0;
-         width: 0;
-         display: block;}
+.tick {
+	height: 10px;
+    width: 5px;
+    border-width: 0 3px 3px 0;
+    margin-top: -8px;
+    margin-left: -4px;
+}
+.tickbg {
+	content:"\00a0";
+    border: solid 12px #00CD00;
+}
+.tick-small {
+	height: 10px;
+    width: 5px;
+    border: solid #FFFFFF;
+    border-width: 0px 3px 3px 0px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    display: block;
+    margin-top: -8px;
+    margin-left: -4px;
+}
+.tickbg-small {
+	content:"\00a0";
+    border: solid 12px #00CD00;
+    border-radius: 50%;
+    -moz-border-radius: 30%;
+    -webkit-border-radius: 50%;
+    height: 0;
+    width: 0;
+    display: block;
+}
 #tickcontainerOne {
 	padding: 0;
 }
@@ -374,8 +383,8 @@ height: 39px;
 	padding: 0;
 }
 input[type=number] {
-width: 27px;
-height: 28px;
+    width: 27px;
+    height: 28px;
 }		 
 #number-line-form {
 	width: 80%;
@@ -383,7 +392,7 @@ height: 28px;
 }
 /*  number lines  */
 #number-line-form input[type=number] {
-font-size: 14px;
+    font-size: 14px;
 	padding: 0;
 	width: 24px;
     height: 22px;
@@ -487,8 +496,8 @@ font-size: 14px;
 }
 /*hundred board */
 #hundred-board-form input[type=number] {
-font-size: 16px;
-padding: 2px 0 1px;
+    font-size: 16px;
+    padding: 2px 0 1px;
 }
 #hundred-board {
 	width: 65%;
@@ -518,19 +527,19 @@ padding: 2px 0 1px;
     height: 60px;
 }
  /* random sums */
-  #randomsums input[type=number] {
+#randomsums input[type=number] {
 	font-size: 19px;
 	margin: 0;
 	padding: 0;
 }
-  #randomsums button {
+#randomsums button {
 	font-size: 10px;
 	padding: 3px 2px;
 }
 #randomsums input[type=submit] {
 	font-size: 14px;
 } /*  ??  */
- #number-line-20-random {
+#number-line-20-random {
 	font-size: 13px;
 	word-spacing: 7px;
 	margin: 0 auto;
@@ -594,8 +603,8 @@ padding: 2px 0 1px;
 	align-items: center;
 }
 .random-boxes-num {
-		border: 2px solid #bbbbbb;
-		font-size: 22px;
+	border: 2px solid #bbbbbb;
+	font-size: 22px;
 }  /* ?? */
 #random-num1 {
 	display: block;
@@ -825,22 +834,22 @@ number bonds from ten*/
     bottom: 5px;
 }
 #tickcontainerRNumberLines1 {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
     flex-basis: 2%;
     position: relative;
     bottom: 15px;
 }       /*    +1    */
 #tickcontainerRNumberLines2 {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
     flex-basis: 2%;
     position: relative;
     bottom: 15px;
 }     /*   +10    */
 #tickcontainerRNumberLines3 {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
     flex-basis: 2%;
     position: relative;
     bottom: 15px;
@@ -961,63 +970,62 @@ padding: 0;
 	font-size: 15px;
 }
 #square {
-width: 55px;
-height: 55px;
-margin: 0 3% 0 0;
+    width: 55px;
+    height: 55px;
+    margin: 0 3% 0 0;
 }
 #rectangle {
-width: 80px;
-height: 40px;
-margin: 0 3% 0 0;
+    width: 80px;
+    height: 40px;
+    margin: 0 3% 0 0;
 }
 #circle {
-width: 65px;
-height: 65px;
-margin: 0 3% 0 0;
+    width: 65px;
+    height: 65px;
+    margin: 0 3% 0 0;
 }
 #triangle {
-	  margin: 0 3% 0 0;
-      border-left: 35px solid transparent;
-      border-right: 35px solid transparent;
-      border-bottom: 70px solid yellow;	
+	margin: 0 3% 0 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid yellow;	
 }
-    #heart {
-      width: 55px;
-      height: 60px;
-	  right: 28px;
-	  bottom: 15px;
-    }
-    #heart:before,
-    #heart:after {
-      left: 40px;
-      top: 15px;
-      width: 40px;
-      height: 62px;
-    }
-    #heart:after {
-      left: 0;
-    }
-   #oval {
-      width: 93px;
-      height: 37px;
-	  margin: 0 3% 0 0;
-      border-radius: 75px / 30px; 
-   }
-    #diamond {
-	  margin: 0;
-      border: 25px solid transparent;
-      border-bottom: 35px solid cyan;
-      top: -30px;
-    }
-    #diamond:after {
-      left: -25px;
-      top: 34px;
-      border: 25px solid transparent;
-      border-top: 35px solid cyan;
-    }
+#heart {
+    width: 55px;
+    height: 60px;
+	right: 28px;
+	bottom: 15px;
+}
+#heart:before,
+#heart:after {
+    left: 40px;
+    top: 15px;
+    width: 40px;
+    height: 62px;
+}
+#heart:after {
+    left: 0;
+}
+#oval {
+    width: 93px;
+    height: 37px;
+	margin: 0 3% 0 0;
+    border-radius: 75px / 30px; 
+}
+#diamond {
+	margin: 0;
+    border: 25px solid transparent;
+    border-bottom: 35px solid cyan;
+    top: -30px;
+}
+#diamond:after {
+    left: -25px;
+    top: 34px;
+    border: 25px solid transparent;
+    border-top: 35px solid cyan;
+}
 .shape-section-star {
 	display: none;
-
 }
 /* dice */
 #container-dice {
@@ -1075,184 +1083,184 @@ margin: 0 3% 0 0;
 
 /* media queries  */
 @media only screen and (min-width: 800px) {	
-.sums-main {
-    width: 60%;
-}
-.rnl-inner-container {
-    flex-basis: 70%;
-    padding: 0 12% 0 18%;
-}
-.line-more {
-    margin: 14px 24% 0;
-    flex-basis: 52%;
-}
-#number-line-form input[type=number] {
-font-size: 14px;
-	padding: 0;
-	width: 24px;
-    height: 22px;
-}
+    .sums-main {
+        width: 60%;
+    }
+    .rnl-inner-container {
+        flex-basis: 70%;
+        padding: 0 12% 0 18%;
+    }
+    .line-more {
+        margin: 14px 24% 0;
+        flex-basis: 52%;
+    }
+    #number-line-form input[type=number] {
+        font-size: 14px;
+	    padding: 0;
+	    width: 24px;
+        height: 22px;
+    }
 }
 @media only screen and (min-width: 850px) {	
-.sums-main {
-    width: 57%;
-}
-.rnl-inner-container {
-    flex-basis: 66%;
-    padding: 0 14% 0 20%;
-}
-.line-more {
-    margin: 14px 25% 0 26%;
-    flex-basis: 49%;
-}
-#hundred-board {
-    width: 60%;
-}
-.counting-container {
-    width: 90%;
-}
-#random-headings {
-    width: 80%;
-}
-#footer-nav-list-container {
-    width: 97%;
-}
-#footer-nav-list h4 {
-    font-size: 13px;
-}
-footer li {
-    font-size: 12px;
-}
-#nav-accordion {
-    flex-basis: 94%;
-}
+    .sums-main {
+        width: 57%;
+    }
+    .rnl-inner-container {
+        flex-basis: 66%;
+        padding: 0 14% 0 20%;
+    }
+    .line-more {
+        margin: 14px 25% 0 26%;
+        flex-basis: 49%;
+    }
+    #hundred-board {
+        width: 60%;
+    }
+    .counting-container {
+        width: 90%;
+    }
+    #random-headings {
+        width: 80%;
+    }
+    #footer-nav-list-container {
+        width: 97%;
+    }
+    #footer-nav-list h4 {
+        font-size: 13px;
+    }
+    footer li {
+        font-size: 12px;
+    }
+    #nav-accordion {
+        flex-basis: 94%;
+    }
 }
 @media only screen and (min-width: 900px) {
-.sums-main {
-    width: 54%;
-}
-#hundred-board {
-    width: 56%;
-}
-.number-line-more {
-    flex-basis: 80%;
-}
-.number-line-two-more {
-    flex-basis: 80%;
-}
-.rnl-inner-container {
-    flex-basis: 70%;
-    padding: 0 12% 0 18%;
-}
-.random-sums-main {
-    width: 80%;
-}
-.addition-sum-random {
-    flex-basis: 63%;
-    padding: 0 15% 20px 22%;
-}
-#nav-accordion {
-    flex-basis: 90%;
-}
-#nav-accordion ul {
-    margin: 0 0 0 5%;
-}
+    .sums-main {
+        width: 54%;
+    }
+    #hundred-board {
+        width: 56%;
+    }
+    .number-line-more {
+        flex-basis: 80%;
+    }
+    .number-line-two-more {
+        flex-basis: 80%;
+    }
+    .rnl-inner-container {
+        flex-basis: 70%;
+        padding: 0 12% 0 18%;
+    }
+    .random-sums-main {
+        width: 80%;
+    }
+    .addition-sum-random {
+        flex-basis: 63%;
+        padding: 0 15% 20px 22%;
+    }
+    #nav-accordion {
+        flex-basis: 90%;
+    }
+    #nav-accordion ul {
+        margin: 0 0 0 5%;
+    }
 }
 @media only screen and (min-width: 950px) {	
-.sums-main {
-    width: 50%;
-}
-.rnl-inner-container {
-    flex-basis: 66%;
-    padding: 0 15% 0 19%;
-}
-.line-more {
-    margin: 14px 27% 0 28%;
-    flex-basis: 45%;
-}
-.counting-container {
-    width: 80%;
-}
-#random-headings {
-    width: 75%;
-}
-#hundred-board {
-    width: 54%;
-}
-#footer-nav-list h4 {
-    font-size: 14px;
-}
-footer li {
-    font-size: 13px;
-}
-#footer-nav-list-container {
-    width: 95%;
-}
-#output-container {
-    width: 80%;
-}
+    .sums-main {
+        width: 50%;
+    }
+    .rnl-inner-container {
+        flex-basis: 66%;
+        padding: 0 15% 0 19%;
+    }
+    .line-more {
+        margin: 14px 27% 0 28%;
+        flex-basis: 45%;
+    }
+    .counting-container {
+        width: 80%;
+    }
+    #random-headings {
+        width: 75%;
+    }
+    #hundred-board {
+        width: 54%;
+    }
+    #footer-nav-list h4 {
+        font-size: 14px;
+    }
+    footer li {
+        font-size: 13px;
+    }
+    #footer-nav-list-container {
+        width: 95%;
+    }
+    #output-container {
+        width: 80%;
+    }
 }
 @media only screen and (min-width: 1000px) {
-.number-line-more {
-    flex-basis: 65%;
-}
-.number-line-two-more {
-    flex-basis: 65%;
-}
-.more-lines-button button {
-    width: 170%;
-}
-.more-lines-button {
-    right: 15px;
-}
-.rnl-inner-container {
-    flex-basis: 82%;
-    padding: 0 7% 0 11%;
-}
-.random-sums-main {
-    width: 70%;
-}
-#nav-list-outer {
-    width: 90%;
-}
-#message-hundred {
-    width: 22%;
-}
-#hundred-board {
-    width: 52%;
-}
-#footer-nav-list-container {
-    width: 92%;
-}
-#nav-accordion {
-    flex-basis: 84%;
-}
-#nav-accordion ul {
-    margin: 0 0 0 7%;
-}
-.shape-border {
-	width: 35%;
-}
-.shape-section {
-	width: 55%;
-}
+    .number-line-more {
+        flex-basis: 65%;
+    }
+    .number-line-two-more {
+        flex-basis: 65%;
+    }
+    .more-lines-button button {
+        width: 170%;
+    }
+    .more-lines-button {
+        right: 15px;
+    }
+    .rnl-inner-container {
+        flex-basis: 82%;
+        padding: 0 7% 0 11%;
+    }
+    .random-sums-main {
+        width: 70%;
+    }
+    #nav-list-outer {
+        width: 90%;
+    }
+    #message-hundred {
+        width: 22%;
+    }
+    #hundred-board {
+        width: 52%;
+    }
+    #footer-nav-list-container {
+        width: 92%;
+    }
+    #nav-accordion {
+        flex-basis: 84%;
+    }
+    #nav-accordion ul {
+        margin: 0 0 0 7%;
+    }
+    .shape-border {
+	    width: 35%;
+    }
+    .shape-section {
+	    width: 55%;
+    }
 }
 @media only screen and (min-width: 1050px) {	
-.sums-main {
-    width: 45%;
-}
-.line-more {
-    margin: 14px 29% 0 30%;
-    flex-basis: 41%;
-}
-#hundred-board {
-    width: 50%;
-}
-.counting-container {
-    width: 75%;
-}
-#nav-accordion {
-    flex-basis: 80%;
-	margin: 21px 10% 0;
-}
+    .sums-main {
+        width: 45%;
+    }
+    .line-more {
+        margin: 14px 29% 0 30%;
+        flex-basis: 41%;
+    }
+    #hundred-board {
+        width: 50%;
+    }
+    .counting-container {
+        width: 75%;
+    }
+    #nav-accordion {
+        flex-basis: 80%;
+	    margin: 21px 10% 0;
+    }
 }
