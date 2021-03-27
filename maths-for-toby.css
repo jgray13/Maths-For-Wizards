@@ -379,6 +379,7 @@ nav a:hover {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	-webkit-tap-highlight-color: transparent;
 }
 .panel {
     width: 100%;
