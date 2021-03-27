@@ -128,25 +128,29 @@ h5 {
 	margin: 10px auto;
 }
 p {
-  width: 70%;
-  margin: 0 auto;
+    width: 70%;
+    margin: 0 auto;
  }
 a:link {
-  color: #e80b0b;
-  text-decoration: underline;
-  padding: 3px;
-}   
-a:visited {
-color: #e80b0b;
-	}   
-a:hover { 
-color: #ffff00;
+    color: #e80b0b;
     text-decoration: underline;
-	padding: 3px;	
+    padding: 3px;
+	-webkit-tap-highlight-color: transparent;
+}
+a:visited {
+    color: #e80b0b;
+	-webkit-tap-highlight-color: transparent;
+}   
+a:hover { 
+    color: #ffff00;
+    text-decoration: underline;
+	padding: 3px;
+	-webkit-tap-highlight-color: transparent;
  } 
 a:active { 
-  color: #e80b0b;
-  font-weight: bold;
+    color: #e80b0b;
+    font-weight: bold;
+  	-webkit-tap-highlight-color: transparent;
 }
 ul {
 	list-style-type: none;
