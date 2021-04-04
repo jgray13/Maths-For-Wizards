@@ -756,9 +756,6 @@ input[type=number] {
 	padding: 0;
 }
 /*   random number lines */
-#more-number-line-form {
-	padding-bottom: 30px;
-}
 #more-number-line-form input[type=number] {
     font-size: 13px;
 	height: 28px;
@@ -794,7 +791,7 @@ input[type=number] {
 }
 .more-lines-button button {
     font-size: 9px;
-	width: 200%;
+    width: 250%;
 }
 .more-lines-button {
     position: relative;
@@ -1110,10 +1107,6 @@ input[type=number] {
     }
 }
 @media only screen and (max-width: 360px) {
-    .more-lines-button button {
-        font-size: 9px;
-        width: 250%;
-    }
     #output1 {
         padding: 5px 0;
     }
@@ -1325,12 +1318,12 @@ input[type=number] {
         flex-basis: 74%;
     }
     .number-line {
-        flex-basis: 82%;
-	    padding: 10px 3% 10px 15%;
+        flex-basis: 84%;
+	    padding: 10px 3% 10px 13%;
     }
     .number-line-two {
-        flex-basis: 82%;
-	    padding: 10px 3% 10px 15%;
+        flex-basis: 84%;
+	    padding: 10px 3% 10px 13%;
     }
     #number-line-form input[type=number] {
         font-size: 11px;
@@ -1402,12 +1395,6 @@ input[type=number] {
     .more-number-line-two {
         flex-basis: 78%;
 	    padding: 0 5% 0 17%;
-    }
-    .more-lines-button button {
-        width: 170%;
-    }
-    .more-lines-button {
-        right: 12px;
     }
 }
 @media only screen and (min-width: 500px) {

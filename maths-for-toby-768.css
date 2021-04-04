@@ -444,10 +444,6 @@ input[type=number] {
     height: 28px;
 }
 /*  number lines  */
-#number-line-form {
-	width: 80%;
-	margin: 0 10%;
-}
 #number-line-form input[type=number] {
     font-size: 13px;
 	padding: 0;

@@ -1679,6 +1679,7 @@ hundred board */
 	font-size: 20px;
 	margin: 0 0 0 4%;
 	flex-basis: 36%;
+	padding: 10px 0;
 } 
 .shape-message {
 	margin: 0;
@@ -3181,6 +3182,11 @@ hundred board */
         width: 70%;
     }
 }
+@media only screen and (min-width: 1231px) {
+	#odd-even-num {
+		padding: 25px 10px;;
+	}
+}
 @media only screen and (min-width: 1114px) and (max-device-width: 1270px) {
     #footer-nav-list-container {
         width: 99%;
@@ -3271,6 +3277,9 @@ hundred board */
     #hundred-board {
         width: 60%;
     }
+	#message-hundred {
+		width: 28%;
+	}
 }
 @media only screen and (min-width: 1201px) and (max-device-width: 1365px) {
     #hundred-board {
