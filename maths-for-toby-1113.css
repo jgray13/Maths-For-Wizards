@@ -383,8 +383,8 @@ input[type=number] {
 	padding: 0;
 }
 input[type=number] {
-    width: 27px;
-    height: 28px;
+    width: 36px;
+    height: 37px;
 }
 /*  number lines  */
 #number-line-form input[type=number] {
@@ -1076,12 +1076,8 @@ number bonds from ten*/
     width: 10px;
     height: 10px;
 }
-
 /* media queries  */
-@media only screen and (min-width: 801px) {	
-    .sums-main {
-        width: 60%;
-    }
+@media only screen and (min-width: 801px) {
     .rnl-inner-container {
         flex-basis: 70%;
         padding: 0 12% 0 18%;
@@ -1097,10 +1093,7 @@ number bonds from ten*/
 	    width: 25px;
     }
 }
-@media only screen and (min-width: 850px) {	
-    .sums-main {
-        width: 57%;
-    }
+@media only screen and (min-width: 850px) {
     .rnl-inner-container {
         flex-basis: 66%;
         padding: 0 14% 0 20%;
@@ -1132,9 +1125,6 @@ number bonds from ten*/
     }
 }
 @media only screen and (min-width: 900px) {
-    .sums-main {
-        width: 54%;
-    }
     #hundred-board {
         width: 56%;
     }
@@ -1164,10 +1154,7 @@ number bonds from ten*/
         flex-basis: 80%;
     }
 }
-@media only screen and (min-width: 950px) {	
-    .sums-main {
-        width: 50%;
-    }
+@media only screen and (min-width: 950px) {
     .line-more {
         margin: 14px 27% 0 28%;
         flex-basis: 45%;
@@ -1201,6 +1188,9 @@ number bonds from ten*/
     }
 }
 @media only screen and (min-width: 1000px) {
+	.sums-main {
+		width: 60%;
+	}
     .number-line-more {
         flex-basis: 65%;
     }
@@ -1245,10 +1235,7 @@ number bonds from ten*/
 	    width: 55%;
     }
 }
-@media only screen and (min-width: 1050px) {	
-    .sums-main {
-        width: 45%;
-    }
+@media only screen and (min-width: 1050px) {
     .line-more {
         margin: 14px 29% 0 30%;
         flex-basis: 41%;

@@ -163,7 +163,7 @@ nav li {
 	display: none;
 }
 #navigation li {
-    padding: 2px 0;
+    padding: 3px 0;
 }
 #nav-accordion {
 	flex-basis: 98%;
@@ -171,13 +171,13 @@ nav li {
 	margin: 15px auto 0;
 }
 .nav-accordion-section {
-	font-size: 10px;
+	font-size: 9px;
 }
 .nav-accordion-section-more {
-	font-size: 10px;
+	font-size: 9px;
 }
 .nav-accordion-section-more2 {
-	font-size: 10px;
+	font-size: 9px;
 }
 #nav-accordion h3 {
 	font-size: 10px;
@@ -186,7 +186,7 @@ nav li {
 	margin: 0 0 0 3%;
 }
 #nav-accordion li {
-    padding: 2px 0;
+    padding: 3px 0;
 }
 .accordion {
 	margin: 4px auto 0;
@@ -258,7 +258,7 @@ form {
 /* sums to ten */
 input[type=number] {
     width: 36px;
-    height: 39px;
+    height: 37px;
 }
 .myForm input[type=number] {
 	font-size: 18px;
@@ -304,7 +304,7 @@ input[type=number] {
 .numboxes {
 	padding: 10px 0;
 	flex-basis: 15%;
-	height: 18px;
+	height: 20px;
 }
 .operator {	
 	padding: 10px 0;
@@ -439,10 +439,11 @@ input[type=number] {
 #tickcontainerTwenty20 {
 	padding: 0;
 }
+/*
 input[type=number] {
     width: 27px;
     height: 28px;
-}
+}*/
 /*  number lines  */
 #number-line-form input[type=number] {
     font-size: 13px;
@@ -1175,9 +1176,6 @@ number bonds from ten*/
     .addition-sum {
     	margin: 10px 10%;
     }
-    .sums-main {
-        width: 66%;
-    }
     .rnl-inner-container {
         flex-basis: 77%;
         padding: 0 8% 0 15%;
@@ -1244,12 +1242,12 @@ number bonds from ten*/
         height: 21px;
     }
 }
-@media only screen and (min-width: 650px) {		 
+@media only screen and (min-width: 650px) {
+    .sums-main {
+        width: 70%;
+	}		
     #random-headings {
         width: 78%;
-    }
-    .sums-main {
-        width: 60%;
     }
     .rnl-inner-container {
         flex-basis: 70%;
@@ -1290,10 +1288,7 @@ number bonds from ten*/
         width: 80%;
     }
 }
-@media only screen and (min-width: 690px) {		 
-    .sums-main {
-        width: 56%;
-    }
+@media only screen and (min-width: 690px) {
     .rnl-inner-container {
         flex-basis: 74%;
         padding: 0 14% 0 20%;
@@ -1330,15 +1325,6 @@ number bonds from ten*/
     #nav-accordion h3 {
         font-size: 12px;
     }
-    .nav-accordion-section {
-        font-size: 9px;
-    }
-    .nav-accordion-section-more {
-        font-size: 9px;
-    }
-    .nav-accordion-section-more2 {
-        font-size: 9px;
-    }
     h1 {
 	    margin: 25px auto;
 	    font-size: 45px;
@@ -1348,11 +1334,6 @@ number bonds from ten*/
     }
     #nav-list-inner {
         width: 80%;
-    }
-}
-@media only screen and (min-width: 730px) {		 
-    .sums-main {
-        width: 52%;
     }
 }
 @media only screen and (min-width: 740px) {
