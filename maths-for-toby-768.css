@@ -559,7 +559,7 @@ input[type=number] {
 #hundred-board-form input[type=number] {
     font-size: 14px;
     padding: 0;
-	height: 28px;
+	height: 29px;
 }
 #hundred-board {
 	width: 77%;
@@ -567,7 +567,8 @@ input[type=number] {
 }
 .hundred-number {
 	font-size: 14px;
-	padding: 7px 0 6px;
+	padding: 7px 0;
+	height: 31px;
 }
 #hundred-board-form input[type=button] {
     font-size: 12px;

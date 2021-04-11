@@ -1546,8 +1546,9 @@ hundred board */
     font-size: 23px;
     font-weight: bold;	
     margin: 0;
-    padding: 8px 0 7px;
+    padding: 0;
     width: 100%;
+	height: 44px;
     color: #000;
 }
 #hundred-board-form input[type=button] {
@@ -1578,6 +1579,7 @@ hundred board */
 	font-size: 23px;
 	font-weight: bold;		
 	flex-basis: 10%;
+	height: 46px;
 	padding: 10px 0;
 	margin: 0;
 	border: 1px solid #000;
@@ -3414,5 +3416,11 @@ hundred board */
     }
     .shape-border {
         width: 65%;
+	}
+	#hundred-board {
+		width: 40%;
+	}
+	#message-hundred {
+		width: 18%;
 	}
 }
