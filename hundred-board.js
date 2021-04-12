@@ -180,7 +180,9 @@ hundredTwenty.onkeyup = function() {
 	}
 };
 function hundredSub() {
-	count = correctAnswers.length;
+	var removeDuplicates = new Set(correctAnswers);
+    console.log(removeDuplicates);
+	var count = Array.from(removeDuplicates).length;
     var el = document.getElementById("message-hundred");
     if (count === 0) {
 		el.style.display = "flex";
