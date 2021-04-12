@@ -2897,6 +2897,7 @@ hundred board */
 	display: none;
 }
 #dice6 {
+	display: none;
 }
 #dice7 {
 	display: none;
@@ -2914,6 +2915,7 @@ hundred board */
 	display: none;
 }
 #dice12 {
+	display: none;
 }
 .dice {
 	display: flex;
@@ -3007,7 +3009,7 @@ hundred board */
 	justify-content: center;
 }
 #output-container {
-	display: none;
+	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-content: center;
@@ -3020,15 +3022,14 @@ hundred board */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-basis: 15%;
+	flex-basis: 14%;
 	background-color: #fff;
-	padding: 20px 0;
 }
 #output2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-basis: 15%;
+	flex-basis: 14%;
 	background-color: #fff;
 }
 .operatorD {
@@ -3036,14 +3037,14 @@ hundred board */
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	flex-basis: 15%;
+	flex-basis: 14%;
 	background-color: #fff;
 }
 #answer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-basis: 15%;
+	flex-basis: 14%;
 	background-color: #fff;
 }
 #diceAnswer {
@@ -3365,6 +3366,9 @@ hundred board */
     #odd-even-section {
         width: 60%;
     }
+	#output-container {
+    width: 57%;
+    }
 }
 @media only screen and (min-width: 1700px) {
 	#centerDoc {
@@ -3423,4 +3427,7 @@ hundred board */
 	#message-hundred {
 		width: 18%;
 	}
+	#output-container {
+    width: 53%;
+    }
 }

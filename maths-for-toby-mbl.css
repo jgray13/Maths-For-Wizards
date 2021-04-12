@@ -979,27 +979,26 @@ input[type=number] {
 	height: 10px;
 }
 #output-container {
-    width: 95%;
+    width: 96%;
 	margin: 10px auto;
 	font-size: 15px;
 	flex-wrap: wrap;
 }
 #diceAnswer {
 	font-size: 15px;
-	padding: 8px 0;
+	padding: 4px 0;
 }
 #output1 {
-	flex-basis: 15%;
-	padding: 8px 0;
+	flex-basis: 13%;
 }
 #output2 {
-	flex-basis: 15%;
+	flex-basis: 13%;
 }
 .operatorD {
-	flex-basis: 15%;
+	flex-basis: 13%;
 }
 #answer {
-	flex-basis: 15%;
+	flex-basis: 13%;
 }
 #submit-container {
     margin: 10px 0 0;
@@ -1256,9 +1255,6 @@ input[type=number] {
     .shape-border {
         width: 60%;
     }
-    #container-dice {
-        width: 90%;
-    }
     #odd-even-num {
 	    width: 35%;
     }
@@ -1343,6 +1339,9 @@ input[type=number] {
     #output-container {
         width: 85%;
     }
+	#diceAnswer {
+    padding: 7px 0;
+}
 }
 @media only screen and (min-width: 460px) {
     html {
@@ -1431,7 +1430,7 @@ input[type=number] {
         right: 13px;
     }
     #output-container {
-    	width: 75%;
+    	width: 70%;
     }
     #odd-even-num {
 	    width: 32%;
@@ -1443,8 +1442,5 @@ input[type=number] {
     }
     #nav-list-outer {
         width: 58%;
-    }
-    #output-container {
-    	width: 95%;
     }
 }

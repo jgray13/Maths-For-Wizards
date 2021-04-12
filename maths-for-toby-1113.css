@@ -1050,19 +1050,19 @@ number bonds from ten*/
 }
 #diceAnswer {
     font-size: 21px;
+	padding: 10px 0;
 }
 #output1 {
-	flex-basis: 14%;
-	padding: 13px 0;
+	flex-basis: 13%;
 }
 #output2 {
-	flex-basis: 14%;
+	flex-basis: 13%;
 }
 .operatorD {
-	flex-basis: 14%;
+	flex-basis: 13%;
 }
 #answer {
-	flex-basis: 14%;
+	flex-basis: 13%;
 }
 /* odd and even numbers */
 #odd-even-section {
@@ -1125,6 +1125,9 @@ number bonds from ten*/
     #nav-accordion {
         flex-basis: 94%;
     }
+	#output-container {
+    width: 83%;
+    }
 }
 @media only screen and (min-width: 900px) {
     #hundred-board {
@@ -1180,7 +1183,7 @@ number bonds from ten*/
         width: 95%;
     }
     #output-container {
-        width: 80%;
+        width: 77%;
     }
 }
 @media only screen and (min-width: 956px) {
@@ -1235,6 +1238,9 @@ number bonds from ten*/
     }
     .shape-section {
 	    width: 55%;
+    }
+	#output-container {
+        width: 70%;
     }
 }
 @media only screen and (min-width: 1050px) {

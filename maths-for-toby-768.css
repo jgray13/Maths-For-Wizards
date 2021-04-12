@@ -1124,11 +1124,10 @@ number bonds from ten*/
 }
 #diceAnswer {
 	font-size: 18px;
-	padding: 12px 0;
+	padding: 6px 0;
 }
 #output1 {
 	flex-basis: 13%;
-	padding: 12px 0;
 }
 #output2 {
 	flex-basis: 13%;
@@ -1226,9 +1225,9 @@ number bonds from ten*/
     #nav-list-outer {
         width: 60%;
     }
-    #container-dice {
-        width: 85%;
-    }
+	#output-container {
+    width: 90%;
+}
 }
 @media only screen and (min-width: 620px) {	
     .number-line {
@@ -1337,6 +1336,9 @@ number bonds from ten*/
     #nav-list-inner {
         width: 80%;
     }
+	#diceAnswer {
+    padding: 9px 0;
+}
 }
 @media only screen and (min-width: 740px) {
 	#nav-list-outer {
