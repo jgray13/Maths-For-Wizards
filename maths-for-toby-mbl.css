@@ -516,6 +516,9 @@ input[type=number] {
 	padding: 7px 0;
 	height: 27px;
 }
+.ansboxes-hundred {
+	height: 27px;
+}
 #hundred-board-form input[type=button] {
     font-size: 10px;
 }
