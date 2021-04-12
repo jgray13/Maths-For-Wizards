@@ -7,7 +7,7 @@ hundredOne.onkeyup = function() {
 		correctAnswers.push(inputOne);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredTwo = document.getElementById("hundred-2");
 hundredTwo.onkeyup = function() {
 	var inputTwo = hundredTwo.value;
@@ -16,7 +16,7 @@ hundredTwo.onkeyup = function() {
 		correctAnswers.push(inputTwo);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredThree = document.getElementById("hundred-3");
 hundredThree.onkeyup = function() {
 	var inputThree = hundredThree.value;
@@ -25,7 +25,7 @@ hundredThree.onkeyup = function() {
 		correctAnswers.push(inputThree);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredFour = document.getElementById("hundred-4");
 hundredFour.onkeyup = function() {
 	var inputFour = hundredFour.value;
@@ -34,7 +34,7 @@ hundredFour.onkeyup = function() {
 		correctAnswers.push(inputFour)
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredFive = document.getElementById("hundred-5");
 hundredFive.onkeyup = function() {
 	var inputFive = hundredFive.value;
@@ -43,7 +43,7 @@ hundredFive.onkeyup = function() {
 		correctAnswers.push(inputFive);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredSix = document.getElementById("hundred-6");
 hundredSix.onkeyup = function() {
 	var inputSix = hundredSix.value;
@@ -52,7 +52,7 @@ hundredSix.onkeyup = function() {
 		correctAnswers.push(inputSix);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredSeven = document.getElementById("hundred-7");
 hundredSeven.onkeyup = function() {
 	var inputSeven = hundredSeven.value;
@@ -61,7 +61,7 @@ hundredSeven.onkeyup = function() {
 		correctAnswers.push(inputSeven);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredEight = document.getElementById("hundred-8");
 hundredEight.onkeyup = function() {
 	var inputEight = hundredEight.value;
@@ -70,7 +70,7 @@ hundredEight.onkeyup = function() {
 		correctAnswers.push(inputEight);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredNine = document.getElementById("hundred-9");
 hundredNine.onkeyup = function() {
 	var inputNine = hundredNine.value;
@@ -79,7 +79,7 @@ hundredNine.onkeyup = function() {
 		correctAnswers.push(inputNine);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredTen = document.getElementById("hundred-10");
 hundredTen.onkeyup = function() {
 	var inputTen = hundredTen.value;
@@ -88,7 +88,7 @@ hundredTen.onkeyup = function() {
 		correctAnswers.push(inputTen);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredEleven = document.getElementById("hundred-11");
 hundredEleven.onkeyup = function() {
 	var inputEleven = hundredEleven.value;
@@ -97,7 +97,7 @@ hundredEleven.onkeyup = function() {
 		correctAnswers.push(inputEleven);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredTwelve = document.getElementById("hundred-12");
 hundredTwelve.onkeyup = function() {
 	var inputTwelve = hundredTwelve.value;
@@ -106,7 +106,7 @@ hundredTwelve.onkeyup = function() {
 		correctAnswers.push(inputTwelve);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredThirteen = document.getElementById("hundred-13");
 hundredThirteen.onkeyup = function() {
 	var inputThirteen = hundredThirteen.value;
@@ -115,7 +115,7 @@ hundredThirteen.onkeyup = function() {
 		correctAnswers.push(inputThirteen);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredFourteen = document.getElementById("hundred-14");
 hundredFourteen.onkeyup = function() {
 	var inputFourteen = hundredFourteen.value;
@@ -124,7 +124,7 @@ hundredFourteen.onkeyup = function() {
 		correctAnswers.push(inputFourteen);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredFifteen = document.getElementById("hundred-15");
 hundredFifteen.onkeyup = function() {
 	var inputFifteen = hundredFifteen.value;
@@ -133,7 +133,7 @@ hundredFifteen.onkeyup = function() {
 		correctAnswers.push(inputFifteen);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredSixteen = document.getElementById("hundred-16");
 hundredSixteen.onkeyup = function() {
 	var inputSixteen = hundredSixteen.value;
@@ -142,7 +142,7 @@ hundredSixteen.onkeyup = function() {
 		correctAnswers.push(inputSixteen);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredSeventeen = document.getElementById("hundred-17");
 hundredSeventeen.onkeyup = function() {
 	var inputSeventeen = hundredSeventeen.value;
@@ -151,7 +151,7 @@ hundredSeventeen.onkeyup = function() {
 		correctAnswers.push(inputSeventeen);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredEighteen = document.getElementById("hundred-18");
 hundredEighteen.onkeyup = function() {
 	var inputEighteen = hundredEighteen.value;
@@ -160,7 +160,7 @@ hundredEighteen.onkeyup = function() {
 		correctAnswers.push(inputEighteen);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredNineteen = document.getElementById("hundred-19");
 hundredNineteen.onkeyup = function() {
 	var inputNineteen = hundredNineteen.value;
@@ -169,7 +169,7 @@ hundredNineteen.onkeyup = function() {
 		correctAnswers.push(inputNineteen);
 		console.log(correctAnswers);
 	}
-}
+};
 var hundredTwenty = document.getElementById("hundred-20");
 hundredTwenty.onkeyup = function() {
 	var inputTwenty = hundredTwenty.value;
@@ -178,7 +178,7 @@ hundredTwenty.onkeyup = function() {
 		correctAnswers.push(inputTwenty);
 		console.log(correctAnswers);
 	}
-}
+};
 function hundredSub() {
 	count = correctAnswers.length;
     var el = document.getElementById("message-hundred");
