@@ -1,4 +1,8 @@
-var outputOne = document.getElementById('output1');   
+// initialize dice as double six
+// listen for click event on roll dice button then generate 2 random numbers, display correct dice faces corresponding to numbers generated
+// listen for click event on submit button then display appropriate message (well done or try again plus correct answer if incorrect)
+// play again button resets dice with new numbers and clears message
+var outputOne = document.getElementById('output1');
 var outputTwo = document.getElementById('output2');
 document.getElementById("dice6").style.display = "flex";
 document.getElementById("dice12").style.display = "flex";
