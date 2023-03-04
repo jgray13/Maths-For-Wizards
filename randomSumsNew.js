@@ -64,6 +64,37 @@ function getInputTwo() {
 				document.getElementById("tickcontainerRandomTwo").style.display = "none";
 	}
 }
+var globalRandomFive;
+var globalRandomSix;
+function randomNumFive(min, max) {
+    var randomNumberFive = Math.floor(Math.random() * (max - min)) + min;
+    document.getElementById("random-inner-five").innerHTML = randomNumberFive;
+    globalRandomFive = parseInt(randomNumberFive);
+    console.log(randomNumberFive);
+    console.log(globalRandomFive);
+    var randomNumberSix = Math.floor(Math.random() * (max - min)) + min;
+    document.getElementById("random-inner-six").innerHTML = randomNumberSix;
+    globalRandomSix = parseInt(randomNumberSix);
+    console.log(randomNumberSix);
+    console.log(globalRandomSix);
+}
+function getInputThree() {
+	var answerStr = document.getElementById("randomNumAnsThree").value;
+	var answer = parseInt(answerStr);
+	var inputOne = globalRandomFive;
+	var inputTwo = globalRandomSix;
+	var input = (inputOne * inputTwo);
+	console.log(answerStr);
+	console.log(answer);
+	console.log(inputOne)
+	console.log(inputTwo)
+	console.log(input);
+	if (input === answer) {
+		document.getElementById("tickcontainerRandomThree").style.display = "flex";
+	} else {
+		document.getElementById("tickcontainerRandomThree").style.display = "none";
+	}
+}
 function clearInput() {
 	document.getElementById("random-inner-one").value = '';
 	document.getElementById("random-inner-two").value = '';
@@ -75,4 +106,10 @@ function clearInputTwo() {
 	document.getElementById("random-inner-four").value = '';
 	document.getElementById("randomNumAnsTwo"). value = '';
 	document.getElementById("tickcontainerRandomTwo").style.display = "none";
+}
+function clearInputThree() {
+	document.getElementById("random-inner-five").value = '';
+	document.getElementById("random-inner-six").value = '';
+	document.getElementById("randomNumAnsThree"). value = '';
+	document.getElementById("tickcontainerRandomThree").style.display = "none";
 }

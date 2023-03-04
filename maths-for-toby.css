@@ -1889,6 +1889,19 @@ hundred board */
 	font-weight: bold;
 	background-color: #fff;
 }
+.random-inner-multiply {
+/*	border: 2px solid #bbbbbb;	*/
+	width: 70%;
+	height: 50px;
+	padding: 20px 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight: bold;
+	background-color: #fff;
+}
 .random-inner-bottom {
 	height: 50px;
 	margin: 0;
@@ -1910,6 +1923,17 @@ hundred board */
 	height: 100px;
 }
 #tickcontainerRandomTwo {
+	margin: 0 auto;
+	padding: 10px 0 50px;
+	display: none;
+	flex-basis: 10%;	
+	border: none;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+#tickcontainerRandomThree {
 	margin: 0 auto;
 	padding: 10px 0 50px;
 	display: none;
@@ -1973,6 +1997,27 @@ hundred board */
 	background-color: #fff;
 }
 #random-inner-four {
+/*	border: 2px solid #bbbbbb;	*/
+	width: 70%;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+/* random sums multiply */
+#random-inner-five {
+/*	border: 2px solid #bbbbbb;	*/
+	width: 70%;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+#random-inner-six {
 /*	border: 2px solid #bbbbbb;	*/
 	width: 70%;
 	height: 100px;
@@ -3167,6 +3212,9 @@ hundred board */
 	border-radius: 10px;
 	outline: none;
 	height: auto;
+}
+#clear {
+	margin-right: auto;
 }
 
 /*media queries*/

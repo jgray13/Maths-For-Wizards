@@ -693,6 +693,9 @@ input[type=number] {
 #tickcontainerRandomTwo {
 	height: auto;
 }
+#tickcontainerRandomThree {
+	height: auto;
+}
 #random-inner-one {
 	width: 70%;
 	height: 35px;
@@ -747,6 +750,30 @@ input[type=number] {
 	padding: 10px 0;
 	font-size: 16px;
 }
+/* random sums multiply */
+#random-inner-five {
+	width: 70%;
+	height: 35px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#random-inner-six {
+	width: 70%;
+	height: 35px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*
+#message-3-random {
+	width: 40%;
+	margin: 10px auto;
+	padding: 10px 0;
+	font-size: 16px;
+}*/
 /*number bonds from ten*/
 .myFormMinus input[type=number] {
 	font-size: 16px;

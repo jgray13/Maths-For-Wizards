@@ -586,6 +586,9 @@ input[type=number] {
 #tickcontainerRandomTwo {
 	height: auto;
 }
+#tickcontainerRandomThree {
+	height: auto;
+}
 #random-inner-one {
 	width: 70%;
 	height: 45px;
@@ -612,12 +615,13 @@ input[type=number] {
 	position: relative;
 	bottom: 0;
 }
+/*
 #message-1-random {
 	width: 40%;
 	margin: 10px auto;
 	padding: 10px 0;
 	font-size: 16px;
-}
+}*/
 /* random sums minus   */
 #random-inner-three {
 	width: 70%;
@@ -635,11 +639,29 @@ input[type=number] {
 	justify-content: center;
 	align-items: center;
 }
+/*
 #message-2-random {
 	width: 40%;
 	margin: 10px auto;
 	padding: 10px 0;
 	font-size: 16px;
+}*/
+/* random sums multiply */
+#random-inner-five {
+	width: 70%;
+	height: 45px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#random-inner-six {	
+	width: 70%;
+	height: 45px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /*
 number bonds from ten*/
