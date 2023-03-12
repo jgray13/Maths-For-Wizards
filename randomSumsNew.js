@@ -2,12 +2,12 @@ var globalRandomOne;
 var globalRandomTwo;
 function randomNumOne(min, max) {
  var randomNumberOne = Math.floor(Math.random() * (max - min)) + min;
- document.getElementById("random-inner-one").innerHTML = randomNumberOne;
+ document.getElementById("random-box-one").innerHTML = randomNumberOne;
   globalRandomOne = parseInt(randomNumberOne);
   console.log(randomNumberOne);
     console.log(globalRandomOne);
  var randomNumberTwo = Math.floor(Math.random() * (max - min)) + min;
- document.getElementById("random-inner-two").innerHTML = randomNumberTwo;
+ document.getElementById("random-box-two").innerHTML = randomNumberTwo;
   globalRandomTwo = parseInt(randomNumberTwo);
  console.log(randomNumberTwo);
   console.log(globalRandomTwo);
@@ -34,14 +34,14 @@ var globalRandomThree;
 var globalRandomFour;
 function randomNumThree(min, max) {
  var randomNumberThree = Math.floor(Math.random() * (max - min)) + min;
- document.getElementById("random-inner-three").innerHTML = randomNumberThree;
+ document.getElementById("random-box-three").innerHTML = randomNumberThree;
  globalRandomThree = parseInt(randomNumberThree);
   console.log(randomNumberThree);
   console.log(globalRandomThree);
 }
 function randomNumFour(min, max) {
  var randomNumberFour = Math.floor(Math.random() * (max - min)) + min;
- document.getElementById("random-inner-four").innerHTML = randomNumberFour;
+ document.getElementById("random-box-four").innerHTML = randomNumberFour;
  globalRandomFour = parseInt(randomNumberFour);
  console.log(randomNumberFour);
   console.log(globalRandomFour);
@@ -68,12 +68,12 @@ var globalRandomFive;
 var globalRandomSix;
 function randomNumFive(min, max) {
     var randomNumberFive = Math.floor(Math.random() * (max - min)) + min;
-    document.getElementById("random-inner-five").innerHTML = randomNumberFive;
+    document.getElementById("random-box-five").innerHTML = randomNumberFive;
     globalRandomFive = parseInt(randomNumberFive);
     console.log(randomNumberFive);
     console.log(globalRandomFive);
     var randomNumberSix = Math.floor(Math.random() * (max - min)) + min;
-    document.getElementById("random-inner-six").innerHTML = randomNumberSix;
+    document.getElementById("random-box-six").innerHTML = randomNumberSix;
     globalRandomSix = parseInt(randomNumberSix);
     console.log(randomNumberSix);
     console.log(globalRandomSix);
@@ -96,20 +96,20 @@ function getInputThree() {
 	}
 }
 function clearInput() {
-	document.getElementById("random-inner-one").value = '';
-	document.getElementById("random-inner-two").value = '';
+	document.getElementById("random-box-one").value = '';
+	document.getElementById("random-box-two").value = '';
 	document.getElementById("randomNumAnsOne").value = '';
 	document.getElementById("tickcontainerRandomOne").style.display = "none"
 }
 function clearInputTwo() {
-	document.getElementById("random-inner-three").value = '';
-	document.getElementById("random-inner-four").value = '';
+	document.getElementById("random-box-three").value = '';
+	document.getElementById("random-box-four").value = '';
 	document.getElementById("randomNumAnsTwo"). value = '';
 	document.getElementById("tickcontainerRandomTwo").style.display = "none";
 }
 function clearInputThree() {
-	document.getElementById("random-inner-five").value = '';
-	document.getElementById("random-inner-six").value = '';
+	document.getElementById("random-box-five").value = '';
+	document.getElementById("random-box-six").value = '';
 	document.getElementById("randomNumAnsThree"). value = '';
 	document.getElementById("tickcontainerRandomThree").style.display = "none";
 }

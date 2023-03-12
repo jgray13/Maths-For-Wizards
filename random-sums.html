@@ -18,69 +18,35 @@
 <main>
 <form name="randomsums" id="randomsums">
 <h1>Random Sums</h1>
-<!--
-<div id="number-line-20-random">
-<p>
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
-</p>
-</div>-->
-<div id="random-headings">
-<h4 id="random-head-one">Click the buttons to  display a random number</h4>
-<h4 id="random-head-two">Enter the answer in the box!</h4>
-</div>
+<h4>Click the button to display random numbers ...</h4>
+<h4>Enter the answer in the box!</h4>
 <div class="random-sums-main">
 
-<div class="addition-sum-random-container">
+<div class="random-sum-container-yellow">
 <h3>Addition</h3>
-<div class="addition-sum-random">
-<div class="random-boxes">
-<div id="random-inner-one">
-</div>
-<div class="random-inner-bottom">
-</div>
+<div class="random-sum">
+
+<div class="random-boxes" id="random-box-one">
 </div>
 
 <div class="random-boxes">
-<div class="random-inner">
 <p> + </p>
 </div>
-<div class="random-inner-bottom">
-</div>
+
+<div class="random-boxes" id="random-box-two">
 </div>
 
 <div class="random-boxes">
-<div id="random-inner-two">
-</div>
-<div class="random-inner-bottom">
-<button id="random-num1" class="rnl-button" min="0" max="99" onclick="randomNumOne(0,100);  clearInput(); return false;">Click here</button>
-<!--
-<button id="random-num2" min="0" max="9" onclick="randomNumTwo(0,10);  return false;">Click here</button>
--->
-</div>
-</div>
-
-<div class="random-boxes">
-<div class="random-inner">
 <p> = </p>
 </div>
-<div class="random-inner-bottom">
-</div>
-</div>
 
 <div class="random-boxes">
-<div class="random-inner">
 <label for="randomNumAnsOne"></label>
 <input type ="number" id="randomNumAnsOne" min="0" max="99" onkeyup="getInput()">
 </div>
-<div class="random-inner-bottom">
-<!--<p class="smallFont">
-Enter the answer here
-</p>-->
-</div>
-</div>
 
-<div class="tickboxes-random">
-<div id="tickcontainerRandomOne">
+<div class="tickboxes">
+<div class="tickcontainer" id="tickcontainerRandomOne">
 <div class="tickbg">
     <div class="tick">
     </div>
@@ -88,68 +54,38 @@ Enter the answer here
 </div>
 </div>
 
-</div>   <!-- end addition sum -->
-<!--<div id="message-1-random">
-<p>
-Well done!
-</p>
-</div>-->
-</div> <!-- end addition sum container -->
+</div>   <!-- end random sum -->
+<button class="rnl-button" min="0" max="99" onclick="randomNumOne(0,100);  clearInput(); return false;">Click here</button>
+</div> <!-- end random-sum-container-yellow -->
+
+
 
 <!-- minus sum -->
-
-<div class="subtraction-sum-random-container">
+<div class="random-sum-container-red">
 <h3>Subtraction</h3>
-<div class="addition-sum-random">
+<div class="random-sum">
 
-<div class="random-boxes">
-<div id="random-inner-three">
-</div>
-<div class="random-inner-bottom">
-</div>
+<div class="random-boxes" id="random-box-three">
 </div>
 
-<div class="random-boxes">
-<div class="random-inner-minus">
+<div class="random-boxes random-box-minus">
 <p> _ </p>
 </div>
-<div class="random-inner-bottom">
-</div>
+
+<div class="random-boxes" id="random-box-four">
 </div>
 
 <div class="random-boxes">
-<div id="random-inner-four">
-</div>
-<div class="random-inner-bottom">
-<button id="random-num3" class="rnl-button" min="0" max="99" onclick="randomNumThree(50,100);  randomNumFour(0, 50); clearInputTwo(); return false;">Click here</button>
-<!--
-<button id="random-num4" min="0" max="9" onclick="randomNumFour(0,10);  return false;">Click here</button>
--->
-</div>
-</div>
-
-<div class="random-boxes">
-<div class="random-inner">
 <p> = </p>
 </div>
-<div class="random-inner-bottom">
-</div>
-</div>
 
 <div class="random-boxes">
-<div class="random-inner">
 <label for="randomNumAnsTwo"></label>
 <input type ="number" id="randomNumAnsTwo" min="0" max="99" onkeyup="getInputTwo()">
 </div>
-<div class="random-inner-bottom">
-<!--<p class="smallFont">
-Enter the answer here
-</p>-->
-</div>
-</div>
 
-<div class="tickboxes-random">
-<div id="tickcontainerRandomTwo">
+<div class="tickboxes">
+<div class="tickcontainer" id="tickcontainerRandomTwo">
 <div class="tickbg">
     <div class="tick">
     </div>
@@ -158,64 +94,36 @@ Enter the answer here
 </div>
 
 </div>   <!-- end addition sum -->
-</div> <!-- end addition sum container -->
+<button class="rnl-button" min="0" max="99" onclick="randomNumThree(50,100);  randomNumFour(0, 50); clearInputTwo(); return false;">Click here</button>
+</div> <!-- end random-sum-container-red -->
 
 
-
-
-
-<div class="addition-sum-random-container">
+<!--multiplication sum -->
+<div class="random-sum-container-yellow">
 <h3>Multiplication</h3>
-<div class="addition-sum-random">
+<div class="random-sum">
 
-<div class="random-boxes">
-<div id="random-inner-five">
-</div>
-<div class="random-inner-bottom">
-</div>
+<div class="random-boxes" id="random-box-five">
 </div>
 
 <div class="random-boxes">
-<div class="random-inner">
 <p> x </p>
 </div>
-<div class="random-inner-bottom">
-</div>
+
+<div class="random-boxes" id="random-box-six">
 </div>
 
 <div class="random-boxes">
-<div id="random-inner-six">
-</div>
-<div class="random-inner-bottom">
-<button id="random-num4" class="rnl-button" min="0" max="99" onclick="randomNumFive(0,12); clearInputThree(); return false;">Click here</button>
-<!--
-<button id="random-num4" min="0" max="9" onclick="randomNumFour(0,10);  return false;">Click here</button>
---> 
-</div>
-</div>
-
-<div class="random-boxes">
-<div class="random-inner">
 <p> = </p>
 </div>
-<div class="random-inner-bottom">
-</div>
-</div>
 
 <div class="random-boxes">
-<div class="random-inner">
 <label for="randomNumAnsTwo"></label>
 <input type ="number" id="randomNumAnsThree" min="0" max="99" onkeyup="getInputThree()">
 </div>
-<div class="random-inner-bottom">
-<!--<p class="smallFont">
-Enter the answer here
-</p>-->
-</div>
-</div>
 
-<div class="tickboxes-random">
-<div id="tickcontainerRandomThree">
+<div class="tickboxes">
+<div class="tickcontainer" id="tickcontainerRandomThree">
 <div class="tickbg">
     <div class="tick">
     </div>
@@ -224,13 +132,10 @@ Enter the answer here
 </div>
 
 </div>   <!-- end addition sum -->
-</div> <!-- end addition sum container -->
-
-<!--<div id="message-2-random">
-</div>-->
+<button class="rnl-button" min="0" max="99" onclick="randomNumFive(0,12); clearInputThree(); return false;">Click here</button>
+</div> <!-- end random-sum-container-yellow -->
 
 </div> <!-- end sums main -->
-
 </form>
 </main>
 </div> <!-- End of centerDoc -->

@@ -45,20 +45,6 @@ h4 {
 footer h4 {
 	margin-bottom: 5px;
 }
-#random-headings {
-	width: 90%;
-	margin: 10px auto 0;
-}
-#random-headings h4 {
-	margin: 0 auto;
-	font-size: 14px;
-}
-#random-head-one {
-   text-align: left;
-}
-#random-head-two {
-   text-align: right;
-}
 h5 {
 	font-size: 14px;
 }
@@ -193,9 +179,6 @@ footer li {
 	height: 340px;
 	border-right: 1px solid #292929;
 }
-#hpgif-container {
-	width: 30%;
-}
 form {
 	padding: 0;
 }
@@ -291,97 +274,6 @@ input[type=number] {
     width: 0;
     display: block;
 }
-#tickcontainerOne {
-	padding: 0;
-}
-#tickcontainerTwo {
-	padding: 0;
-}
- #tickcontainerThree {
-	padding: 0;
-}
-#tickcontainerFour {
-	padding: 0;
-}
-#tickcontainerFive {
-	padding: 0;
-}
-#tickcontainerSix {
-	padding: 0;
-}
-#tickcontainerSev {
-	padding: 0;
-}
-#tickcontainerEight {
-	padding: 0;
-}
-#tickcontainerNine {
-	padding: 0;
-}
-#tickcontainerTen {
-	padding: 0;
-}
-/* ticks number bonds to 20 */
-#tickcontainerOne20 {
-	padding: 0;
-}
-#tickcontainerTwo20 {
-	padding: 0;
-}
- #tickcontainerThree20 {
-	padding: 0;
-}
-#tickcontainerFour20 {
-	padding: 0;
-}
-#tickcontainerFive20 {
-	padding: 0;
-}
-#tickcontainerSix20 {
-	padding: 0;
-}
-#tickcontainerSev20 {
-	padding: 0;
-}
-#tickcontainerEight20 {
-	padding: 0;
-}
-#tickcontainerNine20 {
-	padding: 0;
-}
-#tickcontainerTen20 {
-	padding: 0;
-}
-#tickcontainerEleven20 {
-	padding: 0;
-}
-#tickcontainerTwelve20 {
-	padding: 0;
-}
- #tickcontainerThirteen20 {
-	padding: 0;
-}
-#tickcontainerFourteen20 {
-	padding: 0;
-}
-#tickcontainerFifteen20 {
-	padding: 0;
-}
-#tickcontainerSixteen20 {
-	padding: 0;
-}
-#tickcontainerSeventeen20 {
-	padding: 0;
-}
-#tickcontainerEighteen20 {
-	padding: 0;
-}
-#tickcontainerNineteen20 {
-	padding: 0;
-}
-#tickcontainerTwenty20 {
-	padding: 0;
-}
 input[type=number] {
     width: 36px;
     height: 37px;
@@ -460,36 +352,6 @@ input[type=number] {
 	margin: 7px 0;
 	padding: 0 16%;
 }
-#message2-1 {
-	font-size: 16px;
-}
-#message2-1-2 {
-	font-size: 16px;
-}
-#message2-2 {
-	font-size: 16px;
-}
-#message2-2-2 {
-	font-size: 16px;
-}
-#message2-3 {
-	font-size: 16px;
-}
-#message2-3-2 {
-	font-size: 16px;
-}
-#message2-4 {
-	font-size: 16px;
-}
-#message2-4-2 {
-	font-size: 16px;
-}
-#message2-5 {
-	font-size: 16px;
-}
-#message2-5-2 {
-	font-size: 16px;
-}
 /*hundred board */
 #hundred-board-form input[type=number] {
     font-size: 16px;
@@ -529,139 +391,30 @@ input[type=number] {
 }
  /* random sums */
 #randomsums input[type=number] {
-	font-size: 19px;
-	margin: 0;
+	font-size: 17px;
 	padding: 0;
 }
 #randomsums button {
-	font-size: 10px;
-	padding: 3px 2px;
-}
-#randomsums input[type=submit] {
-	font-size: 14px;
-} /*  ??  */
-#number-line-20-random {
-	font-size: 13px;
-	word-spacing: 7px;
-	margin: 0 auto;
-	padding: 0;
+	font-size: 12px;
+	padding: 5px 10px;
 }
 .random-sums-main {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
-.addition-sum-random-container {
+.random-sum-container-yellow, .random-sum-container-red {
     margin: 10px auto 0;
 }
-.addition-sum-random {
-    font-size: 19px;
-    margin: 0 auto;
-    flex-basis: 67%;
-    padding: 0 13% 20px 20%;
+.random-sum {
+    font-size: 17px;
 }
 .random-boxes {
-	flex-basis: 19%;
-	height: 95px;
-}
-.random-inner {	
-	width: 70%;
+	flex-basis: 12%;
 	height: 45px;
 }
-.random-inner-minus {	
-	width: 70%;
+.random-box-minus {	
 	height: 29px;
 	padding: 0 0 16px;
-}
-.random-inner-bottom {
-	height: 50px;
-	margin: 0;
-	width: 100%;
-}
-.tickboxes-random {
-    height: auto;
-}
-#tickcontainerRandomOne {
-    height: auto;
-}
-#tickcontainerRandomTwo {
-	height: auto;
-}
-#tickcontainerRandomThree {
-	height: auto;
-}
-#random-inner-one {
-	width: 70%;
-	height: 45px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-grow: 2;	
-}
-#random-inner-two {
-	width: 70%;
-	height: 45px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.random-boxes-num {
-	border: 2px solid #bbbbbb;
-	font-size: 22px;
-}  /* ?? */
-#random-num1 {
-	display: block;
-	position: relative;
-	bottom: 0;
-}
-/*
-#message-1-random {
-	width: 40%;
-	margin: 10px auto;
-	padding: 10px 0;
-	font-size: 16px;
-}*/
-/* random sums minus   */
-#random-inner-three {
-	width: 70%;
-	height: 45px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-#random-inner-four {	
-	width: 70%;
-	height: 45px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-/*
-#message-2-random {
-	width: 40%;
-	margin: 10px auto;
-	padding: 10px 0;
-	font-size: 16px;
-}*/
-/* random sums multiply */
-#random-inner-five {
-	width: 70%;
-	height: 45px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-#random-inner-six {	
-	width: 70%;
-	height: 45px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 /*
 number bonds from ten*/
@@ -677,206 +430,19 @@ number bonds from ten*/
 	font-size: 21px;
 	padding: 0;
 }
-#tickcontainerOneMinus {
-	padding: 0;
-}
-#tickcontainerTwoMinus {
-	padding: 0;
-}
-#tickcontainerThreeMinus {
-	padding: 0;
-}
-#tickcontainerFourMinus {
-	padding: 0;
-}
-#tickcontainerFiveMinus {
-	padding: 0;
-}
-#tickcontainerSixMinus {
-	padding: 0;
-}
-#tickcontainerSevMinus {
-	padding: 0;
-}
-#tickcontainerEightMinus {
-	padding: 0;
-}
-#tickcontainerNineMinus {
-	padding: 0;
-}
-#tickcontainerTenMinus {
-	padding: 0;
-}
-#tickcontainerElevenMinus {
-	padding: 0;
-}
-/* number bonds from 20 */
-#tickcontainerOneMinus20 {
-	padding: 0;
-}
-#tickcontainerTwoMinus20 {
-	padding: 0;
-}
-#tickcontainerThreeMinus20 {
-	padding: 0;
-}
-#tickcontainerFourMinus20 {
-	padding: 0;
-}
-#tickcontainerFiveMinus20 {
-	padding: 0;
-}
-#tickcontainerSixMinus20 {
-	padding: 0;
-}
-#tickcontainerSevMinus20 {
-	padding: 0;
-}
-#tickcontainerEightMinus20 {
-	padding: 0;
-}
-#tickcontainerNineMinus20 {
-	padding: 0;
-}
-#tickcontainerTenMinus20 {
-	padding: 0;
-}
-#tickcontainerElevenMinus20 {
-	padding: 0;
-}
-#tickcontainerTwelveMinus20 {
-	padding: 0;
-}
-#tickcontainerThirteenMinus20 {
-	padding: 0;
-}
-#tickcontainerFourteenMinus20 {
-	padding: 0;
-}
-#tickcontainerFifteenMinus20 {
-	padding: 0;
-}
-#tickcontainerSixteenMinus20 {
-	padding: 0;
-}
-#tickcontainerSeventeenMinus20 {
-	padding: 0;
-}
-#tickcontainerEighteenMinus20 {
-	padding: 0;
-}
-#tickcontainerTwentyMinus19 {
-	padding: 0;
-}
-#tickcontainerTwentyMinus20 {
-	padding: 0;
-}
-#tickcontainerTwentyoneMinus20 {
-	padding: 0;
-}
 /* random number lines */
-.number-line-container {
-    font-size: 12px;
-}
-.number-line-more {
-    flex-basis: 90%;
-    margin: 15px 0 15px;
-    padding: 10px 0 30px;
-}
-.number-line-two-more {
-    flex-basis: 90%;
-    margin: 15px 0 15px;
-    padding: 10px 0 30px;
-}
-.rnl-inner-container {
-    flex-basis: 75%;
-    margin: 10px 0;
-    padding: 0 10% 0 15%;
-    justify-content: flex-start;
-}
-#more-number-line-form h4 {
-    margin: 8px auto;
-    font-size: 15px;
-}
-.more-lines-button {
-    position: relative;
-    top: 20px;
-    right: 13px;
-    width: 100%;
-}
-.more-lines-button button {
-    font-size: 11px;
-    top: 15px;
-    width: 165%;
-}
-.line-more {
-    border-bottom: 1px solid #000;
-    margin: 14px 22% 0 21%;
-    flex-basis: 57%;
-}
-.number-more {
-    margin: 0 0 12px 0;
-    width: 10%;
-    font-size: 12px;
-}
 #more-number-line-form input[type=number] {
     font-size: 17px;
 }
-#random-more-number-line {
-    font-size: 17px;
-	height: 36px;
-	margin: 0 5%;
-	position: relative;
-    top: 5px;
+.rnl-ansboxes {
+    height: 45px;
 }
-#random-more-number-lineThree {
-    font-size: 17px;
-	height: 36px;
-	margin: 0 5%;
-	position: relative;
-    top: 5px;
+.rnl-num {
+	height: 45px;
 }
-#random-more-number-lineTwo {
-    font-size: 17px;
-	height: 36px;
-	margin: 0 5%;
-	position: relative;
-    top: 5px;
+.rnl-operator {
+	font-size: 12px;
 }
-.ansboxes-more-number-line {
-    height: 28px;
-    margin: 0 0 29px;
-	width: 10%;
-}
-.random-more-container {
-    width: 10%;
-}
-.tickboxes-random-numberlines {
-    margin: 0 0 0 3%;
-    flex-basis: 7%;
-    bottom: 5px;
-}
-#tickcontainerRNumberLines1 {
-    margin: 0;
-    padding: 0;
-    flex-basis: 2%;
-    position: relative;
-    bottom: 15px;
-}       /*    +1    */
-#tickcontainerRNumberLines2 {
-    margin: 0;
-    padding: 0;
-    flex-basis: 2%;
-    position: relative;
-    bottom: 15px;
-}     /*   +10    */
-#tickcontainerRNumberLines3 {
-    margin: 0;
-    padding: 0;
-    flex-basis: 2%;
-    position: relative;
-    bottom: 15px;
-}     /* +2 */
 /*  counting in twos */
 .footprints-and-in-2s {
     margin: 10px auto 20px;
@@ -941,21 +507,6 @@ number bonds from ten*/
     justify-content: center;
     margin: 0 0 0 1%;
 	flex-basis: 8%;
-}
-#tickcontainerOne-in2s {
-    padding: 0;
-}
-#tickcontainerTwo-in2s {
-    padding: 0;
-}
-#tickcontainerThree-in2s {
-    padding: 0;
-}
-#tickcontainerFour-in2s {
-    padding: 0;
-}
-#tickcontainerFive-in2s {
-    padding: 0;
 }
 /* 2d shapes */
 #shapes2d input[type=radio] {
@@ -1105,14 +656,6 @@ number bonds from ten*/
 }
 /* media queries  */
 @media only screen and (min-width: 801px) {
-    .rnl-inner-container {
-        flex-basis: 70%;
-        padding: 0 12% 0 18%;
-    }
-    .line-more {
-        margin: 14px 24% 0;
-        flex-basis: 52%;
-    }
     #number-line-form input[type=number] {
 	    width: 25px;
     }
@@ -1121,22 +664,11 @@ number bonds from ten*/
     }
 }
 @media only screen and (min-width: 850px) {
-    .rnl-inner-container {
-        flex-basis: 66%;
-        padding: 0 14% 0 20%;
-    }
-    .line-more {
-        margin: 14px 25% 0 26%;
-        flex-basis: 49%;
-    }
     #hundred-board {
         width: 60%;
     }
     .counting-container {
         width: 90%;
-    }
-    #random-headings {
-        width: 80%;
     }
     #footer-nav-list-container {
         width: 97%;
@@ -1161,10 +693,6 @@ number bonds from ten*/
     .random-sums-main {
         width: 80%;
     }
-    .addition-sum-random {
-        flex-basis: 63%;
-        padding: 0 15% 20px 22%;
-    }
     #nav-accordion {
         flex-basis: 90%;
     }
@@ -1173,10 +701,6 @@ number bonds from ten*/
     }
 }
 @media only screen and (min-width: 901px) {
-    .rnl-inner-container {
-        flex-basis: 70%;
-        padding: 0 12% 0 18%;
-    }
     .number-line-more {
         flex-basis: 80%;
     }
@@ -1185,15 +709,8 @@ number bonds from ten*/
     }
 }
 @media only screen and (min-width: 950px) {
-    .line-more {
-        margin: 14px 27% 0 28%;
-        flex-basis: 45%;
-    }
     .counting-container {
         width: 80%;
-    }
-    #random-headings {
-        width: 75%;
     }
     #hundred-board {
         width: 54%;
@@ -1211,12 +728,6 @@ number bonds from ten*/
         width: 77%;
     }
 }
-@media only screen and (min-width: 956px) {
-    .rnl-inner-container {
-        flex-basis: 66%;
-        padding: 0 15% 0 19%;
-    }
-}
 @media only screen and (min-width: 1000px) {
 	.sums-main {
 		width: 60%;
@@ -1226,16 +737,6 @@ number bonds from ten*/
     }
     .number-line-two-more {
         flex-basis: 65%;
-    }
-    .more-lines-button button {
-        width: 170%;
-    }
-    .more-lines-button {
-        right: 15px;
-    }
-    .rnl-inner-container {
-        flex-basis: 82%;
-        padding: 0 7% 0 11%;
     }
     .random-sums-main {
         width: 70%;
@@ -1269,10 +770,6 @@ number bonds from ten*/
     }
 }
 @media only screen and (min-width: 1050px) {
-    .line-more {
-        margin: 14px 29% 0 30%;
-        flex-basis: 41%;
-    }
     #hundred-board {
         width: 50%;
     }

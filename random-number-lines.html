@@ -12,66 +12,60 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 </head>
 <body>
-<div id="header-placeholder"></div>
+<div id="header-placeholder"></div
 <div id="nav-placeholder"></div>
 <div id="centerDoc">
 <main>
 <form name="more-number-line-form" id="more-number-line-form">
 <h1>Random number lines</h1>
 <h4>Fill in the blank numbers to complete the number lines</h4>
+<div class="random-sums-main">
 
-<div class="number-line-container">
-<div class="number-line-more">
-<h4>Add and minus 1</h4>
+<div class="random-sum-container-yellow">
+<h3>Add and minus 1</h3>
+<div class="random-sum">
 
-<div class="rnl-inner-container">
-
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-1"></label>
 <input type="number" id="more-num-line-1" min="0" max="99" onkeyup="getInput()">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>- 1</p>
 </div>
 
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-2"></label>
 <input type="number" id="more-num-line-2" min="0" max="99" onkeyup="getInput()">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>- 1</p>
 </div>
 
-<div class="random-more-container">
-<div id="random-more-number-line">
-</div>
-<div class="more-lines-button">
-<button id="random-more1" onclick="randomMoreOne(10,100); clearInput();  return false;">Click here</button>
-</div>
+<div class="rnl-num" id="rnl-num-one">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>+ 1</p>
 </div>
 
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-4"></label>
 <input type="number" id="more-num-line-4" min="0" max="99" onkeyup="getInput()">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>+ 1</p>
 </div>
 
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-5"></label>
 <input type="number" id="more-num-line-5" min="0" max="99" onkeyup="getInput()">
 </div>
 
-<div class="tickboxes-random-numberlines">
-<div id="tickcontainerRNumberLines1">
+<div class="tickboxes">
+<div class="tickcontainer" id="tickcontainerRNumberLines1">
 <div class="tickbg-small">
     <div class="tick-small">
     </div>
@@ -79,67 +73,55 @@
 </div>
 </div>
 
-</div> <!-- end rnl inner container -->
-<!--
-<div class="line-more">
-</div>
--->
-</div><!-- end number line-->
+</div> <!-- end random sum -->
+<button class="rnl-button" onclick="randomMoreOne(10,100); clearInput();  return false;">Click here</button>
+</div> <!-- random sum container yellow -->
 
-</div> <!-- end number line container -->
+<div class="random-sum-container-red">
+<h3>Add and minus 2</h3>
+<div class="random-sum">
 
-<div class="number-line-container">
-<div class="number-line-two-more">
-<h4>Add and minus 2</h4>
-
-<div class="rnl-inner-container">
-
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-10"></label>
 <input type="number" id="more-num-line-10" min="0" max="99" onkeyup="getInputThree()">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>- 2</p>
 </div>
 
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-11"></label>
 <input type="number" id="more-num-line-11" min="0" max="99" onkeyup="getInputThree()">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>- 2</p>
 </div>
 
-<div class="random-more-container">
-<div id="random-more-number-lineThree">
-</div>
-<div class="more-lines-button">
-<button id="random-more3" onclick="randomMoreThree(4,16); clearInputTwo();  return false;">Click here</button>
-</div>
+<div class="rnl-num" id="rnl-num-two">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>+ 2</p>
 </div>
 
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-12"></label>
 <input type="number" id="more-num-line-12" min="0" max="99" onkeyup="getInputThree()">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>+ 2</p>
 </div>
 
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-13"></label>
 <input type="number" id="more-num-line-13" min="0" max="99" onkeyup="getInputThree()">
 </div>
 
-<div class="tickboxes-random-numberlines">
-<div id="tickcontainerRNumberLines3">
+<div class="tickboxes">
+<div class="tickcontainer" id="tickcontainerRNumberLines2">
 <div class="tickbg-small">
     <div class="tick-small">
     </div>
@@ -147,67 +129,55 @@
 </div>
 </div>
 
-</div> <!-- end rnl inner container -->
-<!--
-<div class="line-more">
-</div>
--->
-</div><!-- end number line-->
-
+</div> <!-- end random sum -->
+<button class="rnl-button" onclick="randomMoreThree(4,16); clearInputTwo();  return false;">Click here</button>
 </div> <!-- end number line container -->
 
-<div class="number-line-container">
-<div class="number-line-more">
-<h4>Add and minus 10</h4>
+<div class="random-sum-container-yellow">
+<h3>Add and minus 10</h3>
+<div class="random-sum">
 
-<div class="rnl-inner-container">
-
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-6"></label>
 <input type="number" id="more-num-line-6" min="0" max="99" onkeyup="getInputTwo()">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>- 10</p>
 </div>
 
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-7"></label>
 <input type="number" id="more-num-line-7" min="0" max="99" onkeyup="getInputTwo()">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>- 10</p>
 </div>
 
-<div class="random-more-container">
-<div id="random-more-number-lineTwo">
-</div>
-<div class="more-lines-button">
-<button id="random-more2" onclick="randomMoreTwo(30,80); clearInputTen();  return false;">Click here</button>
-</div>
+<div class="rnl-num" id="rnl-num-three">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>+ 10</p>
 </div>
 
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-8"></label>
 <input type="number" id="more-num-line-8" min="0" max="99" onkeyup="getInputTwo()">
 </div>
 
-<div class="number-more">
+<div class="rnl-operator">
 <p>+ 10</p>
 </div>
 
-<div class="ansboxes-more-number-line">
+<div class="rnl-ansboxes">
 <label for="more-num-line-9"></label>
 <input type="number" id="more-num-line-9" min="0" max="99" onkeyup="getInputTwo()">
 </div>
 
-<div class="tickboxes-random-numberlines">
-<div id="tickcontainerRNumberLines2">
+<div class="tickboxes">
+<div class="tickcontainer" id="tickcontainerRNumberLines3">
 <div class="tickbg-small">
     <div class="tick-small">
     </div>
@@ -215,18 +185,14 @@
 </div>
 </div>
 
-</div> <!-- end rnl inner container -->
-<!--
-<div class="line-more">
-</div>
--->
-</div><!-- end number line-->
+</div> <!-- end random sum -->
+<button class="rnl-button" onclick="randomMoreTwo(30,80); clearInputTen();  return false;">Click here</button>
+</div><!-- end random sum container yellow-->
 
-</div> <!-- end number line container -->
-
-</form>
-</main>
+</div> <!-- end random sums main -->
 </div> <!-- End of centerDoc -->
+</main>
+</form>
 <div id="footer-placeholder"></div>
 <script>
 $(function(){

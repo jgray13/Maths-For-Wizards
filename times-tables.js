@@ -91,7 +91,7 @@ document.getElementById("tickcontainerTen").style.display = "flex";
 };
 function sumElevenOne() {
 var result = '11';
-var userInput = document.getElementById("one-num11").value;
+var userInput = document.getElementById("num11").value;
 if (userInput === result) {
 document.getElementById("tickcontainerEleven").style.display = "flex";
 } else {

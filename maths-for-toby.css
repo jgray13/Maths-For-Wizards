@@ -55,17 +55,11 @@ nav h2 {
 h3 {
 	font-family: Helvetica, "sans-serif";
 	font-size: 22px;
-	font-weight: normal;
+	font-weight: bold;
 	color: #292929;
 	padding: 0;
 	text-align: center;
 	margin: 20px auto;
-}
-#addition-sum-random h3 {
-	flex-basis: 100%;
-}
-#randomsums h3 {
-	font-weight: bold;
 }
 h4 {
 	font-family: Helvetica, "sans-serif";
@@ -77,38 +71,18 @@ h4 {
 	line-height: 120%;
 }
 #footer-links h4 {
-text-align: center;
-text-decoration: underline;
-font-size: 25px;
-color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    color: #fff;
 }
 #footer-nav-list h4 {
-font-size: 18px;
-text-decoration: underline;
-color: #fff;
-text-align: left;
-width: 95%;
-margin-left: 5%;
-}
-#random-head-one {
-	display: inline-block;
-	float: left;
-	clear: left;
-}
-#random-head-two {
-	display: inline-block;
-	float: right;
-	clear: right;
-}
-#random-headings {
-	display: block;
-	clear: both;
-	width: 80%;
-	margin: 0 auto;
-	overflow: auto;
-}
-#random-headings h4 {
-	font-weight: normal;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #fff;
+    text-align: left;
+    width: 95%;
+    margin-left: 5%;
 }
 #more-number-line-form h4 {
 	display: flex;
@@ -180,14 +154,6 @@ main {
 	margin: 0 auto;
 	padding: 0 0 100px;
 }
-/*
-header {
-	position: absolute;
-	top: 0;
-	z-index: 15;
-	width: 100%;
-	height: 0;
-}*/
 nav a.icon {
 	display: block;
     position: absolute;
@@ -508,16 +474,6 @@ footer a:hover {
 	margin: 0 auto;
 	overflow: auto;
 }
-#hpgif-container {
-	margin: 50px auto 0;
-	text-align: center;
-}
-#hpgif {
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 0;
-	display: block;
-}
 #hogwarts-container {
 	margin: 0 auto;
 	text-align: center;
@@ -542,15 +498,6 @@ footer a:hover {
 }
 #sorting-hat {
 	max-width: 100%;
-	margin: 0 auto;
-	padding: 0;
-	display: block;
-}
-#diagon-container {
-	margin: 0 auto;
-}
-#diagon {
-	width: 100%;
 	margin: 0 auto;
 	padding: 0;
 	display: block;
@@ -606,28 +553,26 @@ input[type=number] {
     border: none;
     background-color: #fff;
     outline: none;
-    width: 60px;
+    width: 60px;/* ??? */
     text-align: center;
     color: #292929;
-    padding: 5px 0 0;
+    padding: 5px 0;
     margin: 0 auto;
     text-align: center;
+	font-size: 30px;
+	-moz-appearance: textfield;
 }	
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none; 
     margin: 0; 
 }
-input[type=number] {
-    -moz-appearance: textfield;
-}
+
 /* sums to ten */
 .myForm input[type=number] {
-	font-size: 30px;
 	font-weight: bold;
 }
 .myForm20 input[type=number] {
-	font-size: 30px;
 	font-weight: bold;
 }
 .number-line-10 {
@@ -666,11 +611,6 @@ input[type=number] {
 .sums-main {
 	width: 70%;
 	margin: 20px auto;
-}
-.random-sums-main {
-	width: 80%;
-	margin: 20px auto;
-	padding-bottom: 30px;
 }
 .addition-sum {
 	display: flex;
@@ -717,20 +657,23 @@ input[type=number] {
 	font-weight: bold;
 	height: 72px;	
 }
-.tickboxes {	
+.tickboxes {
+	display: flex;
+	justify-content: center;
+	flex-basis: 10%;
 	margin: 0 auto;
 	padding: 0;
-	display: flex;
-	flex-basis: 10%;
-	text-align: center;
+/*	text-align: center;*/
 }
-.tickboxes-random {	
-	margin: 0 2% 0 0;
+.tickcontainer {
+	margin: 0 auto;
 	padding: 0;
-	display: flex;
-	flex-basis: 10%;
-	text-align: center;
-	height: 160px;
+	display: none;
+/*	flex-basis: 100%;*/
+	border: none;
+/*	text-align: center;*/
+	justify-content: center;
+	align-items: center;
 }
 .tick {
 	height: 18px;
@@ -776,342 +719,18 @@ input[type=number] {
     width: 0;
     display: block;
 }
-#tickcontainerOne {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwo {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
- #tickcontainerThree {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFour {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFive {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSix {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSev {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerEight {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNine {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTen {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerEleven {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwelve {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-/* sums to twenty */
-#tickcontainerOne20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwo20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerThree20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFour20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFive20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSix20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSev20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerEight20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNine20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTen20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerEleven20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwelve20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerThirteen20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFourteen20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFifteen20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSixteen20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSeventeen20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerEighteen20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNineteen20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwenty20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
 /* number lines  */
 #number-line-form input[type=number] {
-font-size: 27px;
-width: 50px;
-margin: 0;
-padding: 5px 0;
-display: flex;
-flex-direction: row;
+    font-size: 27px;
+    width: 50px;
 }
+/*
 .number-line-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-}
+}*/
 .number-line {
 	display: flex;
 	flex-direction: row;
@@ -1150,8 +769,8 @@ flex-direction: row;
 }
 .ansboxes-number-line {
 	display: flex;
-	position: relative;	
-	text-align: center;
+	justify-content: center;
+	align-items: center;
     width: 7%;
 	box-sizing: border-box;	
 }
@@ -1191,104 +810,12 @@ flex-direction: row;
 	padding: 0;
 	display: flex;
 	flex-basis: 6%;
-	text-align: center;
-}
-#tickcontainerNumberLines1 {
-	margin: 0;
-	padding: 0;
-	display: none;
-	flex-basis: 5%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines2 {
-	margin: 0;
-	padding: 0;
-	display: none;
-	flex-basis: 5%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines3 {
-	margin: 0;
-	padding: 0;
-	display: none;
-	flex-basis: 5%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines4 {
-	margin: 0;
-	padding: 0;
-	display: none;
-	flex-basis: 5%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines5 {
-	margin: 0;
-	padding: 0;
-	display: none;
-	flex-basis: 5%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines6 {
-	margin: 0;
-	padding: 0;
-	display: none;
-	flex-basis: 5%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines7 {
-	margin: 0;
-	padding: 0;
-	display: none;
-	flex-basis: 5%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines8 {
-	margin: 0;
-	padding: 0;
-	display: none;
-	flex-basis: 5%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines9 {
-	margin: 0;
-	padding: 0;
-	display: none;
-	flex-basis: 5%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
+/*	text-align: center;*/
 }
 /* number lines 2  */
 #number-line-form-2 input[type=number] {
-font-size: 27px;
-margin: 0;
-padding: 5px 0;
-width: 50px;
+    font-size: 27px;
+    width: 50px;
 }
 .more-number-line {
 	display: flex;
@@ -1316,81 +843,7 @@ width: 50px;
 	background-color: rgb(233, 11, 11, 0.7);
 	color: #000;
 }
-#tickcontainerNumberLines2-1 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines2-2 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines2-3 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines2-4 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNumberLines2-5 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-/* more number lines */
-#more-number-line-form input[type=number] {
-    font-size: 30px;
-    margin: 0 5%;
-    padding: 5px 0;
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-}
-.more-lines-button button {
-	font-size: 16px;
-	font-weight: bold;
-	background-color: #f4f4f4;
-	border: 2px solid #a6a6a6;
-    border-radius: 5px;
-    outline: none;
-    width: 100%;
-	padding: 6px 5px 4px;
-}
-.more-lines-button {
-	position: relative;
-	top: 15px;
-	right: 4px;
-	width: 110%;
-}   
+/* random numberlines */
 .rnl-button {
 	font-size: 16px;
 	background-color: #f4f4f4;
@@ -1401,151 +854,43 @@ width: 50px;
 	margin: 0;
 	font-weight: bold;
 }
-.number-line-more {
+.rnl-operator {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-basis: 84%;
-	margin: 15px 8% 15px;
-	padding: 10px 30px 25px;
 	justify-content: center;
-	align-items: flex-end;
-	background-color: rgb(255, 255, 0, 0.8);
-	box-sizing: border-box;
-}
-.rnl-inner-container {
-	display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-basis: 90%;
-    margin: 10px 0;
-    padding: 0 0 0 10%;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-.number-line-two-more {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-basis: 84%;
-	margin: 15px 8% 15px;
-	padding: 10px 30px 15px;
-	justify-content: center;
-	align-items: flex-end;	
-	background-color: rgb(233, 11, 11, 0.7);
-}
-.number-more {
-	text-align: center;
-	margin: 0 0 27px 0;
+	align-items: center;
+	margin: 0 auto;
 	padding: 0;
-    width: 7%;
+    width: 8%;
+	align-self: flex-end;
 	font-size: 17px;
-    font-weight: bold;	
-}
-.ansboxes-more-number-line {
-	display: flex;
+    font-weight: bold;
 	text-align: center;
+}
+.rnl-ansboxes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+	width: 11%;
+	height: 80px;
+    background-color: #fff;
+}
+.rnl-num {
+	display: flex;
+	justify-content: center;
+	align-items: center;
     width: 11%;
-	height: 65px;
-	margin: 0 0 32px;
-	box-sizing: border-box;
-}
-.random-more-container {
-	width: 12%;
+	height: 80px;
 	margin: 0;
-}
-#random-more-number-line {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-    width: 90%;
-	height: 65px;
-	margin: 0 5%;
-	padding: 5px 0;
-	box-sizing: border-box;
 	background-color: #fff;
-	font-size: 30px;
-}    /*   +1   */
-#random-more-number-lineTwo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-    width: 90%;
-	height: 65px;
-	margin: 0 5%;
-	padding: 5px 0;
-	box-sizing: border-box;
-	background-color: #fff;
-	font-size: 30px;
-}   /*   +10   */
-#random-more-number-lineThree {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-    width: 90%;
-	height: 65px;
-	margin: 0 5%;
-	padding: 5px 0;
-	box-sizing: border-box;
-	background-color: #fff;
-	font-size: 30px;
-}   /*   +2   */
-.line-more {
-	border-bottom: 2px solid #000;
-	margin: 6px 16% 0 3%;
-	flex-basis: 77%;
-	position: relative;
-	bottom: 40px;
 }
-.tickboxes-random-numberlines {
-	position: relative;
-	bottom: 30px;
-    margin: 0 1%;
-    padding: 0;
-    display: flex;
-    flex-basis: 2%;
-    text-align: center;
-  /*  height: 160px; */
-}
-#tickcontainerRNumberLines1 {
-	margin: 0 0 0 30px;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 100%;	
-	border: none;
-	text-align: center;
-	justify-content: flex-end;
-	align-items: center;
-}       /*    +1    */
-#tickcontainerRNumberLines2 {
-	margin: 0 0 0 30px;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 100%;	
-	border: none;
-	text-align: center;
-	justify-content: flex-end;
-	align-items: center;
-}     /*   +10    */
-#tickcontainerRNumberLines3 {
-	margin: 0 0 0 30px;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 100%;	
-	border: none;
-	text-align: center;
-	justify-content: flex-end;
-	align-items: center;
-}     /* +2 */
 /*
 hundred board */
 #hundred-board-form input[type=number] {
     font-size: 23px;
     font-weight: bold;	
-    margin: 0;
     padding: 0;
     width: 100%;
 	height: 43px;
@@ -1805,248 +1150,67 @@ hundred board */
     content: '';
 }
 /* random sums */
-#randomsums input[type=number] {
-	font-size: 30px;
-	margin: 0;
-	padding: 14px 0;
-}
-#randomsums button {
-	margin: 20px 0 0;
+.random-sum-container-yellow button, .random-sum-container-red button {
+	margin: 20px 0;
 }
 #randomsums input[type=submit] {
 	font-size: 17px;
 }
-#number-line-20-random {
-	font-size: 20px;
-	word-spacing: 22px;
+.random-sums-main {
+	width: 80%;
 	margin: 20px auto;
-	padding: 0;
-	text-align: center;
-	text-decoration: underline;
+	padding-bottom: 30px;
 }
-#number-line-20-random p {
-	width: 100%;
-}
-.addition-sum-random-container {
-	display: block;
+.random-sum-container-yellow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	margin: 20px auto 0;
+	padding: 10px 0;
 	overflow: auto;
 	box-sizing: border-box;
-/*	border: 2px solid #bbbbbb;*/
 	background-color: rgb(255, 255, 0, 0.8);
 }
-.subtraction-sum-random-container {
-	display: block;
+.random-sum-container-red {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	margin: 20px auto 0;
+	padding: 10px 0;
 	overflow: auto;
 	box-sizing: border-box;
-/*	border: 2px solid #bbbbbb;*/
 	background-color: rgb(233, 11, 11, 0.7);
 }
-.addition-sum-random {
+.random-sum {
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	height: auto;
 	margin: 0 0 0 10%;
 	font-size: 30px;
-    flex-basis: 90%;	
+    width: 90%;	
 }
 .random-boxes {
+	display: flex;
+/*	flex-direction: column;*/
+	justify-content: center;
+	align-items: center;
 	margin: 0 auto;
+	text-align: center;
 	padding: 0;
-	flex-basis: 17%;
-	height: 120px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	width: 12%;
+	height: 80px;
+    background-color: #fff;
 }
-.random-inner {
-/*	border: 2px solid #bbbbbb;	*/
-	width: 70%;
-	height: 100px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	background-color: #fff;
-}
-.random-inner-minus {
-/*	border: 2px solid #bbbbbb;	*/
-	width: 70%;
-	height: 50px;
-	padding: 4px 0 35px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-weight: bold;
-	background-color: #fff;
-}
-.random-inner-multiply {
-/*	border: 2px solid #bbbbbb;	*/
-	width: 70%;
-	height: 50px;
-	padding: 20px 0;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-weight: bold;
-	background-color: #fff;
-}
-.random-inner-bottom {
-	height: 50px;
-	margin: 0;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerRandomOne {
-	margin: 0 auto;
-	padding: 10px 0 50px;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	height: 100px;
-}
-#tickcontainerRandomTwo {
-	margin: 0 auto;
-	padding: 10px 0 50px;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	height: 100px;
-}
-#tickcontainerRandomThree {
-	margin: 0 auto;
-	padding: 10px 0 50px;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	height: 100px;
-}
-#random-inner-one {
-/*	border: 2px solid #bbbbbb;	*/
-	width: 70%;
-	height: 100px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #fff;
-}
-#random-inner-two {
-/*	border: 2px solid #bbbbbb;	*/
-	width: 70%;
-	height: 100px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #fff;
-}
-.random-boxes-num {
-	border: 2px solid #bbbbbb;
-	font-size: 30px;
-}
-#random-num1 {
-	display: block;
-	position: relative;
-	bottom: 0;
-}
-.smallFont {
-	font-size: 14px;
-}
-#message-1-random {
-	display: block;
-	width: 30%;
-	margin: 0 auto;
-	padding: 10px 0;
-	text-align: center;
-	font-size: 30px;
-	color: #2fd603;
-}
-/* random sums minus   */
-#random-inner-three {
-/*	border: 2px solid #bbbbbb;	*/
-	width: 70%;
-	height: 100px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #fff;
-}
-#random-inner-four {
-/*	border: 2px solid #bbbbbb;	*/
-	width: 70%;
-	height: 100px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #fff;
-}
-/* random sums multiply */
-#random-inner-five {
-/*	border: 2px solid #bbbbbb;	*/
-	width: 70%;
-	height: 100px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #fff;
-}
-#random-inner-six {
-/*	border: 2px solid #bbbbbb;	*/
-	width: 70%;
-	height: 100px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #fff;
-}
-#random-num3 {
-	display: block;
-	position: relative;
-	bottom: 0;
-}
-#message-2-random {
-	display: block;
-	width: 30%;
-	margin: 0 auto;
-	padding: 10px 0;
-	text-align: center;
-	font-size: 30px;
-	color: #2fd603;
+.random-box-minus {
+	padding: 0 0 25px;
+	height: 55px;
 }
  /* random sums new*/ 
-#randomsums-new input[type=number] {
-	font-size: 30px;
-	margin: 0;
-	padding: 14px 0;
-}
 #randomsums-new button {
 	font-size: 17px;
 }
@@ -2109,118 +1273,7 @@ hundred board */
 }
 /*number bonds from ten*/
 .myFormMinus input[type=number] {
-	font-size: 30px;
 	font-weight: bold;
-}
-#tickcontainerOneMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwoMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerThreeMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFourMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFiveMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSixMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSevMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerEightMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNineMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTenMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerElevenMinus {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
 }
 .minus-operator {	
 	margin: 0 auto;
@@ -2234,220 +1287,9 @@ hundred board */
 }
 /*number bonds from twenty*/
 #myFormMinus20 input[type=number] {
-	font-size: 30px;
 	font-weight: bold;
 }
-#tickcontainerOneMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwoMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerThreeMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFourMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFiveMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSixMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSevMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerEightMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerNineMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTenMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerElevenMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwelveMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerThirteenMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFourteenMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFifteenMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSixteenMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerSeventeenMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerEighteenMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwentyMinus19 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwentyMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwentyoneMinus20 {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-/*odd even*/
+/*odd even - sorting */
 #odd-even-main {
 	margin: 0 auto;
 	background-color: #fff;
@@ -2561,146 +1403,16 @@ hundred board */
 	padding: 0;
 	margin: 0;
 }
-#number-tiles1 {
-	display: inline-block;
+.number-tiles {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 40px;
 	height: 40px;
 	margin: 0 3px;
 	border: 1px solid #bbbbbb;
 }
-#number-tiles2 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles3 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles4 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles5 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles6 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles7 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles8 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles9 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles10 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles11 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles12 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles13 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles14 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles15 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles16 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles17 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles18 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles19 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
-#number-tiles20 {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	margin: 0 3px;
-	border: 1px solid #bbbbbb;
-}
+*/
 #odd-even-main h3 {
 	margin: 13px auto;
 }
@@ -2831,56 +1543,6 @@ hundred board */
     padding: 7px 30px;
     margin: 0;
     font-weight: bold;
-}
-#tickcontainerOne-in2s {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerTwo-in2s {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
- #tickcontainerThree-in2s {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFour-in2s {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-#tickcontainerFive-in2s {
-	margin: 0 auto;
-	padding: 10px 0;
-	display: none;
-	flex-basis: 10%;	
-	border: none;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
 }
 /* dice */
 #dice-main {
@@ -3189,9 +1851,6 @@ hundred board */
 	border: 2px solid #000;
 	border-radius: 10px;
 }
-/*input {
-	text-align: right;
-}*/
 #calc-num-container {
 	display: flex;
 	flex-flow: row wrap;
@@ -3255,30 +1914,6 @@ hundred board */
     }
     .more-lines-button {
         right: 11px;
-    }
-    .number-line-more {
-	    flex-basis: 86%;
-	    margin: 15px 7% 15px;
-    }
-    .number-line-two-more {
-	    flex-basis: 86%;
-	    margin: 15px 7% 15px;
-    }
-    .rnl-inner-container {
-        flex-basis: 92%;
-        padding: 0 0 0 8%;
-    }
-    .number-more {
-        font-size: 16px;
-    }
-    #random-more-number-line {
-	    font-size: 30px;
-    }
-    #random-more-number-lineTwo {
-	    font-size: 30px;
-    }
-    #random-more-number-lineThree {
-	    font-size: 30px;
     }
     #more-number-line-form input[type=number] {
         font-size: 30px;
@@ -3362,9 +1997,6 @@ hundred board */
     .random-sums-main {
         width: 70%;
     }
-    #random-headings {
-        width: 75%;
-    }
     #nav-accordion {
         flex-basis: 80%;
 	    margin: 0 10%;
@@ -3380,14 +2012,6 @@ hundred board */
     }
     .sums-main {
         width: 66%;
-    }
-    .number-line-more {
-	    flex-basis: 76%;
-        margin: 15px 12% 15px;
-    }
-    .number-line-two-more {
-    	flex-basis: 76%;
-        margin: 15px 12% 15px;
     }
 }
 @media only screen and (min-width: 1500px) {
@@ -3458,14 +2082,6 @@ hundred board */
 	}
     .random-sums-main {
         width: 65%;
-    }
-    .number-line-more {
-	    flex-basis: 70%;
-        margin: 15px 15% 15px;
-	}
-    .number-line-two-more {
-	    flex-basis: 70%;
-        margin: 15px 15% 15px;
     }
     .shape-border {
         width: 65%;

@@ -1,8 +1,9 @@
 //  +1
 var globalRandomOne;
+
 function randomMoreOne(min, max) {
  var randomNumberOne = Math.floor(Math.random() * (max - min)) + min;
- document.getElementById("random-more-number-line").innerHTML = randomNumberOne;
+ document.getElementById("rnl-num-one").innerHTML = randomNumberOne;
   globalRandomOne = parseInt(randomNumberOne);
   console.log(randomNumberOne);
     console.log(globalRandomOne);
@@ -35,11 +36,12 @@ function clearInput() {
 	document.getElementById("more-num-line-5").value = '';
 	document.getElementById("tickcontainerRNumberLines1").style.display = "none";
 }
+
 //   +10
 var globalRandomTwo;
 function randomMoreTwo(min, max) {
  var randomNumberTwo = Math.floor(Math.random() * (max - min)) + min;
- document.getElementById("random-more-number-lineTwo").innerHTML = randomNumberTwo;
+ document.getElementById("rnl-num-three").innerHTML = randomNumberTwo;
   globalRandomTwo = parseInt(randomNumberTwo);
   return false;
 }
@@ -59,9 +61,9 @@ function getInputTwo() {
 	  console.log(answ4Num);
     console.log(input);
 	if (answ1Num === (input - 20) && answ2Num === (input - 10) && answ3Num === (input + 10) && answ4Num === (input + 20) ) {
-				document.getElementById("tickcontainerRNumberLines2").style.display = "flex";
+				document.getElementById("tickcontainerRNumberLines3").style.display = "flex";
 			} else {
-				document.getElementById("tickcontainerRNumberLines2").style.display = "none";
+				document.getElementById("tickcontainerRNumberLines3").style.display = "none";
 	}
 	}
 function clearInputTen() {
@@ -70,12 +72,14 @@ function clearInputTen() {
 	document.getElementById("more-num-line-8").value = '';
 	document.getElementById("more-num-line-9").value = '';
 	document.getElementById("tickcontainerRNumberLines2").style.display = "none";
-}
+}	
+	
 //    +2
 var globalRandomThree;
+
 function randomMoreThree(min, max) {
  var randomNumberOne = Math.floor(Math.random() * (max - min)) + min;
- document.getElementById("random-more-number-lineThree").innerHTML = randomNumberOne;
+ document.getElementById("rnl-num-two").innerHTML = randomNumberOne;
   globalRandomThree = parseInt(randomNumberOne);
   console.log(randomNumberOne);
     console.log(globalRandomThree);
@@ -96,9 +100,9 @@ function getInputThree() {
 	  console.log(answ4Num);
     console.log(input);
 	if (answ1Num === (input - 4) && answ2Num === (input - 2) && answ3Num === (input + 2) && answ4Num === (input + 4)) {
-				document.getElementById("tickcontainerRNumberLines3").style.display = "flex";
+				document.getElementById("tickcontainerRNumberLines2").style.display = "flex";
 			} else {
-				document.getElementById("tickcontainerRNumberLines3").style.display = "none";
+				document.getElementById("tickcontainerRNumberLines2").style.display = "none";
 	}
 	}
 function clearInputTwo() {
